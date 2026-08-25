@@ -1,1 +1,1 @@
-<!-- 2026-08-25T21:17:49.662Z B00-bootstrap completed (attempt 1, QA passed) -->
+<!-- checkpoint 2026-08-25T22:05Z job-001-monthlystaff completed; site at exports/teamloop/; QA 28/28; next: awaiting new URL -->

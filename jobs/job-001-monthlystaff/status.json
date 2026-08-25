@@ -1,0 +1,19 @@
+{
+  "job": "job-001-monthlystaff",
+  "status": "completed",
+  "attempts": 1,
+  "started_at": "2026-08-25T21:45:00Z",
+  "completed_at": "2026-08-25T22:05:00Z",
+  "deadline": "2026-08-25T21:50:00Z",
+  "lastError": null,
+  "qa": {
+    "passed": true,
+    "checks_run": 28,
+    "failures": [],
+    "report": "jobs/job-001-monthlystaff/qa-report.json"
+  },
+  "outputs": {
+    "site": "exports/teamloop/",
+    "files": ["index.html", "css/styles.css", "js/main.js"]
+  }
+}

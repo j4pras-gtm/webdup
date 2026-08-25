@@ -1,0 +1,20 @@
+{
+  "id": "job-001",
+  "source_url": "https://monthlystaff.com/",
+  "slug": "teamloop",
+  "created_at": "2026-08-25T21:45:00Z",
+  "owner": "j4pras-gtm",
+  "state": "in_progress",
+  "brand": {
+    "name": "Teamloop",
+    "tagline": "Specialists who stay, month after month.",
+    "note": "Original rebrand. No logos, copy, imagery, or legal text reused from source."
+  },
+  "contracts": {
+    "site_inventory": "packages/contracts/site_inventory.mock.json",
+    "brand_audit": "packages/contracts/brand_audit.mock.json",
+    "page_content": "packages/contracts/page_content.mock.json",
+    "template_shell": "packages/contracts/template_shell.mock.json"
+  },
+  "builds": ["B01-intake", "B02-crawl", "B03-content-extract", "B04-template", "B05-pages", "B06-brand", "B07-assemble", "B08-qa"]
+}

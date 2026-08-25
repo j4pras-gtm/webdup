@@ -1,0 +1,134 @@
+{
+  "run_at": "2026-08-25T22:01:25.597Z",
+  "passed": true,
+  "total": 28,
+  "passed_count": 28,
+  "checks": [
+    {
+      "name": "tag balance <html>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "tag balance <head>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "tag balance <body>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "tag balance <header>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "tag balance <main>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "tag balance <footer>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "tag balance <section>",
+      "ok": true,
+      "detail": "7 open / 7 close"
+    },
+    {
+      "name": "tag balance <div>",
+      "ok": true,
+      "detail": "120 open / 120 close"
+    },
+    {
+      "name": "tag balance <article>",
+      "ok": true,
+      "detail": "8 open / 8 close"
+    },
+    {
+      "name": "tag balance <nav>",
+      "ok": true,
+      "detail": "2 open / 2 close"
+    },
+    {
+      "name": "tag balance <form>",
+      "ok": true,
+      "detail": "1 open / 1 close"
+    },
+    {
+      "name": "section id=talent",
+      "ok": true
+    },
+    {
+      "name": "section id=how",
+      "ok": true
+    },
+    {
+      "name": "section id=why",
+      "ok": true
+    },
+    {
+      "name": "section id=vacancies",
+      "ok": true
+    },
+    {
+      "name": "section id=faq",
+      "ok": true
+    },
+    {
+      "name": "hero h1",
+      "ok": true
+    },
+    {
+      "name": "search bar",
+      "ok": true
+    },
+    {
+      "name": "8 talent cards",
+      "ok": true
+    },
+    {
+      "name": "3 steps",
+      "ok": true
+    },
+    {
+      "name": "4 benefits",
+      "ok": true
+    },
+    {
+      "name": "cta card",
+      "ok": true
+    },
+    {
+      "name": "footer guides nav",
+      "ok": true
+    },
+    {
+      "name": "all HTML classes styled in CSS",
+      "ok": true,
+      "detail": "61 classes covered"
+    },
+    {
+      "name": "no source content leaked",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "name": "no external images",
+      "ok": true
+    },
+    {
+      "name": "main.js parses",
+      "ok": true
+    },
+    {
+      "name": "CSS braces balanced",
+      "ok": true,
+      "detail": "129 / 129"
+    }
+  ]
+}
