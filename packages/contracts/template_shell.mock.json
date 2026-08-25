@@ -1,0 +1,15 @@
+{
+  "mock": true,
+  "note": "Sample template component until B04-template builds the real shell.",
+  "components": [
+    {
+      "name": "hero",
+      "slots": [
+        "{{title}}",
+        "{{subtitle}}",
+        "{{cta_label}}"
+      ],
+      "layout": "centered"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sidekikz-builder/schemas/build-result.schema.json",
+  "title": "BuildResult",
+  "description": "Record appended to build_history.jsonl by the engine after a build finishes.",
+  "type": "object",
+  "required": ["job_id", "build_id", "status", "attempts", "duration_ms", "started_at", "finished_at", "qa"],
+  "properties": {
+    "job_id":     { "type": "string" },
+    "build_id":   { "type": "string" },
+    "build_key":  { "type": "string", "description": "e.g. 'M0-bootstrap', 'P1-brand-extract'" },
+    "status":     { "type": "string", "enum": ["passed", "failed", "qa_not_run", "blocked", "escalated"] },
+    "attempts":   { "type": "integer" },
+    "duration_ms": { "type": "integer" },
+    "started_at": { "type": "string" },
+    "ended_at":   { "type": "string" },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "passed":     { "type": "boolean" },
+        "checks_run": { "type": "integer" },
+        "notes":      { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "next": { "type": "string", "description": "id of next build to run, if any" }
+  },
+  "required": ["build_id", "status", "attempts"]
+}

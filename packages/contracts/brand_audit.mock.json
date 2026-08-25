@@ -1,0 +1,13 @@
+{
+  "mock": true,
+  "note": "Sample classified element until P2-brand-extract runs on a real site.",
+  "elements": [
+    {
+      "kind": "color",
+      "value": "#1a73e8",
+      "classification": "primary_accent",
+      "confidence": 0.9,
+      "found_on": "/sample-page"
+    }
+  ]
+}

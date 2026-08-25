@@ -1,0 +1,16 @@
+{
+  "build_id": "B00-bootstrap",
+  "job_id": "B00-bootstrap",
+  "status": "completed",
+  "attempts": 1,
+  "max_attempts": 5,
+  "started_at": "2026-08-25T21:17:49.526Z",
+  "deadline": "2026-08-25T21:22:49.527Z",
+  "finished_at": "2026-08-25T21:17:49.662Z",
+  "depends_on": [],
+  "qa": {
+    "passed": true,
+    "checks_run": 24,
+    "failures": []
+  }
+}

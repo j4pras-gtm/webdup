@@ -1,0 +1,11 @@
+{
+  "mock": true,
+  "note": "Placeholder until B02-crawl produces real inventory. Re-check against real output.",
+  "source_url": null,
+  "pages": [],
+  "totals": {
+    "discovered": 0,
+    "crawlable": 0,
+    "excluded": 0
+  }
+}

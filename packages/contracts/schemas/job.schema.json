@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sidekikz-builder/job.schema.json",
+  "title": "Job",
+  "description": "Root record for one rebranding job. Lives at jobs/<job_id>/job.json.",
+  "type": "object",
+  "required": [
+    "id", "source_url", "slug", "created_at", "owner", "state", "builds"
+  ],
+  "properties": {
+    "id":            { "type": "string", "description": "Job id, e.g. 'job_20260825_abc123'" },
+    "source_url":    { "type": "string", "format": "uri" },
+    "slug":          { "type": "string", "description": "url-safe project slug used for paths/subdomain" },
+    "created_at":    { "type": "string", "format": "date-time" },
+    "owner":         { "type": "string" },
+    "state": {
+      "type": "string",
+      "enum": ["queued", "running", "blocked", "done", "failed"]
+    },
+    "brand": {
+      "type": ["object", "null"],
+      "properties": {
+        "name":      { "type": "string" },
+        "palette":   { "type": "array", "items": { "type": "string" } },
+        "logo_url":  { "type": ["string", "null"] },
+        "tagline":   { "type": ["string", "null"] }
+      }
+    },
+    "contracts": {
+      "type": "object",
+      "description": "Pinned JSON-schema versions the build steps validate against."
+    },
+    "builds": {
+      "type": "object",
+      "description": "keyed by build id; each maps to its status.json path",
+      "additionalProperties": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

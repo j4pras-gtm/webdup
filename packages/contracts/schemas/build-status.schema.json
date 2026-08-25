@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sidekikz-builder/schemas/build-status.schema.json",
+  "title": "BuildStatus",
+  "description": "Runtime status of a single build step (one of the M0..M6 / P1..P6 steps). Persisted to status.json. The escalation trigger is: attempts >= 5 OR elapsed >= 5 minutes (whichever first).",
+  "type": "object",
+  "required": ["build_id", "job_id", "status", "attempts", "started_at", "qa"],
+  "properties": {
+    "build_id":     { "type": "string" },
+    "job_id":       { "type": "string" },
+    "status":       { "enum": ["pending","in_progress","passed","blocked","failed","qa_not_run"] },
+    "attempts":     { "type": "integer", "minimum": 0, "maximum": 5 },
+    "max_attempts": { "type": "integer", "default": 5 },
+    "started_at":   { "type": ["string", "null"], "format": "date-time" },
+    "deadline":     { "type": ["string", "null"], "description": "ISO datetime; escalate when now > deadline OR attempts >= max_attempts" },
+    "depends_on":   { "type": "array", "items": { "type": "string" } },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "passed":     { "type": "boolean" },
+        "checks_run": { "type": "integer" },
+        "notes":      { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

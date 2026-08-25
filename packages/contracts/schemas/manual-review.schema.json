@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sidekikz-builder/schemas/manual-review.schema.json",
+  "title": "ManualReview",
+  "description": "Escalation dossier left for a human (or a frontier model) when a build hits the 5-attempt / 5-minute limit.",
+  "type": "object",
+  "required": ["build_id", "job_id", "status", "attempts", "reason", "files_touched"],
+  "properties": {
+    "build_id":       { "type": "string" },
+    "job_id":         { "type": "string" },
+    "status":         { "type": "string", "enum": ["blocked", "needs_review"] },
+    "attempts":       { "type": "integer" },
+    "reason":         { "type": "string" },
+    "expected_output":{ "type": "string", "description": "Path to expected_output.md" },
+    "files_touched":  { "type": "array", "items": { "type": "string" } },
+    "attempts_log":   { "type": "array", "items": { "type": "string" } },
+    "next_question":  { "type": "string" }
+  }
+}

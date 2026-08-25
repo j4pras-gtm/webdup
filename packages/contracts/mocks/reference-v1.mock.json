@@ -1,0 +1,32 @@
+{
+  "seed_url": "https://acme.example.com",
+  "crawl": {
+    "allowed": true,
+    "robots_txt": "disallowed: none",
+    "fetched_at": "2026-08-25T10:00:00Z"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "Acme Corp — Home",
+      "headings": ["Acme Corp", "Fast, reliable widgets"],
+      "has_form": true,
+      "has_nav": true
+    },
+    {
+      "path": "/pricing",
+      "title": "Pricing — Acme Corp",
+      "headings": ["Pricing plans"],
+      "has_form": false,
+      "has_nav": true
+    },
+    {
+      "path": "/about",
+      "title": "About — Acme Corp",
+      "headings": ["Our story", "Team"],
+      "has_form": false,
+      "has_nav": true
+    }
+  ],
+  "note": "Mock crawl output used by the engine tests. Not a real fetch."
+}

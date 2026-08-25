@@ -1,0 +1,15 @@
+{
+  "mock": true,
+  "note": "Sample page until B03-content-extract runs on a real site.",
+  "pages": [
+    {
+      "url": "/sample-page",
+      "title": "Sample Page",
+      "headings": [
+        "Welcome",
+        "What we do"
+      ],
+      "body": "This is placeholder body copy used only to exercise the pipeline shape."
+    }
+  ]
+}
