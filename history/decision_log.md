@@ -25,3 +25,7 @@
 ## 2026-08-26T10:10Z
 - R02-contracts completed: 15 new analysis/extract/build contracts with mocks; build-status +phase/+upstream_artifacts; brand +personalization_group; site_inventory deprecated (superseded by sitemap+route-inventory). QA 71/71.
 
+
+## 2026-08-26T10:25Z
+- R03-engine completed: escalate() now writes full spec-29 dossier (REVIEW.md with 8 required sections, context.json, attempts.md, error.log, files_touched.txt, diff.patch, expected_output.md, artifacts/). runBuild() gained mandatory qa hook ù a build cannot be marked completed unless qa returns passed:true; legacy builds without a hook are flagged qa.skipped. QA 30/30.
+

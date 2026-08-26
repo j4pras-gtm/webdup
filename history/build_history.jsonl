@@ -3,3 +3,4 @@
 {"build_id":"spec-revision-ingest","job_id":"-","status":"completed","attempts":1,"ts":"2026-08-26T12:53:30.690Z","note":"revised spec saved to docs/; gap analysis produced; awaiting approval of R01-R08"}
 {"build_id":"R01-docs","job_id":"-","status":"completed","attempts":1,"ts":"2026-08-26T13:55:21.023Z","qa":{"passed":true,"checks_run":4,"failures":[]},"note":"README portable-artifact rewrite; preview-router removed; legacy annotations"}
 {"build_id":"R02-contracts","job_id":"-","status":"completed","attempts":1,"ts":"2026-08-26T13:58:35.523Z","qa":{"passed":true,"checks_run":71,"failures":[]},"note":"15 new schemas+mocks; build-status/brand modified; site_inventory deprecated"}
+{"build_id":"R03-engine","job_id":"-","status":"completed","attempts":1,"ts":"2026-08-26T14:02:04.444Z","qa":{"passed":true,"checks_run":30,"failures":[]},"note":"escalation dossier per spec 29; QA hook in runBuild (no complete without QA passing)"}
