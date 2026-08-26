@@ -1,0 +1,12 @@
+{
+  "$id": "build-config",
+  "title": "Build configuration (user-supplied, consumed by Phase 3)",
+  "required": ["job_id", "brand", "output"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "brand": { "type": "object" },
+    "output": { "type": "object" },
+    "routes_override": { "type": "array" },
+    "notes": { "type": "string" }
+  }
+}

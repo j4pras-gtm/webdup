@@ -37,3 +37,7 @@
 ## 2026-08-26T16:10Z
 - R05-hitl completed: packages/hitl ù generateReviewReport (site structure / reusable assets / personalization per spec 18), recordConfirmation (confirmed|narrowed|skipped_draft; removals validated against analysis ù no silent scope expansion), requireConfirmed gate for all downstream builds. QA 20/20.
 
+
+## 2026-08-26T16:45Z
+- R06-extract-builds completed: packages/extract ù E01-E08 run only after HITL confirmation (requireConfirmed enforced per build). Narrowed scope respected (removed routes excluded from structure assets). Media extraction is slot-only (source_copied:false invariant). Added missing extraction-manifest + build-config schemas. QA 25/25.
+

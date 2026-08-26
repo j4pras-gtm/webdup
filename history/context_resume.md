@@ -1,4 +1,4 @@
 # Context resume
 
-R05-hitl completed. packages/hitl enforces the review gate between Analyze and Extract (QA 20/20). Next: R06-extract-builds ù E01-E08 operating only on the confirmed analysis package.
+R06-extract-builds completed. Extract phase (E01-E08) runs on confirmed analysis only (QA 25/25). Next: R07-build-builds ù B01-B10 portable artifact generator + generic QA gate library.
 

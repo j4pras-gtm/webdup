@@ -1,0 +1,11 @@
+{
+  "$id": "extraction-manifest",
+  "title": "Extraction manifest (E08) — what was extracted, from which confirmed artifact",
+  "required": ["job_id", "assets", "counts"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "assets": { "type": "array" },
+    "counts": { "type": "object" },
+    "gaps": { "type": "array" }
+  }
+}
