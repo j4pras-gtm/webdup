@@ -1,0 +1,14 @@
+{
+  "mock": true,
+  "entities": [
+    {
+      "entity": "item",
+      "fields": [
+        "title",
+        "body"
+      ],
+      "example_source_route": "/",
+      "confidence": 0.8
+    }
+  ]
+}

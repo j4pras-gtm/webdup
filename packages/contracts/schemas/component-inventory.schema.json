@@ -1,0 +1,12 @@
+{
+  "$id": "component-inventory",
+  "title": "Component inventory with reuse classification (A11)",
+  "required": [
+    "components"
+  ],
+  "properties": {
+    "components": {
+      "type": "array"
+    }
+  }
+}

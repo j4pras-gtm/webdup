@@ -1,0 +1,12 @@
+{
+  "$id": "content-schema",
+  "title": "Content/data model (A08)",
+  "required": [
+    "entities"
+  ],
+  "properties": {
+    "entities": {
+      "type": "array"
+    }
+  }
+}

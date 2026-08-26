@@ -1,0 +1,13 @@
+{
+  "mock": true,
+  "routes": [
+    {
+      "path": "/",
+      "page_type": "home",
+      "parent": null,
+      "children": [],
+      "status": "crawlable",
+      "confidence": 0.9
+    }
+  ]
+}

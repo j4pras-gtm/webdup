@@ -1,0 +1,41 @@
+{
+  "$id": "design-tokens",
+  "title": "Design token layer (A09)",
+  "required": [
+    "colors",
+    "typography",
+    "spacing",
+    "radii",
+    "shadows",
+    "breakpoints"
+  ],
+  "properties": {
+    "colors": {
+      "type": "object"
+    },
+    "typography": {
+      "type": "object"
+    },
+    "spacing": {
+      "type": "object"
+    },
+    "radii": {
+      "type": "object"
+    },
+    "shadows": {
+      "type": "object"
+    },
+    "borders": {
+      "type": "object"
+    },
+    "grid": {
+      "type": "object"
+    },
+    "breakpoints": {
+      "type": "array"
+    },
+    "hierarchy_notes": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mock": true,
+  "source_url": "https://example.com/",
+  "evidence": [
+    "nav",
+    "internal_links"
+  ],
+  "discovered": [
+    "/"
+  ],
+  "crawlable": [
+    "/"
+  ],
+  "excluded": [],
+  "restricted": [],
+  "canonical": []
+}

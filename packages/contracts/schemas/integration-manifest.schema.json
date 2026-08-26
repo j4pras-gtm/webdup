@@ -1,0 +1,12 @@
+{
+  "$id": "integration-manifest",
+  "title": "External integration manifest (E06, record-only endpoints)",
+  "required": [
+    "endpoints"
+  ],
+  "properties": {
+    "endpoints": {
+      "type": "array"
+    }
+  }
+}

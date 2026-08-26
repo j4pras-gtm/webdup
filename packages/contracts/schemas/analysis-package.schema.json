@@ -1,0 +1,28 @@
+{
+  "$id": "analysis-package",
+  "title": "Synthesized analysis package (A13)",
+  "required": [
+    "job_id",
+    "source_url",
+    "artifacts",
+    "uncertainties",
+    "counts"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "object"
+    },
+    "uncertainties": {
+      "type": "array"
+    },
+    "counts": {
+      "type": "object"
+    }
+  }
+}

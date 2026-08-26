@@ -1,0 +1,20 @@
+{
+  "$id": "wireframe",
+  "title": "Machine-readable page wireframe (A07)",
+  "required": [
+    "route",
+    "page_type",
+    "sections"
+  ],
+  "properties": {
+    "route": {
+      "type": "string"
+    },
+    "page_type": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "array"
+    }
+  }
+}

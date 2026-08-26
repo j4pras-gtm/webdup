@@ -1,0 +1,16 @@
+{
+  "$id": "reusable-assets",
+  "title": "Draft reusable asset list (A11/A13)",
+  "required": [
+    "assets",
+    "draft"
+  ],
+  "properties": {
+    "assets": {
+      "type": "array"
+    },
+    "draft": {
+      "type": "boolean"
+    }
+  }
+}

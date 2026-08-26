@@ -1,0 +1,12 @@
+{
+  "$id": "route-inventory",
+  "title": "Route inventory with page types (A04/A05)",
+  "required": [
+    "routes"
+  ],
+  "properties": {
+    "routes": {
+      "type": "array"
+    }
+  }
+}

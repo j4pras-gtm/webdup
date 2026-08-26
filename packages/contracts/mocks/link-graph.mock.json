@@ -1,0 +1,13 @@
+{
+  "mock": true,
+  "edges": [
+    {
+      "from": "/",
+      "to": "/about",
+      "kind": "internal-route",
+      "source_component": "header-nav",
+      "js_attached": false,
+      "confidence": 0.9
+    }
+  ]
+}

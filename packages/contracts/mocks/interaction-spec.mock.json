@@ -1,0 +1,12 @@
+{
+  "mock": true,
+  "interactions": [
+    {
+      "target": "navigation",
+      "type": "sticky",
+      "behavior": "sticky_top",
+      "source_evidence": "css position:sticky",
+      "confidence": 0.9
+    }
+  ]
+}

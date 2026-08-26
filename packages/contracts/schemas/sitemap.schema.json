@@ -1,0 +1,36 @@
+{
+  "$id": "sitemap",
+  "title": "Sitemap discovery output (A03)",
+  "required": [
+    "source_url",
+    "evidence",
+    "discovered",
+    "crawlable",
+    "excluded",
+    "restricted",
+    "canonical"
+  ],
+  "properties": {
+    "source_url": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "discovered": {
+      "type": "array"
+    },
+    "crawlable": {
+      "type": "array"
+    },
+    "excluded": {
+      "type": "array"
+    },
+    "restricted": {
+      "type": "array"
+    },
+    "canonical": {
+      "type": "array"
+    }
+  }
+}

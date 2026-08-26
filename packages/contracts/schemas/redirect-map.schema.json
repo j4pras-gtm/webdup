@@ -1,0 +1,12 @@
+{
+  "$id": "redirect-map",
+  "title": "Redirect chains (A04)",
+  "required": [
+    "entries"
+  ],
+  "properties": {
+    "entries": {
+      "type": "array"
+    }
+  }
+}

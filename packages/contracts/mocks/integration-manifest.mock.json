@@ -1,0 +1,14 @@
+{
+  "mock": true,
+  "endpoints": [
+    {
+      "source_page": "/",
+      "anchor_text": "Contact",
+      "original_url": "mailto:x@example.com",
+      "final_url": "mailto:x@example.com",
+      "redirect_chain": [],
+      "endpoint_type": "mailto",
+      "treatment": "record_only"
+    }
+  ]
+}

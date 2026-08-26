@@ -1,0 +1,15 @@
+{
+  "mock": true,
+  "draft": true,
+  "groups": {
+    "brand": [
+      "displayName",
+      "logo",
+      "primaryColor",
+      "fonts"
+    ],
+    "contact_integrations": [],
+    "content": [],
+    "legal": []
+  }
+}

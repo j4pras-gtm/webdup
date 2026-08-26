@@ -1,0 +1,12 @@
+{
+  "$id": "interaction-spec",
+  "title": "Detected interaction specification (A10)",
+  "required": [
+    "interactions"
+  ],
+  "properties": {
+    "interactions": {
+      "type": "array"
+    }
+  }
+}

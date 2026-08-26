@@ -1,0 +1,16 @@
+{
+  "mock": true,
+  "collections": [
+    {
+      "id": "items",
+      "selector": ".grid > article",
+      "mechanism": "static",
+      "advertised_count": null,
+      "captured_count": 1,
+      "count_status": "consistent",
+      "stopping_condition": "n/a",
+      "pages_captured": 1,
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$id": "analysis-confirmation",
+  "title": "HITL confirmation record (gate between A13 and E01)",
+  "required": [
+    "job_id",
+    "decision",
+    "confirmed_at",
+    "confirmed_scope"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "confirmed_at": {
+      "type": "string"
+    },
+    "confirmed_scope": {
+      "type": "object"
+    },
+    "removed_components": {
+      "type": "array"
+    },
+    "removed_pages": {
+      "type": "array"
+    },
+    "user_supplied_data": {
+      "type": "object"
+    }
+  }
+}

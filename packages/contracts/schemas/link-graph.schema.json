@@ -1,0 +1,12 @@
+{
+  "$id": "link-graph",
+  "title": "Internal/external link graph (A04)",
+  "required": [
+    "edges"
+  ],
+  "properties": {
+    "edges": {
+      "type": "array"
+    }
+  }
+}

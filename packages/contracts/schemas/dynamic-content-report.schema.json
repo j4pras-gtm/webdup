@@ -1,0 +1,12 @@
+{
+  "$id": "dynamic-content-report",
+  "title": "Dynamic collection classification (A06)",
+  "required": [
+    "collections"
+  ],
+  "properties": {
+    "collections": {
+      "type": "array"
+    }
+  }
+}

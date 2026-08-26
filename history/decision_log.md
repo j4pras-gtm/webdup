@@ -21,3 +21,7 @@
 - R01-docs completed: README rewritten (portable artifact, no hosting coupling); apps/preview-router/ removed; job-001 generator/finalizer/QA marked legacy non-conformant examples.
 - User confirmed: keep jobs/<job>/<build>/ layout; R01-R08 order approved; HTTP+DOM crawler first.
 
+
+## 2026-08-26T10:10Z
+- R02-contracts completed: 15 new analysis/extract/build contracts with mocks; build-status +phase/+upstream_artifacts; brand +personalization_group; site_inventory deprecated (superseded by sitemap+route-inventory). QA 71/71.
+

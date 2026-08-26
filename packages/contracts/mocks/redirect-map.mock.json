@@ -1,0 +1,15 @@
+{
+  "mock": true,
+  "entries": [
+    {
+      "source_url": "/old",
+      "chain": [
+        "/old",
+        "/new"
+      ],
+      "final_url": "/new",
+      "scope": "internal",
+      "treatment": "crawl"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mock": true,
+  "job_id": "job-mock",
+  "source_url": "https://example.com/",
+  "artifacts": {
+    "sitemap": "analysis/sitemap.json"
+  },
+  "uncertainties": [],
+  "counts": {}
+}

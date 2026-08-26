@@ -1,0 +1,11 @@
+{
+  "mock": true,
+  "components": [
+    {
+      "name": "hero",
+      "classification": "core_reusable",
+      "confidence": 0.9,
+      "notes": "mock"
+    }
+  ]
+}

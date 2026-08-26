@@ -1,0 +1,33 @@
+{
+  "mock": true,
+  "colors": {
+    "primary": "#000000",
+    "text": "#111111",
+    "background": "#ffffff"
+  },
+  "typography": {
+    "sans": "system-ui",
+    "weights": [
+      400,
+      700
+    ]
+  },
+  "spacing": {
+    "unit": 8
+  },
+  "radii": {
+    "card": 8
+  },
+  "shadows": {
+    "card": "none"
+  },
+  "borders": {},
+  "grid": {
+    "container": 1100
+  },
+  "breakpoints": [
+    768,
+    1024
+  ],
+  "hierarchy_notes": "mock"
+}

@@ -1,6 +1,8 @@
 {
   "mock": true,
-  "note": "Placeholder until B02-crawl produces real inventory. Re-check against real output.",
+  "deprecated": true,
+  "superseded_by": ["sitemap", "route-inventory"],
+  "note": "DEPRECATED (2026-08-26, revised spec §6): superseded by sitemap + route-inventory contracts. Kept for reference only.",
   "source_url": null,
   "pages": [],
   "totals": {

@@ -1,0 +1,16 @@
+{
+  "$id": "placeholder-map",
+  "title": "Placeholder / personalization map (A12)",
+  "required": [
+    "groups",
+    "draft"
+  ],
+  "properties": {
+    "groups": {
+      "type": "object"
+    },
+    "draft": {
+      "type": "boolean"
+    }
+  }
+}
