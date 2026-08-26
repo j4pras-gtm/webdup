@@ -1,1 +1,1 @@
-R06-extract-builds completed 2026-08-26T16:45Z ù E01-E08 live, QA 25/25; next: R07-build-builds (B01-B10 + generic QA gate)
+R07-build-builds completed 2026-08-26T19:05Z ù B01-B10 + generic QA gate live, QA 36/36; next: R08-regression (monthlystaff.com full pipeline)

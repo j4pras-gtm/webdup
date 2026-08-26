@@ -109,7 +109,7 @@ function copyArtifacts(srcDir, destDir) {
  * @param {Error|string} error
  * @param {Array<{attempt:number, ts:string, error:string}>} attemptLog
  */
-function escalate(build, attempts, error, attemptLog) {
+function escalate(build, attempts, error, attemptLog, lastQa) {
   const id = build.id;
   const jobId = build.jobId || build.id;
   const dir = path.join(ROOT, 'manual_review', id);
@@ -195,7 +195,7 @@ function escalate(build, attempts, error, attemptLog) {
 
   writeStatus(build, 'blocked_manual_review', attempts, { blocked_reason: errText });
   appendHistory(build, 'blocked_manual_review', attempts, { error: errText });
-  return { ok: false, status: 'blocked_manual_review', attempts: attempts, error: errText };
+  return { ok: false, status: 'blocked_manual_review', attempts: attempts, error: errText, qa: lastQa };
 }
 
 // ---------------------------------------------------------------------------
@@ -216,11 +216,12 @@ function escalate(build, attempts, error, attemptLog) {
 async function runBuild(build) {
   const startedAt = Date.now();
   let lastError = null;
+  let lastQa = null;
   const attemptLog = [];
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     if (Date.now() - startedAt >= MAX_MS) {
-      return escalate(build, attempt, new Error('5-minute deadline exceeded'), attemptLog);
+      return escalate(build, attempt, new Error('5-minute deadline exceeded'), attemptLog, lastQa);
     }
     try {
       const result = await build.run(attempt);
@@ -229,6 +230,7 @@ async function runBuild(build) {
       let qa;
       if (typeof build.qa === 'function') {
         qa = await build.qa(result);
+        lastQa = qa || null;
         if (!qa || qa.passed !== true) {
           const msg = 'QA failed: ' + ((qa && qa.failures && qa.failures.join('; ')) || 'qa hook did not return passed:true');
           lastError = new Error(msg);
@@ -252,7 +254,7 @@ async function runBuild(build) {
       appendHistory(build, 'retrying', attempt, { error: msg });
     }
   }
-  return escalate(build, MAX_ATTEMPTS, lastError, attemptLog);
+  return escalate(build, MAX_ATTEMPTS, lastError, attemptLog, lastQa);
 }
 
 module.exports = { runBuild, escalate, writeStatus, appendHistory, ROOT, MAX_ATTEMPTS, MAX_MS };

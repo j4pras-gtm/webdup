@@ -41,3 +41,7 @@
 ## 2026-08-26T16:45Z
 - R06-extract-builds completed: packages/extract ù E01-E08 run only after HITL confirmation (requireConfirmed enforced per build). Narrowed scope respected (removed routes excluded from structure assets). Media extraction is slot-only (source_copied:false invariant). Added missing extraction-manifest + build-config schemas. QA 25/25.
 
+
+## 2026-08-26T19:05Z
+- R07-build-builds completed: packages/build ù generate.js (staged B01-B09 portable artifact from confirmed analysis only), lib/qa-gate.js (generic Build QA per spec 23/24 incl. count consistency and anti-fabrication), index.js (B01-B10 micro-build runner). Engine escalate() now returns lastQa so dossiers carry the exact failure. A07 wireframes now record section class for collection binding. QA 36/36 incl. negative escalation test; all prior gates re-verified.
+

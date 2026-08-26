@@ -140,6 +140,7 @@ async function a07Wireframes(jobId) {
           const heading = querySelector(child, 'h1, h2, h3');
           sections.push({
             id: (child.attrs.id || child.tag + '-' + sections.length),
+            class: (child.attrs.class || '').split(/\s+/)[0] || null,
             role: landmarkRole(child),
             heading: heading ? textOf(heading).slice(0, 80) : null,
             components: summarizeComponents(child),

@@ -1,4 +1,4 @@
 # Context resume
 
-R06-extract-builds completed. Extract phase (E01-E08) runs on confirmed analysis only (QA 25/25). Next: R07-build-builds ù B01-B10 portable artifact generator + generic QA gate library.
+R07-build-builds completed. Build phase (B01-B10) produces the portable artifact with a generic anti-fabrication QA gate (QA 36/36). Next: R08-regression ù run monthlystaff.com through the full ANALYZE->HITL->EXTRACT->BUILD pipeline.
 
