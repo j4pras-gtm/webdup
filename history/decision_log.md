@@ -29,3 +29,7 @@
 ## 2026-08-26T10:25Z
 - R03-engine completed: escalate() now writes full spec-29 dossier (REVIEW.md with 8 required sections, context.json, attempts.md, error.log, files_touched.txt, diff.patch, expected_output.md, artifacts/). runBuild() gained mandatory qa hook ù a build cannot be marked completed unless qa returns passed:true; legacy builds without a hook are flagged qa.skipped. QA 30/30.
 
+
+## 2026-08-26T15:30Z
+- R04-analyze-builds completed: packages/analyze (lib/html.js mini parser + selector engine, lib/http.js fetch+redirect chains+external record-only, lib/crawl.js sitemap/robots/link-graph). A01-A13 run as engine micro-builds with per-build QA hooks; artifacts land in jobs/<job>/analysis/, per-build dirs jobs/<job>/<build>/ (user-confirmed layout). Full 13-build phase verified against local fixture site (57/57 QA). Browser/rendered capture deferred per spec 32.
+
