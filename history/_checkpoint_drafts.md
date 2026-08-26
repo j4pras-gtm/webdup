@@ -1,1 +1,1 @@
-R04-analyze-builds completed 2026-08-26T15:30Z ù A01-A13 pipeline live (HTTP+DOM), QA 57/57; next: R05-hitl (confirmation-record contract + review report)
+R05-hitl completed 2026-08-26T16:10Z ù HITL gate live (report + confirmation + enforcement), QA 20/20; next: R06-extract-builds (E01-E08)

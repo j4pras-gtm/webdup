@@ -33,3 +33,7 @@
 ## 2026-08-26T15:30Z
 - R04-analyze-builds completed: packages/analyze (lib/html.js mini parser + selector engine, lib/http.js fetch+redirect chains+external record-only, lib/crawl.js sitemap/robots/link-graph). A01-A13 run as engine micro-builds with per-build QA hooks; artifacts land in jobs/<job>/analysis/, per-build dirs jobs/<job>/<build>/ (user-confirmed layout). Full 13-build phase verified against local fixture site (57/57 QA). Browser/rendered capture deferred per spec 32.
 
+
+## 2026-08-26T16:10Z
+- R05-hitl completed: packages/hitl ù generateReviewReport (site structure / reusable assets / personalization per spec 18), recordConfirmation (confirmed|narrowed|skipped_draft; removals validated against analysis ù no silent scope expansion), requireConfirmed gate for all downstream builds. QA 20/20.
+
