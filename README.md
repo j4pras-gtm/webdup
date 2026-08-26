@@ -1,14 +1,37 @@
 # Sidekikz Builder
 
-A meta-builder that turns a user-supplied reference URL into a rebranded static site preview hosted on a Sidekikz-controlled subdomain (`<project-slug>.app.sidekikz.com`).
+A site-agnostic reconstruction engine that turns an authorized reference website into a **rebrandable, locally viewable, portable website artifact**.
 
-Work is organized as **micro-builds** (B00–B08 foundation, then P1–P8 parallel lane). Each build is isolated: it has its own folder, status file, QA gate, and escalation path. A failure in one build never blocks another.
+The engine **understands** the source before it reproduces it. Deployment is *not* part of the engine — the artifact is portable and can later be delivered through optional adapters (local preview, ZIP/static export, GitHub-ready project, owned domain, Sidekikz-hosted page, or a downstream builder).
 
-## Build policy (every build)
+## Architecture (three phases)
+
+```text
+REFERENCE SITE
+   ↓
+PHASE 1 — ANALYZE        A01–A13 micro-builds → analysis package
+   ↓
+HITL REVIEW GATE         user confirms / narrows scope (confirmation record)
+   ↓
+PHASE 2 — EXTRACT        E01–E08 → confirmed reusable assets + replacement inputs
+   ↓
+PHASE 3 — BUILD          B01–B10 → portable static site
+   ↓
+PORTABLE ARTIFACT        exports/<slug>/  (locally viewable)
+   ↓
+OPTIONAL DELIVERY ADAPTER (local / download / repo / hosted / downstream)
+```
+
+Primary principle: **analyze first, extract second, build third.** The builder only generates what the confirmed analysis represents — it never fabricates missing UI, routes, content, or interactions.
+
+Full specification: [`docs/product-spec-revised.md`](docs/product-spec-revised.md).
+Current-vs-revised comparison: [`docs/gap-analysis-2026-08-26.md`](docs/gap-analysis-2026-08-26.md).
+
+## Build policy (every micro-build)
 
 - **Max 5 attempts OR 5 minutes wall-clock**, whichever comes first.
 - QA gate must pass before a build is marked `completed`.
-- On exhaustion the build escalates to `manual_review/<build-id>/` with a dossier (`context.json`, `REVIEW.md`) and stops — it does not silently fail or block other builds.
+- On exhaustion the build escalates to `manual_review/<build-id>/` with a full dossier (`REVIEW.md`, `context.json`, `attempts.md`, `error.log`, `files_touched.txt`, `diff.patch`, `expected_output.md`, `artifacts/`) and stops — it does not silently fail or block other builds.
 - Every outcome is appended to `history/build_history.jsonl` for chat-switch continuity.
 
 ## Layout
@@ -16,17 +39,23 @@ Work is organized as **micro-builds** (B00–B08 foundation, then P1–P8 parall
 ```text
 sidekikz-builder/
 ├── apps/
-│   ├── builder/          # build runners (run-b00.js = bootstrap)
-│   ├── dashboard/        # status dashboard (future)
-│   └── preview-router/   # *.app.sidekikz.com routing (future)
+│   ├── builder/          # build runners (bootstrap, per-job generators)
+│   └── dashboard/        # status dashboard (future)
 ├── packages/
-│   ├── engine/           # runBuild(): retry cap, deadline, escalation
+│   ├── engine/           # runBuild(): retry cap, deadline, QA hook, escalation
 │   ├── contracts/        # JSON schemas + validator + mock fixtures
-│   └── template/         # site template components (future)
-├── jobs/                 # one folder per job/build (status.json, outputs/, qa/, logs/)
+│   └── template/         # reusable site components (future)
+├── jobs/                 # one folder per job; each job holds its A/E/B builds
+│   └── <job_id>/
+│       ├── job.json      # source URL, slug, brand, state
+│       ├── analysis/     # Phase 1 outputs (sitemap, link graph, wireframes, …)
+│       ├── extraction/   # Phase 2 outputs (confirmed assets, placeholder schema)
+│       ├── builds/       # per-build folders: BUILD.md, status.json, outputs/, qa/, logs/
+│       └── qa-report.json
 ├── manual_review/        # escalation dossiers for blocked builds
 ├── history/              # build_history.jsonl, Session_summary.md, decision_log.md, checkpoints
-├── exports/              # final static-site exports (gitignored)
+├── exports/              # portable build artifacts (gitignored)
+├── docs/                 # product spec + gap analysis
 └── qa/checks/            # reusable QA scripts; each returns {passed, checks_run, failures[]}
 ```
 
@@ -44,11 +73,11 @@ node apps/builder/run-b00.js
 node -e "require('./packages/engine'); require('./packages/contracts'); console.log('ok')"
 ```
 
-No external dependencies — plain Node.js (tested on Node 24).
+No external dependencies — plain Node.js (tested on Node 24). Crawler approach: HTTP + DOM analysis first; rendered/browser capture added only where JS behavior requires it (per spec §32, not locked down).
 
 ## Contracts
 
-Schemas live in `packages/contracts/schemas/` (job, build-status, build-result, brand, qa-report, manual-review). Mock fixtures carry `"mock": true` so downstream builds know to re-check against real output once the corresponding build runs.
+Schemas live in `packages/contracts/schemas/`. Mock fixtures carry `"mock": true` so downstream builds can start before real upstream output exists; when the real output lands, downstream builds re-check for contract drift.
 
 ## History & resuming
 
@@ -57,8 +86,8 @@ Schemas live in `packages/contracts/schemas/` (job, build-status, build-result, 
 - `history/Session_summary.md` — human-readable session handoff.
 - `history/decision_log.md` — why decisions were made.
 
-To resume after a chat switch: read `context_resume.md`, then the last line of `build_history.jsonl`, then the relevant `jobs/<build>/BUILD.md`.
+To resume after a chat switch: read `context_resume.md`, then the last line of `build_history.jsonl`, then the relevant build's `BUILD.md`.
 
 ## Current state
 
-B00-bootstrap **completed** (attempt 1, all QA gates passed). Queue is idle, waiting for a reference URL to start B01-intake.
+Revised spec ingested (2026-08-26); gap analysis complete. Restructure in progress: R01-docs → R02-contracts → R03-engine → R04-analyze-builds (A01–A13) → R05-hitl → R06-extract → R07-build → R08-regression. See `history/context_resume.md` for the live queue.

@@ -1,1 +1,1 @@
-<!-- checkpoint 2026-08-26T08:55Z revised spec ingested (docs/product-spec-revised.md); gap analysis done (docs/gap-analysis-2026-08-26.md); awaiting user approval of R01-R08 execution order -->
+<!-- checkpoint 2026-08-26T09:58Z R01-docs completed (README portable-artifact model, preview-router removed, legacy scripts annotated); next: R02-contracts -->

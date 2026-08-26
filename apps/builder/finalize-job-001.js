@@ -1,4 +1,10 @@
 'use strict';
+/**
+ * LEGACY / NON-CONFORMANT EXAMPLE (2026-08-26, revised spec).
+ * One-off history finalizer for job-001 (pre-revision model). Not reusable;
+ * new jobs use the engine's appendHistory + per-build QA flow.
+ * See docs/gap-analysis-2026-08-26.md §4.
+ */
 const fs = require('fs');
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..', '..');

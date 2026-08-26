@@ -1,6 +1,13 @@
 'use strict';
 
 /**
+ * LEGACY / NON-CONFORMANT EXAMPLE (2026-08-26, revised spec).
+ * Do NOT use as a template for new jobs. Built under the pre-revision model:
+ * no analysis package, no HITL gate, fabricated "Load more" control (source
+ * uses infinite scroll), passed QA with 8/272 profiles captured.
+ * Kept only as a reference for the generator pattern and as a regression
+ * fixture. See docs/gap-analysis-2026-08-26.md §5.
+ *
  * B05-pages / B07-assemble for job-001 (source: monthlystaff.com).
  * Generates an ORIGINAL static rebrand ("Teamloop") that mirrors the source
  * site's structure and design language, with 100% original copy and

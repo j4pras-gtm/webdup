@@ -1,4 +1,10 @@
 'use strict';
+/**
+ * LEGACY / NON-CONFORMANT EXAMPLE (2026-08-26, revised spec).
+ * Hard-coded 28-check QA for the Teamloop output — not reusable across sites.
+ * New QA is analysis-driven (qa/gates/*) and verifies artifact ↔ confirmed
+ * analysis. See docs/gap-analysis-2026-08-26.md §4/§8.
+ */
 const fs = require('fs');
 const path = require('path');
 const OUT = path.resolve(__dirname, '..', '..', 'exports', 'teamloop');

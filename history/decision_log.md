@@ -16,3 +16,8 @@
 - Completed spec section 33 comparison: docs/gap-analysis-2026-08-26.md.
 - Decisions pending user: builds/ vs jobs/ dir convention; R01-R08 execution order; crawler approach (deferred per spec 32).
 
+
+## 2026-08-26T09:58Z
+- R01-docs completed: README rewritten (portable artifact, no hosting coupling); apps/preview-router/ removed; job-001 generator/finalizer/QA marked legacy non-conformant examples.
+- User confirmed: keep jobs/<job>/<build>/ layout; R01-R08 order approved; HTTP+DOM crawler first.
+
