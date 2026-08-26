@@ -10,3 +10,9 @@
 - job-001: ingested monthlystaff.com; built static rebrand "Teamloop" in exports/teamloop/.
 - Rebranded palette kept source design language (green #1dbf73 primary, ink #222325, cream #f7f7f2, Inter).
 - QA 28/28 passed; no source content leaked (verified by qa/checks/job-001.js).
+
+## 2026-08-26T08:55Z
+- Ingested revised product spec (three-phase ANALYZE -> HITL -> EXTRACT -> BUILD + portable artifact / deployment adapters).
+- Completed spec section 33 comparison: docs/gap-analysis-2026-08-26.md.
+- Decisions pending user: builds/ vs jobs/ dir convention; R01-R08 execution order; crawler approach (deferred per spec 32).
+

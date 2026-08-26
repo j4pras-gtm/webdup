@@ -1,3 +1,8 @@
+> **SUPERSEDED (2026-08-26):** built under the pre-revision model. Violates revised spec:
+> fabricated "Load more" control (source uses infinite scroll — §9), passed QA with 8/272
+> profiles captured (§10 count consistency), no analysis package or HITL gate (invariants 1–2).
+> Retained as regression fixture for the new anti-fabrication and count-consistency QA gates.
+
 # job-001 — monthlystaff.com → Teamloop
 
 **Source:** https://monthlystaff.com/
