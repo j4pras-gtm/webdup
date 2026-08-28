@@ -1,0 +1,16 @@
+{
+  "build_id": "B09-local-preview",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:56.056Z",
+  "result": {
+    "missing": [],
+    "ok": true
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

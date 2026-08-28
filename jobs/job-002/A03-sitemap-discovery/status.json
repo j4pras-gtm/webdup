@@ -1,0 +1,484 @@
+{
+  "build_id": "A03-sitemap-discovery",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T00:54:47.829Z",
+  "result": {
+    "source_url": "https://monthlystaff.com/",
+    "evidence": [
+      "sitemap.xml",
+      "navigation",
+      "internal_links",
+      "rendered_dom"
+    ],
+    "discovered": [
+      "/",
+      "/how-it-works",
+      "/why-choose-us",
+      "/job-seekers",
+      "/our-promise",
+      "/faq",
+      "/contact-us",
+      "/investors",
+      "/vacancies",
+      "/guides/hire-virtual-assistants",
+      "/guides/hire-remote-developers",
+      "/guides/hire-react-developers",
+      "/guides/hire-wordpress-developers",
+      "/guides/hire-shopify-developers",
+      "/guides/hire-graphic-designers",
+      "/guides/hire-ui-ux-designers",
+      "/guides/hire-video-editors",
+      "/guides/hire-digital-marketers",
+      "/guides/hire-seo-specialists",
+      "/guides/hire-social-media-managers",
+      "/guides/hire-content-writers",
+      "/guides/hire-customer-support-specialists",
+      "/guides/hire-lead-generation-specialists",
+      "/guides/hire-appointment-setters",
+      "/guides/hire-data-entry-specialists",
+      "/guides/hire-ecommerce-virtual-assistants",
+      "/guides/hire-bookkeepers",
+      "/guides/hire-project-managers",
+      "/guides/remote-staffing-guide",
+      "/company",
+      "/applications",
+      "/talent/henrique-leite-77",
+      "/talent/eduwa-osa-8f2b6",
+      "/talent/muhammad-jamshed-qamar-722f1",
+      "/talent/muhammad-waleed-asaf-308",
+      "/talent/hasnain-zia-307",
+      "/talent/emmanuel-omunizua-306",
+      "/talent/digimarkom-305",
+      "/talent/muhammad-hassan-303",
+      "/talent/hassan-302",
+      "/talent/david-kamau-301",
+      "/talent/yugta-bista-300",
+      "/talent/bukunmi-olaniyan-298",
+      "/talent/shahmir-siddiqui-297",
+      "/talent/nauman-sohail-296",
+      "/talent/ahsen-niaz-295",
+      "/talent/aaliyan-asif-294",
+      "/talent/irum-saeed-293",
+      "/talent/alina-292",
+      "/talent/segun-olusanu-291",
+      "/talent/promise-okechukwu-290",
+      "/talent/aman-ullah-289",
+      "/talent/arooj-ali-288",
+      "/talent/ahtisham-safdar-287",
+      "/talent/mubasher-khan-286",
+      "/auth"
+    ],
+    "crawlable": [
+      {
+        "path": "/",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links",
+          "rendered_dom"
+        ]
+      },
+      {
+        "path": "/how-it-works",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/why-choose-us",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/job-seekers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/our-promise",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/faq",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/contact-us",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/investors",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/vacancies",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-virtual-assistants",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-remote-developers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-react-developers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-wordpress-developers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-shopify-developers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-graphic-designers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-ui-ux-designers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-video-editors",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-digital-marketers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-seo-specialists",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-social-media-managers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-content-writers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-customer-support-specialists",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-lead-generation-specialists",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-appointment-setters",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-data-entry-specialists",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-ecommerce-virtual-assistants",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-bookkeepers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/hire-project-managers",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/guides/remote-staffing-guide",
+        "evidence": [
+          "sitemap.xml",
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/company",
+        "evidence": [
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/applications",
+        "evidence": [
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/henrique-leite-77",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/eduwa-osa-8f2b6",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/muhammad-jamshed-qamar-722f1",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/muhammad-waleed-asaf-308",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/hasnain-zia-307",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/emmanuel-omunizua-306",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/digimarkom-305",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/muhammad-hassan-303",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/hassan-302",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/david-kamau-301",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/yugta-bista-300",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/bukunmi-olaniyan-298",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/shahmir-siddiqui-297",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/nauman-sohail-296",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/ahsen-niaz-295",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/aaliyan-asif-294",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/irum-saeed-293",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/alina-292",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/segun-olusanu-291",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/promise-okechukwu-290",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/aman-ullah-289",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/arooj-ali-288",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/ahtisham-safdar-287",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/talent/mubasher-khan-286",
+        "evidence": [
+          "internal_links"
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "path": "/auth",
+        "evidence": [
+          "navigation",
+          "internal_links"
+        ],
+        "reason": "robots_disallow"
+      }
+    ],
+    "restricted": [],
+    "canonical": []
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

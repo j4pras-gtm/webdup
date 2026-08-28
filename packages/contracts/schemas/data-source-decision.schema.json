@@ -1,0 +1,13 @@
+{
+  "$id": "data-source-decision",
+  "title": "Recon data-source decision (agent-driven recon output, HITL-confirmed)",
+  "required": ["job_id", "sources", "recommended", "evidence"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "sources": { "type": "array" },
+    "recommended": { "type": "string" },
+    "evidence": { "type": "string" },
+    "generated_route_families": { "type": "array" },
+    "notes": { "type": "string" }
+  }
+}

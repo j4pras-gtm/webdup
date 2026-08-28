@@ -1,0 +1,1096 @@
+{
+  "build_id": "E02-structure-assets",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:53.369Z",
+  "result": {
+    "draft": false,
+    "assets": [
+      {
+        "asset": "structure.",
+        "kind": "structure",
+        "route": "/",
+        "page_type": "landing",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "nav-1",
+            "role": "navigation",
+            "heading": null,
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "section-3",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "talent",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "section-5",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "how",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "why",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-8",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "footer-9",
+            "role": "footer",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.applications",
+        "kind": "structure",
+        "route": "/applications",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "svg-0",
+            "role": "section",
+            "heading": null,
+            "data_bindings": []
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.company",
+        "kind": "structure",
+        "route": "/company",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "svg-0",
+            "role": "section",
+            "heading": null,
+            "data_bindings": []
+          },
+          {
+            "id": "strong-1",
+            "role": "section",
+            "heading": null,
+            "data_bindings": []
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.contact-us",
+        "kind": "structure",
+        "route": "/contact-us",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.faq",
+        "kind": "structure",
+        "route": "/faq",
+        "page_type": "informational",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-appointment-setters",
+        "kind": "structure",
+        "route": "/guides/hire-appointment-setters",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-bookkeepers",
+        "kind": "structure",
+        "route": "/guides/hire-bookkeepers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-content-writers",
+        "kind": "structure",
+        "route": "/guides/hire-content-writers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-customer-support-specialists",
+        "kind": "structure",
+        "route": "/guides/hire-customer-support-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-data-entry-specialists",
+        "kind": "structure",
+        "route": "/guides/hire-data-entry-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-digital-marketers",
+        "kind": "structure",
+        "route": "/guides/hire-digital-marketers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-ecommerce-virtual-assistants",
+        "kind": "structure",
+        "route": "/guides/hire-ecommerce-virtual-assistants",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-graphic-designers",
+        "kind": "structure",
+        "route": "/guides/hire-graphic-designers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-lead-generation-specialists",
+        "kind": "structure",
+        "route": "/guides/hire-lead-generation-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-project-managers",
+        "kind": "structure",
+        "route": "/guides/hire-project-managers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-react-developers",
+        "kind": "structure",
+        "route": "/guides/hire-react-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-remote-developers",
+        "kind": "structure",
+        "route": "/guides/hire-remote-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-seo-specialists",
+        "kind": "structure",
+        "route": "/guides/hire-seo-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-shopify-developers",
+        "kind": "structure",
+        "route": "/guides/hire-shopify-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-social-media-managers",
+        "kind": "structure",
+        "route": "/guides/hire-social-media-managers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-ui-ux-designers",
+        "kind": "structure",
+        "route": "/guides/hire-ui-ux-designers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-video-editors",
+        "kind": "structure",
+        "route": "/guides/hire-video-editors",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-virtual-assistants",
+        "kind": "structure",
+        "route": "/guides/hire-virtual-assistants",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-hire-wordpress-developers",
+        "kind": "structure",
+        "route": "/guides/hire-wordpress-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.guides-remote-staffing-guide",
+        "kind": "structure",
+        "route": "/guides/remote-staffing-guide",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.how-it-works",
+        "kind": "structure",
+        "route": "/how-it-works",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.investors",
+        "kind": "structure",
+        "route": "/investors",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.job-seekers",
+        "kind": "structure",
+        "route": "/job-seekers",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.our-promise",
+        "kind": "structure",
+        "route": "/our-promise",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-digimarkom-305",
+        "kind": "structure",
+        "route": "/talent/digimarkom-305",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-eduwa-osa-8f2b6",
+        "kind": "structure",
+        "route": "/talent/eduwa-osa-8f2b6",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-emmanuel-omunizua-306",
+        "kind": "structure",
+        "route": "/talent/emmanuel-omunizua-306",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-hasnain-zia-307",
+        "kind": "structure",
+        "route": "/talent/hasnain-zia-307",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-hassan-302",
+        "kind": "structure",
+        "route": "/talent/hassan-302",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-henrique-leite-77",
+        "kind": "structure",
+        "route": "/talent/henrique-leite-77",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-muhammad-hassan-303",
+        "kind": "structure",
+        "route": "/talent/muhammad-hassan-303",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-muhammad-jamshed-qamar-722f1",
+        "kind": "structure",
+        "route": "/talent/muhammad-jamshed-qamar-722f1",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.talent-muhammad-waleed-asaf-308",
+        "kind": "structure",
+        "route": "/talent/muhammad-waleed-asaf-308",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "role": "footer",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.vacancies",
+        "kind": "structure",
+        "route": "/vacancies",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "header-0",
+            "role": "header",
+            "heading": null,
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "footer-3",
+            "role": "footer",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.why-choose-us",
+        "kind": "structure",
+        "route": "/why-choose-us",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "role": "section",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "role": "section",
+            "heading": null,
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

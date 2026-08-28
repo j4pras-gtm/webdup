@@ -1,0 +1,30 @@
+{
+  "draft": false,
+  "assets": [
+    {
+      "asset": "design.tokens",
+      "kind": "design_tokens",
+      "colors": [
+        {
+          "name": "color-1",
+          "value": "#111",
+          "usage": "observed"
+        }
+      ],
+      "typography": {
+        "font_families": [],
+        "scale": []
+      },
+      "spacing": [],
+      "radii": [
+        {
+          "value": "8px",
+          "usage": "observed"
+        }
+      ],
+      "shadows": [],
+      "breakpoints": [],
+      "rebrandable": true
+    }
+  ]
+}

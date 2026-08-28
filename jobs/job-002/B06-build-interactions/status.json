@@ -1,0 +1,19 @@
+{
+  "build_id": "B06-build-interactions",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:53.965Z",
+  "result": {
+    "mechanisms": [
+      "client_toggle",
+      "click_action",
+      "in_page_anchor"
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "build_id": "A01-intake",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T00:54:46.953Z",
+  "result": {
+    "url": "https://monthlystaff.com/",
+    "origin": "https://monthlystaff.com",
+    "status": 200,
+    "finalUrl": "https://monthlystaff.com/",
+    "chain": [
+      "https://monthlystaff.com/"
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

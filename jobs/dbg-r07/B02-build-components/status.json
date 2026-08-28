@@ -1,0 +1,19 @@
+{
+  "build_id": "B02-build-components",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.125Z",
+  "result": {
+    "components": [
+      "header",
+      "footer",
+      "card"
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 3,
+    "failures": []
+  }
+}

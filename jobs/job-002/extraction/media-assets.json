@@ -1,0 +1,446 @@
+{
+  "draft": false,
+  "assets": [
+    {
+      "asset": "image.home-39",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-40",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-41",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-42",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-43",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-44",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-45",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-46",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-47",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-48",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-49",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-50",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-51",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-52",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-53",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-54",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-55",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-56",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-57",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-58",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-59",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-60",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-61",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-62",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-63",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-64",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-65",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_digimarkom-305-568",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_digimarkom-305-569",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_digimarkom-305-570",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_digimarkom-305-571",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_eduwa-osa-8f2b6-576",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_eduwa-osa-8f2b6-577",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_eduwa-osa-8f2b6-578",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_eduwa-osa-8f2b6-579",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_emmanuel-omunizua-306-585",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_emmanuel-omunizua-306-586",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_emmanuel-omunizua-306-587",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_emmanuel-omunizua-306-588",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hasnain-zia-307-594",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hasnain-zia-307-595",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hasnain-zia-307-596",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hasnain-zia-307-597",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hassan-302-603",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hassan-302-604",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hassan-302-605",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_hassan-302-606",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_henrique-leite-77-612",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_henrique-leite-77-613",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_henrique-leite-77-614",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_henrique-leite-77-615",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-hassan-303-621",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-hassan-303-622",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-hassan-303-623",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-hassan-303-624",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-jamshed-qamar-722f1-630",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-jamshed-qamar-722f1-631",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-jamshed-qamar-722f1-632",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-jamshed-qamar-722f1-633",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-waleed-asaf-308-639",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-waleed-asaf-308-640",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-waleed-asaf-308-641",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.talent_muhammad-waleed-asaf-308-642",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    }
+  ]
+}

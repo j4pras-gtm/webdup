@@ -1,0 +1,1096 @@
+{
+  "build_id": "A11-component-inventory",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T00:54:56.769Z",
+  "result": {
+    "components": [
+      {
+        "name": "header",
+        "description": "reusable header element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/applications",
+          "/company",
+          "/contact-us",
+          "/faq",
+          "/guides/hire-appointment-setters",
+          "/guides/hire-bookkeepers",
+          "/guides/hire-content-writers",
+          "/guides/hire-customer-support-specialists",
+          "/guides/hire-data-entry-specialists",
+          "/guides/hire-digital-marketers",
+          "/guides/hire-ecommerce-virtual-assistants",
+          "/guides/hire-graphic-designers",
+          "/guides/hire-lead-generation-specialists",
+          "/guides/hire-project-managers",
+          "/guides/hire-react-developers",
+          "/guides/hire-remote-developers",
+          "/guides/hire-seo-specialists",
+          "/guides/hire-shopify-developers",
+          "/guides/hire-social-media-managers",
+          "/guides/hire-ui-ux-designers",
+          "/guides/hire-video-editors",
+          "/guides/hire-virtual-assistants",
+          "/guides/hire-wordpress-developers",
+          "/guides/remote-staffing-guide",
+          "/how-it-works",
+          "/investors",
+          "/job-seekers",
+          "/our-promise",
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308",
+          "/vacancies",
+          "/why-choose-us"
+        ],
+        "reuse_count": 40,
+        "confidence": 0.8
+      },
+      {
+        "name": "footer",
+        "description": "reusable footer element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/applications",
+          "/company",
+          "/contact-us",
+          "/faq",
+          "/guides/hire-appointment-setters",
+          "/guides/hire-bookkeepers",
+          "/guides/hire-content-writers",
+          "/guides/hire-customer-support-specialists",
+          "/guides/hire-data-entry-specialists",
+          "/guides/hire-digital-marketers",
+          "/guides/hire-ecommerce-virtual-assistants",
+          "/guides/hire-graphic-designers",
+          "/guides/hire-lead-generation-specialists",
+          "/guides/hire-project-managers",
+          "/guides/hire-react-developers",
+          "/guides/hire-remote-developers",
+          "/guides/hire-seo-specialists",
+          "/guides/hire-shopify-developers",
+          "/guides/hire-social-media-managers",
+          "/guides/hire-ui-ux-designers",
+          "/guides/hire-video-editors",
+          "/guides/hire-virtual-assistants",
+          "/guides/hire-wordpress-developers",
+          "/guides/remote-staffing-guide",
+          "/how-it-works",
+          "/investors",
+          "/job-seekers",
+          "/our-promise",
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308",
+          "/vacancies",
+          "/why-choose-us"
+        ],
+        "reuse_count": 40,
+        "confidence": 0.8
+      },
+      {
+        "name": "navigation",
+        "description": "reusable navigation element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/contact-us",
+          "/faq",
+          "/guides/hire-appointment-setters",
+          "/guides/hire-bookkeepers",
+          "/guides/hire-content-writers",
+          "/guides/hire-customer-support-specialists",
+          "/guides/hire-data-entry-specialists",
+          "/guides/hire-digital-marketers",
+          "/guides/hire-ecommerce-virtual-assistants",
+          "/guides/hire-graphic-designers",
+          "/guides/hire-lead-generation-specialists",
+          "/guides/hire-project-managers",
+          "/guides/hire-react-developers",
+          "/guides/hire-remote-developers",
+          "/guides/hire-seo-specialists",
+          "/guides/hire-shopify-developers",
+          "/guides/hire-social-media-managers",
+          "/guides/hire-ui-ux-designers",
+          "/guides/hire-video-editors",
+          "/guides/hire-virtual-assistants",
+          "/guides/hire-wordpress-developers",
+          "/guides/remote-staffing-guide",
+          "/how-it-works",
+          "/investors",
+          "/job-seekers",
+          "/our-promise",
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308",
+          "/vacancies",
+          "/why-choose-us"
+        ],
+        "reuse_count": 108,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.hero-talent-card",
+        "description": "reusable card hero-talent-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 3,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-grid",
+        "description": "reusable card profile-grid element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 1,
+        "confidence": 0.6
+      },
+      {
+        "name": "card.profile-card",
+        "description": "reusable card profile-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-card-main-link",
+        "description": "reusable card profile-card-main-link element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-image-wrap",
+        "description": "reusable card profile-image-wrap element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-photo-button",
+        "description": "reusable card profile-photo-button element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-body",
+        "description": "reusable card profile-body element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-topline",
+        "description": "reusable card profile-topline element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.card-rating",
+        "description": "reusable card card-rating element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-footer",
+        "description": "reusable card profile-footer element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-card-actions",
+        "description": "reusable card profile-card-actions element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.card-contact-link",
+        "description": "reusable card card-contact-link element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 45,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.card-view-link",
+        "description": "reusable card card-view-link element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 24,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.cta-card",
+        "description": "reusable card cta-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 1,
+        "confidence": 0.6
+      },
+      {
+        "name": "button",
+        "description": "reusable button element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/contact-us",
+          "/faq",
+          "/guides/hire-appointment-setters",
+          "/guides/hire-bookkeepers",
+          "/guides/hire-content-writers",
+          "/guides/hire-customer-support-specialists",
+          "/guides/hire-data-entry-specialists",
+          "/guides/hire-digital-marketers",
+          "/guides/hire-ecommerce-virtual-assistants",
+          "/guides/hire-graphic-designers",
+          "/guides/hire-lead-generation-specialists",
+          "/guides/hire-project-managers",
+          "/guides/hire-react-developers",
+          "/guides/hire-remote-developers",
+          "/guides/hire-seo-specialists",
+          "/guides/hire-shopify-developers",
+          "/guides/hire-social-media-managers",
+          "/guides/hire-ui-ux-designers",
+          "/guides/hire-video-editors",
+          "/guides/hire-virtual-assistants",
+          "/guides/hire-wordpress-developers",
+          "/guides/remote-staffing-guide",
+          "/how-it-works",
+          "/investors",
+          "/job-seekers",
+          "/our-promise",
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308",
+          "/vacancies",
+          "/why-choose-us"
+        ],
+        "reuse_count": 133,
+        "confidence": 0.8
+      },
+      {
+        "name": "section",
+        "description": "reusable section element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/contact-us",
+          "/faq",
+          "/guides/hire-appointment-setters",
+          "/guides/hire-bookkeepers",
+          "/guides/hire-content-writers",
+          "/guides/hire-customer-support-specialists",
+          "/guides/hire-data-entry-specialists",
+          "/guides/hire-digital-marketers",
+          "/guides/hire-ecommerce-virtual-assistants",
+          "/guides/hire-graphic-designers",
+          "/guides/hire-lead-generation-specialists",
+          "/guides/hire-project-managers",
+          "/guides/hire-react-developers",
+          "/guides/hire-remote-developers",
+          "/guides/hire-seo-specialists",
+          "/guides/hire-shopify-developers",
+          "/guides/hire-social-media-managers",
+          "/guides/hire-ui-ux-designers",
+          "/guides/hire-video-editors",
+          "/guides/hire-virtual-assistants",
+          "/guides/hire-wordpress-developers",
+          "/guides/remote-staffing-guide",
+          "/how-it-works",
+          "/investors",
+          "/job-seekers",
+          "/our-promise",
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308",
+          "/vacancies",
+          "/why-choose-us"
+        ],
+        "reuse_count": 350,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.information-trust-card",
+        "description": "reusable card information-trust-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/contact-us",
+          "/faq",
+          "/how-it-works",
+          "/investors",
+          "/job-seekers",
+          "/our-promise",
+          "/why-choose-us"
+        ],
+        "reuse_count": 7,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.contact-panel-card",
+        "description": "reusable card contact-panel-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/contact-us"
+        ],
+        "reuse_count": 1,
+        "confidence": 0.6
+      },
+      {
+        "name": "card.lucide-wallet-cards",
+        "description": "reusable card lucide-wallet-cards element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/job-seekers"
+        ],
+        "reuse_count": 1,
+        "confidence": 0.6
+      },
+      {
+        "name": "card.profile-guide-section",
+        "description": "reusable card profile-guide-section element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/job-seekers"
+        ],
+        "reuse_count": 1,
+        "confidence": 0.6
+      },
+      {
+        "name": "card.profile-guide-grid",
+        "description": "reusable card profile-guide-grid element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/job-seekers"
+        ],
+        "reuse_count": 1,
+        "confidence": 0.6
+      },
+      {
+        "name": "card.public-profile-page",
+        "description": "reusable card public-profile-page element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-header",
+        "description": "reusable card public-profile-header element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-nav",
+        "description": "reusable card public-profile-nav element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-nav-actions",
+        "description": "reusable card public-profile-nav-actions element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-back",
+        "description": "reusable card public-profile-back element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-shell",
+        "description": "reusable card public-profile-shell element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-breadcrumbs",
+        "description": "reusable card profile-breadcrumbs element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-hero",
+        "description": "reusable card public-profile-hero element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-photo",
+        "description": "reusable card public-profile-photo element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-intro",
+        "description": "reusable card public-profile-intro element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-category",
+        "description": "reusable card profile-category element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-title",
+        "description": "reusable card public-profile-title element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-location",
+        "description": "reusable card public-profile-location element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-summary",
+        "description": "reusable card public-profile-summary element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-trust",
+        "description": "reusable card public-profile-trust element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-layout",
+        "description": "reusable card public-profile-layout element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-main",
+        "description": "reusable card public-profile-main element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-section",
+        "description": "reusable card public-profile-section element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 35,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-about",
+        "description": "reusable card public-profile-about element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-skills",
+        "description": "reusable card public-profile-skills element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-links",
+        "description": "reusable card public-profile-links element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 8,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-contact",
+        "description": "reusable card public-profile-contact element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-contact-card",
+        "description": "reusable card public-contact-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.related-talent-card",
+        "description": "reusable card related-talent-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 27,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.public-profile-footer",
+        "description": "reusable card public-profile-footer element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/talent/digimarkom-305",
+          "/talent/eduwa-osa-8f2b6",
+          "/talent/emmanuel-omunizua-306",
+          "/talent/hasnain-zia-307",
+          "/talent/hassan-302",
+          "/talent/henrique-leite-77",
+          "/talent/muhammad-hassan-303",
+          "/talent/muhammad-jamshed-qamar-722f1",
+          "/talent/muhammad-waleed-asaf-308"
+        ],
+        "reuse_count": 9,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "build_id": "A03-sitemap-discovery",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.839Z",
+  "result": {
+    "source_url": "http://127.0.0.1:62657/",
+    "evidence": [
+      "navigation",
+      "internal_links",
+      "rendered_dom"
+    ],
+    "discovered": [
+      "/",
+      "/services",
+      "/profiles/person-0",
+      "/profiles/person-1",
+      "/profiles/person-2",
+      "/profiles/person-3"
+    ],
+    "crawlable": [
+      {
+        "path": "/",
+        "evidence": [
+          "navigation",
+          "internal_links",
+          "rendered_dom"
+        ]
+      },
+      {
+        "path": "/services",
+        "evidence": [
+          "navigation",
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/profiles/person-0",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/profiles/person-1",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/profiles/person-2",
+        "evidence": [
+          "internal_links"
+        ]
+      },
+      {
+        "path": "/profiles/person-3",
+        "evidence": [
+          "internal_links"
+        ]
+      }
+    ],
+    "excluded": [],
+    "restricted": [],
+    "canonical": []
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

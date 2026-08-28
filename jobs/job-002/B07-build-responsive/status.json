@@ -1,0 +1,15 @@
+{
+  "build_id": "B07-build-responsive",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:54.415Z",
+  "result": {
+    "breakpoints": 0
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

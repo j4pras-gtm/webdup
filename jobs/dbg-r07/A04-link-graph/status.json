@@ -1,0 +1,123 @@
+{
+  "build_id": "A04-link-graph",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.872Z",
+  "result": {
+    "pages_crawled": 2,
+    "page_paths": [
+      "/",
+      "/services"
+    ],
+    "errors": [
+      {
+        "path": "/profiles/person-0",
+        "status": 404
+      },
+      {
+        "path": "/profiles/person-1",
+        "status": 404
+      },
+      {
+        "path": "/profiles/person-2",
+        "status": 404
+      },
+      {
+        "path": "/profiles/person-3",
+        "status": 404
+      }
+    ],
+    "edges": [
+      {
+        "from": "/",
+        "to": "/",
+        "kind": "internal-section",
+        "source_component": "header",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "/",
+        "kind": "internal-section",
+        "source_component": "nav",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "/services",
+        "kind": "internal-route",
+        "source_component": "nav",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "/profiles/person-0",
+        "kind": "internal-detail",
+        "source_component": "profile-card",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "/profiles/person-1",
+        "kind": "internal-detail",
+        "source_component": "profile-card",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "/profiles/person-2",
+        "kind": "internal-detail",
+        "source_component": "profile-card",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "/profiles/person-3",
+        "kind": "internal-detail",
+        "source_component": "profile-card",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/",
+        "to": "https://www.linkedin.com/company/fixture",
+        "kind": "external",
+        "source_component": "footer",
+        "js_attached": false,
+        "confidence": 0.9
+      },
+      {
+        "from": "/services",
+        "to": "/",
+        "kind": "internal-route",
+        "source_component": "nav",
+        "js_attached": false,
+        "confidence": 0.9
+      }
+    ],
+    "redirect_entries": [],
+    "external_endpoints": [
+      {
+        "source_page": "/",
+        "anchor_text": "LinkedIn",
+        "original_url": "https://www.linkedin.com/company/fixture",
+        "final_url": "https://www.linkedin.com/company/fixture",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 3,
+    "failures": []
+  }
+}

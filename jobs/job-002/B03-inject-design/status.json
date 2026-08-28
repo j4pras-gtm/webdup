@@ -1,0 +1,16 @@
+{
+  "build_id": "B03-inject-design",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:53.723Z",
+  "result": {
+    "file": "css/tokens.css",
+    "colors": 12
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

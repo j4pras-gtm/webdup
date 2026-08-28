@@ -1,0 +1,92 @@
+{
+  "job_id": "job-002",
+  "sources": [
+    {
+      "id": "talent-directory",
+      "collection": "div.profile-card",
+      "page_path": "/",
+      "advertised_count": 272,
+      "dom_captured_count": 24,
+      "source_type": "api_rpc",
+      "endpoint": {
+        "url": "https://nwlirjygtyukhpmgzejk.supabase.co/rest/v1/rpc/get_public_talent_directory",
+        "method": "POST",
+        "headers": {
+          "apikey": "sb_publishable_B_oqOwsMsXatLz9LuvfpqA_5nwy-6cL"
+        },
+        "body": {},
+        "auth_basis": "publishable/anon key embedded in client bundle (Lovable React SPA)"
+      },
+      "field_map": {
+        "name": "name",
+        "role": "title",
+        "category": "category",
+        "price": "monthly_rate",
+        "experience": "experience_years",
+        "location": "city",
+        "skills": "skills",
+        "detail_slug": "legacy_slugs"
+      },
+      "sample_rows": [
+        {
+          "name": "Henrique Leite",
+          "title": "Video Maker, Copywriter",
+          "category": "Design",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "monthly_rate": 100,
+          "experience_years": 6,
+          "skills": [
+            "Video Editor",
+            "Copywriting",
+            "Graphic Design"
+          ],
+          "legacy_slugs": [
+            "henrique-leite-77"
+          ]
+        },
+        {
+          "name": "Eduwa Osa",
+          "title": "Virtual Executive Assistant | Appointment Setter | Bookkeeping Specialist|",
+          "category": "Business",
+          "city": "Lagos",
+          "country": "Nigeria",
+          "monthly_rate": 500,
+          "experience_years": 7,
+          "skills": [
+            "Executive Assistance",
+            "Virtual Assistance",
+            "Bookkeeping",
+            "Appointment Setting",
+            "Sales Outreach",
+            "Calendar Management",
+            "Business Support",
+            "Business Operations",
+            "Executive Support",
+            "Administrative Operations",
+            "Google Workspace",
+            "Email Management",
+            "Calendar Management",
+            "Research & Information Gathering",
+            "Data Entry"
+          ],
+          "legacy_slugs": [
+            "eduwa-osa-272"
+          ]
+        }
+      ],
+      "verified_row_count": 272,
+      "prose_fields_excluded": [
+        "about"
+      ],
+      "pii_fields": [
+        "contact_email",
+        "contact_phone"
+      ],
+      "generated_route_family": "/talent/{slug}"
+    }
+  ],
+  "recommended": "api_rpc",
+  "evidence": "Client bundle exposes Supabase project URL + publishable key; POST /rest/v1/rpc/get_public_talent_directory returns all 272 rows in one call (verified live 2026-08-27: HTTP 200, 272 rows, full fields). DOM window holds only 24 of 272 cards.",
+  "notes": "Slugs for generated detail pages come from legacy_slugs (last entry = current slug). about/contact fields exist in the data but are excluded by default per content policy."
+}

@@ -69,7 +69,7 @@ function cleanup(jobId) {
   const artDir = path.join(ROOT, 'jobs', jobId, 'artifact');
   if (!outcome.blocked) {
     // artifact structure
-    for (const f of ['index.html', 'services.html', 'css/tokens.css', 'css/responsive.css', 'js/interactions.js', 'components/header.html', 'components/footer.html', 'components/card.html', 'manifest.json']) {
+    for (const f of ['index.html', 'services/index.html', 'css/tokens.css', 'css/responsive.css', 'js/interactions.js', 'components/header.html', 'components/footer.html', 'components/card.html', 'manifest.json']) {
       check('artifact has ' + f, fs.existsSync(path.join(artDir, f)));
     }
     const m = JSON.parse(fs.readFileSync(path.join(artDir, 'manifest.json'), 'utf8'));
@@ -78,9 +78,9 @@ function cleanup(jobId) {
 
     const home = fs.readFileSync(path.join(artDir, 'index.html'), 'utf8');
     // anti-fabrication: no copied source copy
-    check('no copied source copy (Person 1)', !home.includes('Person 1'));
-    check('no copied source copy (We do things)', !home.includes('We do things'));
+    check('no copied source prose (We do things)', !home.includes('We do things'));
     check('no copied source title (Fixture Co)', !home.includes('Fixture Co'));
+    check('factual listing name rendered (Person 1)', home.includes('Person 1'));
     // user brand injected
     check('brand name injected', home.includes('NewCo'));
     check('tagline injected', home.includes('Fresh tagline'));

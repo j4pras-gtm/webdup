@@ -1,0 +1,8 @@
+{
+  "build_id": "B10-final-QA",
+  "job_id": "job-002",
+  "status": "blocked_manual_review",
+  "attempts": 5,
+  "error": "QA failed: collection region not rendered: /talent/digimarkom-305/div.related-talent-card; collection region not rendered: /talent/emmanuel-omunizua-306/div.related-talent-card; collection region not rendered: /talent/hasnain-zia-307/div.related-talent-card; collection region not rendered: /talent/hassan-302/div.related-talent-card; collection region not rendered: /talent/henrique-leite-77/div.related-talent-card; collection region not rendered: /talent/muhammad-hassan-303/div.related-talent-card; collection region not rendered: /talent/muhammad-waleed-asaf-308/div.related-talent-card",
+  "ts": "2026-08-28T03:18:27.290Z"
+}

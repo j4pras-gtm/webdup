@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "checks_run": 1,
+  "failures": [
+    "missing local asset: services\\index.html -> services/index.html"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "build_id": "A13-analysis-synthesis",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.015Z",
+  "result": {
+    "job_id": "dbg-r07",
+    "source_url": "http://127.0.0.1:62657/",
+    "artifacts": {
+      "sitemap": "analysis/sitemap.json",
+      "link_graph": "analysis/link-graph.json",
+      "redirect_map": "analysis/redirect-map.json",
+      "integration_manifest": "analysis/integration-manifest.json",
+      "route_inventory": "analysis/route-inventory.json",
+      "dynamic_content": "analysis/dynamic-content.json",
+      "wireframes": "analysis/wireframes.json",
+      "content_schemas": "analysis/content-schemas.json",
+      "design_tokens": "analysis/design-tokens.json",
+      "interactions": "analysis/interactions.json",
+      "components": "analysis/components.json",
+      "placeholder_map": "analysis/placeholder-map.json"
+    },
+    "uncertainties": [
+      {
+        "area": "interactions",
+        "description": "no interactions detected",
+        "severity": "medium"
+      }
+    ],
+    "counts": {
+      "crawlable_routes": 6,
+      "excluded_routes": 0,
+      "restricted_routes": 0,
+      "routes_inventoried": 2,
+      "dynamic_collections": 1,
+      "wireframes": 2,
+      "content_entities": 2,
+      "interactions": 0,
+      "components": 5,
+      "placeholders": 16,
+      "external_endpoints": 1,
+      "link_edges": 9,
+      "redirect_entries": 0
+    }
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 3,
+    "failures": []
+  }
+}

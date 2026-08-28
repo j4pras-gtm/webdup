@@ -1,0 +1,89 @@
+{
+  "build_id": "A11-component-inventory",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.984Z",
+  "result": {
+    "components": [
+      {
+        "name": "header",
+        "description": "reusable header element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/services"
+        ],
+        "reuse_count": 2,
+        "confidence": 0.8
+      },
+      {
+        "name": "footer",
+        "description": "reusable footer element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/services"
+        ],
+        "reuse_count": 2,
+        "confidence": 0.8
+      },
+      {
+        "name": "navigation",
+        "description": "reusable navigation element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/",
+          "/services"
+        ],
+        "reuse_count": 2,
+        "confidence": 0.8
+      },
+      {
+        "name": "card.profile-card",
+        "description": "reusable card profile-card element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 4,
+        "confidence": 0.8
+      },
+      {
+        "name": "section",
+        "description": "reusable section element observed in source DOM",
+        "structure": [
+          "root_element"
+        ],
+        "props": [],
+        "states": [],
+        "used_in_routes": [
+          "/"
+        ],
+        "reuse_count": 2,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

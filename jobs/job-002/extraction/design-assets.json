@@ -1,0 +1,112 @@
+{
+  "draft": false,
+  "assets": [
+    {
+      "asset": "design.tokens",
+      "kind": "design_tokens",
+      "colors": [
+        {
+          "name": "color-1",
+          "value": "#fff",
+          "usage": "observed"
+        },
+        {
+          "name": "color-2",
+          "value": "#0000",
+          "usage": "observed"
+        },
+        {
+          "name": "color-3",
+          "value": "#dfe3e1",
+          "usage": "observed"
+        },
+        {
+          "name": "color-4",
+          "value": "#0000001a",
+          "usage": "observed"
+        },
+        {
+          "name": "color-5",
+          "value": "#777980",
+          "usage": "observed"
+        },
+        {
+          "name": "color-6",
+          "value": "#eaf8f1",
+          "usage": "observed"
+        },
+        {
+          "name": "color-7",
+          "value": "#e0e3e1",
+          "usage": "observed"
+        },
+        {
+          "name": "color-8",
+          "value": "#dce1de",
+          "usage": "observed"
+        },
+        {
+          "name": "color-9",
+          "value": "#858b87",
+          "usage": "observed"
+        },
+        {
+          "name": "color-10",
+          "value": "#222325",
+          "usage": "observed"
+        },
+        {
+          "name": "color-11",
+          "value": "#0d6f46",
+          "usage": "observed"
+        },
+        {
+          "name": "color-12",
+          "value": "#128c5e",
+          "usage": "observed"
+        }
+      ],
+      "typography": {
+        "font_families": [
+          "var(--font-sans)",
+          "var(--font-mono)",
+          "var(--default-font-family",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI"
+        ],
+        "scale": []
+      },
+      "spacing": [],
+      "radii": [
+        {
+          "value": "7px",
+          "usage": "observed"
+        },
+        {
+          "value": "8px",
+          "usage": "observed"
+        },
+        {
+          "value": "12px",
+          "usage": "observed"
+        },
+        {
+          "value": "9px",
+          "usage": "observed"
+        },
+        {
+          "value": "10px",
+          "usage": "observed"
+        },
+        {
+          "value": "999px",
+          "usage": "observed"
+        }
+      ],
+      "shadows": [],
+      "breakpoints": [],
+      "rebrandable": true
+    }
+  ]
+}

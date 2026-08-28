@@ -27,6 +27,35 @@ function readExtraction(jobId, name) {
   return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
 }
 
+/**
+ * Zero-dep HTTPS/HTTP JSON fetch with redirect following. Used ONLY for
+ * HITL-approved data sources (confirmed-scope data_sources). Never for
+ * arbitrary URLs.
+ */
+function fetchJson(url, { method = 'GET', headers = {}, body } = {}) {
+  return new Promise((resolve, reject) => {
+    const lib = url.startsWith('https') ? require('https') : require('http');
+    const doReq = (u) => {
+      const req = lib.request(u, { method, headers: { 'user-agent': 'sidekikz-builder/1.0', ...headers }, timeout: 60000 }, (res) => {
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          res.resume();
+          const next = new URL(res.headers.location, u).toString();
+          return doReq(next);
+        }
+        let d = '';
+        res.setEncoding('utf8');
+        res.on('data', c => d += c);
+        res.on('end', () => resolve({ status: res.statusCode, body: d }));
+      });
+      req.on('timeout', () => req.destroy(new Error('fetch timeout: ' + u)));
+      req.on('error', reject);
+      if (body !== undefined) req.write(JSON.stringify(body));
+      req.end();
+    };
+    doReq(url);
+  });
+}
+
 /** Run one extract micro-build; enforces the HITL gate first. */
 async function runExtractBuild(jobId, buildId, goal, work, qa) {
   hitl.requireConfirmed(jobId); // gate: no extraction without confirmation
@@ -60,6 +89,8 @@ async function e01ConfirmedScope(jobId) {
         components: conf.confirmed_scope.components,
         dynamic_collections: conf.confirmed_scope.dynamic_collections,
         external_endpoints: conf.confirmed_scope.external_endpoints,
+        data_sources: conf.confirmed_scope.data_sources || [],
+        generated_route_families: conf.confirmed_scope.generated_route_families || [],
         removed_pages: conf.removed_pages,
         removed_components: conf.removed_components,
         user_supplied_data: conf.user_supplied_data,
@@ -116,9 +147,12 @@ async function e02StructureAssets(jobId) {
 // ---------------------------------------------------------------------------
 async function e03ContentAssets(jobId) {
   return runExtractBuild(jobId, 'E03-content-assets',
-    'Extract content schemas as field-level templates (no copied copy).',
+    'Extract content schemas as field-level templates + factual listing data (names/roles/prices/locations/skills; prose stays placeholder).',
     async () => {
       const cs = P.readArtifact(jobId, 'content-schemas.json') || { entities: [] };
+      const dyn = P.readArtifact(jobId, 'dynamic-content.json') || { collections: [] };
+      const scope = readExtraction(jobId, 'confirmed-scope.json');
+
       const assets = cs.entities.map(e => ({
         asset: 'content.' + e.entity_name,
         kind: 'content_schema',
@@ -127,13 +161,123 @@ async function e03ContentAssets(jobId) {
         fields: e.fields.map(f => ({ name: f.name, type: f.type, required: f.required, example: '<placeholder>' })),
         confidence: e.confidence,
       }));
+
+      // Factual listing data for confirmed routes only (policy 2026-08-27).
+      // Allowed fields are structural facts; descriptions/prose are never copied.
+      const ALLOWED = ['name', 'role', 'price', 'experience', 'location', 'skills', 'detail_link'];
+      // Collections covered by an approved API source are extracted from the API,
+      // not the DOM (the DOM only holds a partial window of the same data).
+      const apiCovered = new Set((scope.data_sources || []).map(s => s.page_path + '|' + s.collection));
+
+      for (const c of dyn.collections) {
+        if (!c.items || !c.items.length) continue;
+        if (scope && !scope.routes.includes(c.page_path)) continue;
+        if (apiCovered.has(c.page_path + '|' + c.region_selector)) continue;
+        assets.push({
+          asset: 'listing.' + c.page_path.replace(/[\\/]/g, '-').replace(/^-/, '') + '.' + c.region_selector.replace(/[^a-zA-Z0-9]+/g, '-'),
+          kind: 'listing_data',
+          route: c.page_path,
+          region_selector: c.region_selector,
+          count_captured: c.item_count_captured,
+          count_advertised: c.item_count_advertised || null,
+          count_consistent: c.count_consistent,
+          items: c.items.map(it => {
+            const clean = {};
+            for (const k of ALLOWED) if (it[k] !== undefined) clean[k] = it[k];
+            return clean;
+          }),
+        });
+      }
+
+      // API-sourced collections (HITL-approved in confirmed scope): fetch through
+      // the recorded endpoint, map rows to factual fields, never copy prose.
+      for (const s of (scope.data_sources || [])) {
+        if (!s.endpoint || !s.endpoint.url) continue;
+        const res = await fetchJson(s.endpoint.url, {
+          method: s.endpoint.method || 'GET',
+          headers: s.endpoint.headers || {},
+          body: s.endpoint.body !== undefined ? s.endpoint.body : (s.endpoint.method === 'POST' ? {} : undefined),
+        });
+        if (res.status !== 200) throw new Error('approved data source ' + s.id + ' returned HTTP ' + res.status);
+        let rows = JSON.parse(res.body);
+        if (!Array.isArray(rows)) rows = rows.data || rows.rows || [];
+        const fm = s.field_map || {};
+        const piiOk = !!s.pii_included;
+        const famPrefix = s.generated_route_family ? s.generated_route_family.split('{')[0] : null;
+        const items = rows.map(row => {
+          const it = {};
+          for (const [target, srcKey] of Object.entries(fm)) {
+            if (target === 'detail_slug') continue;
+            if (['contact_email', 'contact_phone'].includes(srcKey)) {
+              if (piiOk) it.contact = row[srcKey];
+              continue;
+            }
+            let v = row[srcKey];
+            if (v === null || v === undefined) continue;
+            if (srcKey === 'monthly_rate' || typeof v === 'number') it[target] = typeof v === 'number' ? '$' + v : v;
+            else it[target] = v;
+          }
+          if (fm.detail_slug && famPrefix) {
+            const slugs = row[fm.detail_slug];
+            const slug = Array.isArray(slugs) ? slugs[slugs.length - 1] : slugs;
+            if (slug) it.detail_link = famPrefix + slug;
+          }
+          // PII: pulled from the source's declared pii_fields only when HITL opted in.
+          if (piiOk) {
+            for (const pk of s.pii_fields || ['contact_email', 'contact_phone']) {
+              if (row[pk]) { it.contact = row[pk]; break; }
+            }
+          }
+          return it;
+        });
+        assets.push({
+          asset: 'api.' + s.id,
+          kind: 'api_data',
+          source_id: s.id,
+          route: s.page_path,
+          region_selector: s.collection,
+          endpoint: s.endpoint.url,
+          source_type: s.source_type,
+          count_captured: items.length,
+          count_advertised: s.advertised_count || null,
+          count_consistent: items.length === (s.advertised_count || items.length),
+          verified_row_count: s.verified_row_count,
+          pii_included: piiOk,
+          generated_route_family: s.family_included ? s.generated_route_family : null,
+          items,
+        });
+      }
       return { draft: false, assets };
     },
     (r) => {
       const v = contracts.validate('reusable-assets', r);
       const fails = v.errors.slice();
       if (!r.assets.some(a => a.kind === 'content_schema')) fails.push('no content schema assets');
-      return { passed: v.passed && fails.length === 0, checks_run: 2, failures: fails };
+      // anti-fabrication: listing items may only carry the allowed factual fields
+      const ALLOWED = new Set(['name', 'role', 'price', 'experience', 'location', 'skills', 'detail_link']);
+      for (const a of r.assets.filter(x => x.kind === 'listing_data')) {
+        for (const it of a.items) {
+          for (const k of Object.keys(it)) if (!ALLOWED.has(k)) fails.push('non-factual field in listing item: ' + k);
+        }
+        if (a.items.length !== a.count_captured) fails.push('listing item count mismatch: ' + a.asset);
+      }
+      // api_data: factual fields + optional contact (only when PII was approved)
+      const API_ALLOWED = new Set(['name', 'role', 'price', 'experience', 'location', 'skills', 'detail_link', 'contact', 'category']);
+      for (const a of r.assets.filter(x => x.kind === 'api_data')) {
+        for (const it of a.items) {
+          for (const k of Object.keys(it)) if (!API_ALLOWED.has(k)) fails.push('non-factual field in api item: ' + k);
+        }
+        if (a.items.length !== a.count_captured) fails.push('api item count mismatch: ' + a.asset);
+        if (a.pii_included && !a.items.some(it => it.contact)) fails.push('pii approved but no contact data extracted: ' + a.asset);
+        if (!a.pii_included && a.items.some(it => it.contact)) fails.push('contact data present without pii approval: ' + a.asset);
+        // prose must never be copied from the API
+        for (const it of a.items) {
+          for (const [k, val] of Object.entries(it)) {
+            if (typeof val === 'string' && val.length > 200) fails.push('prose-length value in api item field ' + k + ': ' + a.asset);
+          }
+        }
+      }
+      return { passed: v.passed && fails.length === 0, checks_run: 4, failures: fails };
     }
   ).then(res => { if (res.ok) writeExtraction(jobId, 'content-assets.json', res.result); return res; });
 }

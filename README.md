@@ -27,6 +27,14 @@ Primary principle: **analyze first, extract second, build third.** The builder o
 Full specification: [`docs/product-spec-revised.md`](docs/product-spec-revised.md).
 Current-vs-revised comparison: [`docs/gap-analysis-2026-08-26.md`](docs/gap-analysis-2026-08-26.md).
 
+## Recon model (v2, 2026-08-27)
+
+The *means* of Phase 1 is **agent-driven**: the frontier model picks its own tools (HTTP fetch, JS-bundle reading, API/RPC discovery, browser automation) and explores until every schema'd artifact is filled with evidence. The engine's durable value is the **governance shell** — contracts, QA gates, count consistency, anti-fabrication, HITL gate, history/escalation, portable artifact — not fixed DOM regexes.
+
+Key addition: the recon must produce a **`data-source-decision.json`** for each content collection — where the complete data lives (DOM window vs. API/RPC), the exact endpoint, a field map, and a *verified* row count from an actual call. At the HITL gate the user approves which sources to extract through, opts in to PII per source, and accepts/declines generated route families (e.g. one detail page per data row). Extraction then fetches through approved endpoints only; prose stays placeholder regardless of source.
+
+Protocol: [`docs/RECON.md`](docs/RECON.md). Proven end-to-end on monthlystaff.com: 272-profile directory extracted via one verified Supabase RPC call, 274 talent pages generated, full B01–B10 + QA green (`jobs/job-002`).
+
 ## Build policy (every micro-build)
 
 - **Max 5 attempts OR 5 minutes wall-clock**, whichever comes first.

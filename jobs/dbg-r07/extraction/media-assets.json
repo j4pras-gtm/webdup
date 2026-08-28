@@ -1,0 +1,47 @@
+{
+  "draft": false,
+  "assets": [
+    {
+      "asset": "image.home-5",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-6",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-7",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-8",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "image.home-9",
+      "kind": "media_slot",
+      "slot": "image",
+      "replacement_required": true,
+      "source_copied": false
+    },
+    {
+      "asset": "logo_home",
+      "kind": "media_slot",
+      "slot": "logo",
+      "replacement_required": true,
+      "source_copied": false
+    }
+  ]
+}

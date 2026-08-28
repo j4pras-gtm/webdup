@@ -1,0 +1,45 @@
+/* Design tokens — evidence values from confirmed analysis; rebrandable layer */
+:root {
+  --color-0: #fff;
+  --color-1: #0000;
+  --color-2: #dfe3e1;
+  --color-3: #0000001a;
+  --color-4: #777980;
+  --color-5: #eaf8f1;
+  --color-6: #e0e3e1;
+  --color-7: #dce1de;
+  --color-8: #858b87;
+  --color-9: #222325;
+  --color-10: #0d6f46;
+  --color-11: #128c5e;
+  --font-0: var(--font-sans);
+  --font-1: var(--font-mono);
+  --font-2: var(--default-font-family;
+  --font-3: -apple-system;
+  --font-4: BlinkMacSystemFont;
+  --font-5: Segoe UI;
+  --radius-0: [object Object];
+  --radius-1: [object Object];
+  --radius-2: [object Object];
+  --radius-3: [object Object];
+  --radius-4: [object Object];
+  --radius-5: [object Object];
+}
+
+body { margin: 0; font-family: var(--font-0, system-ui, sans-serif); color: var(--color-0, #111); }
+.site-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; border-bottom: 1px solid var(--color-1, #ddd); position: sticky; top: 0; background: var(--color-2, #fff); z-index: 10; }
+.site-nav a { margin-left: 1rem; text-decoration: none; color: inherit; }
+.hero { padding: 4rem 2rem; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.5rem; padding: 2rem; }
+.card { border: 1px solid var(--color-1, #ddd); border-radius: var(--radius-0, 8px); overflow: hidden; box-shadow: var(--shadow-0, none); }
+.card-media { background: var(--color-1, #eee); aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; color: #666; }
+.card-title { margin: 0.75rem 1rem 0; font-size: 1.1rem; }
+.card-role { margin: 0.25rem 1rem 0; font-size: 0.9rem; color: #555; }
+.card-skills { list-style: none; display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.5rem 1rem 0; padding: 0; }
+.card-skills li { font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 999px; background: var(--color-1, #eee); color: #444; }
+.card-meta { margin: 0.5rem 1rem 0; font-size: 0.85rem; color: #666; }
+.card-body { margin: 0.5rem 1rem 1rem; color: #444; }
+.card-link { display: inline-block; margin: 0.5rem 1rem 0; font-size: 0.85rem; text-decoration: none; color: var(--color-3, #06c); }
+.site-footer { padding: 2rem; border-top: 1px solid var(--color-1, #ddd); margin-top: 3rem; }
+.ext-link { margin-right: 1rem; }
+[data-hidden] { display: none; }

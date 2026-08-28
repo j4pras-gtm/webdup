@@ -1,0 +1,16 @@
+{
+  "build_id": "B01-build-shell",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.109Z",
+  "result": {
+    "dir": "C:\\Users\\Nithin\\OpenWorker\\b37e34c0-416\\sidekikz-builder\\jobs\\dbg-r07\\artifact",
+    "manifestFile": "manifest.json"
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

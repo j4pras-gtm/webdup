@@ -1,0 +1,15 @@
+{
+  "build_id": "B07-build-responsive",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.216Z",
+  "result": {
+    "breakpoints": 0
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "build_id": "B08-build-static",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.235Z",
+  "result": {
+    "manifest": {
+      "job_id": "dbg-r07",
+      "generated_at": "2026-08-28T01:13:18.109Z",
+      "routes": [
+        {
+          "path": "/",
+          "file": "index.html"
+        },
+        {
+          "path": "/services",
+          "file": "services/index.html"
+        }
+      ],
+      "components": [
+        "header",
+        "footer",
+        "card"
+      ],
+      "interactions": [],
+      "collections": [
+        {
+          "route": "/",
+          "region": "section.profile-card",
+          "count": 4,
+          "behavior": "static"
+        }
+      ],
+      "externalLinks": [
+        "https://www.linkedin.com/company/fixture"
+      ],
+      "dir": "artifact",
+      "portable": true,
+      "view_instructions": "Open index.html in any browser, or: npx serve <dir> (any static server works)"
+    }
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "source_url": null,
+  "routes": [
+    {
+      "path": "/",
+      "type": "landing",
+      "purpose": "Hiredfrom$300/per month",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/applications",
+      "type": "content",
+      "purpose": "Hire Remote Talent by the Month | Monthly Staff",
+      "primary_components": [
+        "header",
+        "main"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/company",
+      "type": "content",
+      "purpose": "Company workspace | Monthly Staff",
+      "primary_components": [
+        "header",
+        "main"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/contact-us",
+      "type": "content",
+      "purpose": "Ready to make your next great hire? Let’s talk.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/faq",
+      "type": "informational",
+      "purpose": "Got questions? We have clear answers.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-appointment-setters",
+      "type": "listing",
+      "purpose": "How to Hire an Appointment Setter Who Creates Worthwhile Conversations",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-bookkeepers",
+      "type": "listing",
+      "purpose": "How to Hire a Remote Bookkeeper for Clear, Timely Financial Records",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-content-writers",
+      "type": "listing",
+      "purpose": "How to Hire a Content Writer Who Produces Credible, Useful Work",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-customer-support-specialists",
+      "type": "listing",
+      "purpose": "How to Hire Customer Support Specialists Who Represent Your Brand Well",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-data-entry-specialists",
+      "type": "listing",
+      "purpose": "How to Hire a Data Entry Specialist for Accurate, Secure Records",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-digital-marketers",
+      "type": "listing",
+      "purpose": "How to Hire a Digital Marketer Who Connects Activity to Revenue",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-ecommerce-virtual-assistants",
+      "type": "listing",
+      "purpose": "How to Hire an Ecommerce Virtual Assistant for Daily Store Operations",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-graphic-designers",
+      "type": "listing",
+      "purpose": "How to Hire a Graphic Designer Who Builds a Consistent Brand",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-lead-generation-specialists",
+      "type": "listing",
+      "purpose": "How to Hire a Lead Generation Specialist for Qualified Pipeline",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-project-managers",
+      "type": "listing",
+      "purpose": "How to Hire a Remote Project Manager Who Creates Delivery Clarity",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-react-developers",
+      "type": "listing",
+      "purpose": "How to Hire a React Developer for a Fast, Stable Frontend",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-remote-developers",
+      "type": "listing",
+      "purpose": "How to Hire Remote Developers Who Deliver Maintainable Software",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-seo-specialists",
+      "type": "listing",
+      "purpose": "How to Hire an SEO Specialist for Sustainable Organic Growth",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-shopify-developers",
+      "type": "listing",
+      "purpose": "How to Hire a Shopify Developer Who Protects Conversion and Store Speed",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-social-media-managers",
+      "type": "listing",
+      "purpose": "How to Hire a Social Media Manager Who Builds a Useful Audience",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-ui-ux-designers",
+      "type": "listing",
+      "purpose": "How to Hire a UI and UX Designer for Better Product Decisions",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-video-editors",
+      "type": "listing",
+      "purpose": "How to Hire a Video Editor for Consistent, Engaging Content",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-virtual-assistants",
+      "type": "listing",
+      "purpose": "How to Hire a Virtual Assistant for Reliable Daily Support",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/hire-wordpress-developers",
+      "type": "listing",
+      "purpose": "How to Hire a WordPress Developer Without Creating Maintenance Problems",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/guides/remote-staffing-guide",
+      "type": "listing",
+      "purpose": "The Complete Remote Staffing Guide for Growing Businesses",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/how-it-works",
+      "type": "content",
+      "purpose": "Hiring made simple, transparent, and direct.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/investors",
+      "type": "content",
+      "purpose": "Invest in the future of global talent acquisition.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/job-seekers",
+      "type": "content",
+      "purpose": "Set your rate, get discovered, and keep 100% of your pay.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/our-promise",
+      "type": "content",
+      "purpose": "We are serious about your success.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/digimarkom-305",
+      "type": "detail",
+      "purpose": "Digimarkom",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/eduwa-osa-8f2b6",
+      "type": "detail",
+      "purpose": "Eduwa Osa",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/emmanuel-omunizua-306",
+      "type": "detail",
+      "purpose": "Emmanuel Omunizua",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/hasnain-zia-307",
+      "type": "detail",
+      "purpose": "Hasnain Zia",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/hassan-302",
+      "type": "detail",
+      "purpose": "Hassan",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/henrique-leite-77",
+      "type": "detail",
+      "purpose": "Henrique Leite",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/muhammad-hassan-303",
+      "type": "detail",
+      "purpose": "Muhammad Hassan",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/muhammad-jamshed-qamar-722f1",
+      "type": "detail",
+      "purpose": "Muhammad Jamshed Qamar",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/talent/muhammad-waleed-asaf-308",
+      "type": "detail",
+      "purpose": "Muhammad Waleed Asaf",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/vacancies",
+      "type": "content",
+      "purpose": "Find your next long term role.",
+      "primary_components": [
+        "header",
+        "main",
+        "sections"
+      ],
+      "data_requirements": [],
+      "status": "confirmed",
+      "confidence": 0.8
+    },
+    {
+      "path": "/why-choose-us",
+      "type": "content",
+      "purpose": "The smartest way to hire. Period.",
+      "primary_components": [
+        "header",
+        "main",
+        "card-grid",
+        "sections"
+      ],
+      "data_requirements": [
+        "card_items"
+      ],
+      "status": "confirmed",
+      "confidence": 0.8
+    }
+  ]
+}

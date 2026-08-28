@@ -1,0 +1,14 @@
+{
+  "origin": "http://127.0.0.1:62657",
+  "robots": {
+    "disallowed": [],
+    "sitemaps": [],
+    "appliesToAll": true,
+    "found": true
+  },
+  "sitemaps": [],
+  "boundary": {
+    "max_pages": 40,
+    "same_origin_only": true
+  }
+}

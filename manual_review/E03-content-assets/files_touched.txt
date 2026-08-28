@@ -1,0 +1,14 @@
+jobs\job-002\E01-confirmed-scope\BUILD.md
+jobs\job-002\E01-confirmed-scope\qa\report.json
+jobs\job-002\E01-confirmed-scope\status.json
+jobs\job-002\E02-structure-assets\BUILD.md
+jobs\job-002\E02-structure-assets\qa\report.json
+jobs\job-002\E02-structure-assets\status.json
+jobs\job-002\E03-content-assets\BUILD.md
+jobs\job-002\E03-content-assets\status.json
+jobs\job-002\analysis\REVIEW.md
+jobs\job-002\analysis\analysis-confirmation.json
+jobs\job-002\analysis\data-source-decision.json
+jobs\job-002\build-config.json
+jobs\job-002\extraction\confirmed-scope.json
+jobs\job-002\extraction\structure-assets.json

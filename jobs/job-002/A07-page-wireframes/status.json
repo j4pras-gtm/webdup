@@ -1,0 +1,1289 @@
+{
+  "build_id": "A07-page-wireframes",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T00:54:52.832Z",
+  "result": {
+    "wireframes": [
+      {
+        "route": "/",
+        "page_type": "landing",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "site-header",
+            "role": "header",
+            "heading": null,
+            "components": [
+              "input",
+              "button"
+            ],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "nav-1",
+            "class": "marketplace-nav",
+            "role": "navigation",
+            "heading": null,
+            "components": [
+              "button"
+            ],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "hero",
+            "role": "hero",
+            "heading": "Hiredfrom$300/per month",
+            "components": [
+              "input",
+              "button",
+              "img"
+            ],
+            "data_bindings": [
+              "images",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "section-3",
+            "class": "quick-actions",
+            "role": "section",
+            "heading": "Start building your monthly team",
+            "components": [
+              "button"
+            ],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "talent",
+            "class": "talent-section",
+            "role": "section",
+            "heading": "Recommended talent",
+            "components": [
+              "button",
+              "select",
+              "input",
+              "img"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "section-5",
+            "class": "home-vacancies-section",
+            "role": "section",
+            "heading": "Open monthly opportunities",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "how",
+            "class": "how-section",
+            "role": "section",
+            "heading": "From shortlist to teammate in three steps",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "why",
+            "class": "why-section",
+            "role": "section",
+            "heading": "Freelance flexibility.Real team commitment.",
+            "components": [
+              "button"
+            ],
+            "data_bindings": []
+          },
+          {
+            "id": "section-8",
+            "class": "cta-section",
+            "role": "hero",
+            "heading": "Build your dream team,one month at a time.",
+            "components": [
+              "button"
+            ],
+            "data_bindings": []
+          },
+          {
+            "id": "footer-9",
+            "class": null,
+            "role": "footer",
+            "heading": "Practical hiring guides",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/applications",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "svg-0",
+            "class": "lucide",
+            "role": "section",
+            "heading": null,
+            "components": [],
+            "data_bindings": []
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/company",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "svg-0",
+            "class": "lucide",
+            "role": "section",
+            "heading": null,
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "strong-1",
+            "class": null,
+            "role": "section",
+            "heading": null,
+            "components": [],
+            "data_bindings": []
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/contact-us",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "Ready to make your next great hire? Let’s talk.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "contact-panel-section",
+            "role": "section",
+            "heading": "Contact us on WhatsApp",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/faq",
+        "page_type": "informational",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "Got questions? We have clear answers.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "faq-section",
+            "role": "section",
+            "heading": "Frequently asked questions",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-appointment-setters",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire an Appointment Setter Who Creates Worthwhile Conversations",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-bookkeepers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Remote Bookkeeper for Clear, Timely Financial Records",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-content-writers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Content Writer Who Produces Credible, Useful Work",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-customer-support-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire Customer Support Specialists Who Represent Your Brand Well",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-data-entry-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Data Entry Specialist for Accurate, Secure Records",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-digital-marketers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Digital Marketer Who Connects Activity to Revenue",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-ecommerce-virtual-assistants",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire an Ecommerce Virtual Assistant for Daily Store Operations",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-graphic-designers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Graphic Designer Who Builds a Consistent Brand",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-lead-generation-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Lead Generation Specialist for Qualified Pipeline",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-project-managers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Remote Project Manager Who Creates Delivery Clarity",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-react-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a React Developer for a Fast, Stable Frontend",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-remote-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire Remote Developers Who Deliver Maintainable Software",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-seo-specialists",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire an SEO Specialist for Sustainable Organic Growth",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-shopify-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Shopify Developer Who Protects Conversion and Store Speed",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-social-media-managers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Social Media Manager Who Builds a Useful Audience",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-ui-ux-designers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a UI and UX Designer for Better Product Decisions",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-video-editors",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Video Editor for Consistent, Engaging Content",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-virtual-assistants",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a Virtual Assistant for Reliable Daily Support",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/hire-wordpress-developers",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "How to Hire a WordPress Developer Without Creating Maintenance Problems",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/guides/remote-staffing-guide",
+        "page_type": "listing",
+        "sections": [
+          {
+            "id": "article-0",
+            "class": "seo-guide-article",
+            "role": "section",
+            "heading": "The Complete Remote Staffing Guide for Growing Businesses",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/how-it-works",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "Hiring made simple, transparent, and direct.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "information-dark-section",
+            "role": "section",
+            "heading": "From shortlist to teammate in three clear steps.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/investors",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "Invest in the future of global talent acquisition.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "information-dark-section",
+            "role": "section",
+            "heading": "A marketplace designed for global scale.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/job-seekers",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "Set your rate, get discovered, and keep 100% of your pay.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "profile-guide-section",
+            "role": "collection",
+            "heading": "Make a strong first impression in minutes.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/our-promise",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "We are serious about your success.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "information-dark-section",
+            "role": "section",
+            "heading": "Clear information. Real people. Direct relationships.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/digimarkom-305",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Digimarkom",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/eduwa-osa-8f2b6",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Eduwa Osa",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/emmanuel-omunizua-306",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Emmanuel Omunizua",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/hasnain-zia-307",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Hasnain Zia",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/hassan-302",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Hassan",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/henrique-leite-77",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Henrique Leite",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/muhammad-hassan-303",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Muhammad Hassan",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/muhammad-jamshed-qamar-722f1",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Muhammad Jamshed Qamar",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/talent/muhammad-waleed-asaf-308",
+        "page_type": "detail",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "public-profile-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "div-1",
+            "class": "container",
+            "role": "collection",
+            "heading": "Muhammad Waleed Asaf",
+            "components": [
+              "img",
+              "button"
+            ],
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          },
+          {
+            "id": "footer-2",
+            "class": "public-profile-footer",
+            "role": "footer",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/vacancies",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "header-0",
+            "class": "site-header",
+            "role": "header",
+            "heading": null,
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "vacancies-hero",
+            "role": "hero",
+            "heading": "Find your next long term role.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-2",
+            "class": "container",
+            "role": "section",
+            "heading": "Vacancies from real companies",
+            "components": [
+              "input",
+              "select"
+            ],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "footer-3",
+            "class": null,
+            "role": "footer",
+            "heading": "Practical hiring guides",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      },
+      {
+        "route": "/why-choose-us",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "section-0",
+            "class": "information-hero",
+            "role": "hero",
+            "heading": "The smartest way to hire. Period.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          },
+          {
+            "id": "section-1",
+            "class": "information-section",
+            "role": "section",
+            "heading": "Simple, direct, and built around people.",
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-2",
+            "class": "information-testimonial-section",
+            "role": "section",
+            "heading": null,
+            "components": [],
+            "data_bindings": []
+          },
+          {
+            "id": "section-3",
+            "class": "information-cta-section",
+            "role": "hero",
+            "heading": "Meet the right person without the usual hiring friction.",
+            "components": [],
+            "data_bindings": [
+              "links"
+            ]
+          }
+        ],
+        "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+        "confidence": 0.7
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 41,
+    "failures": []
+  }
+}

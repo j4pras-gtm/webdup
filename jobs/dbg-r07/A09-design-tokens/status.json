@@ -1,0 +1,39 @@
+{
+  "build_id": "A09-design-tokens",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.953Z",
+  "result": {
+    "source_evidence": {
+      "css_files_scanned": true,
+      "inline_style_blocks": true
+    },
+    "colors": [
+      {
+        "name": "color-1",
+        "value": "#111",
+        "usage": "observed"
+      }
+    ],
+    "typography": {
+      "font_families": [],
+      "scale": []
+    },
+    "spacing": [],
+    "radii": [
+      {
+        "value": "8px",
+        "usage": "observed"
+      }
+    ],
+    "shadows": [],
+    "breakpoints": [],
+    "notes": "Token layer is rebrandable; values are source evidence, not copied CSS."
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

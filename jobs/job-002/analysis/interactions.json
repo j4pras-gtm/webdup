@@ -1,0 +1,3064 @@
+{
+  "interactions": [
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "client_toggle",
+      "expected_behavior": "toggles visibility of associated region",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.7
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.category-chip",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.category-chip",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.category-chip",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.category-chip",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.category-chip",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.category-chip",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.save-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button.light-button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/",
+      "component": "button",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-appointment-setters",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-bookkeepers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-content-writers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-customer-support-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-data-entry-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-digital-marketers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ecommerce-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-graphic-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-lead-generation-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-project-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-react-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-remote-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-seo-specialists",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-shopify-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-social-media-managers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-ui-ux-designers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-video-editors",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-virtual-assistants",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/hire-wordpress-developers",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #quick-answer",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #define-the-role",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #scope-and-outcomes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #monthly-budget",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #shortlist",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #interview",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #work-sample",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #onboarding",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #performance",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #mistakes",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #action-plan",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/guides/remote-staffing-guide",
+      "component": "anchor-link",
+      "trigger": "click",
+      "mechanism": "in_page_anchor",
+      "expected_behavior": "scrolls to target section #frequently-asked-questions",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.9
+    },
+    {
+      "page_path": "/talent/digimarkom-305",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/digimarkom-305",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/eduwa-osa-8f2b6",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/eduwa-osa-8f2b6",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/emmanuel-omunizua-306",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/emmanuel-omunizua-306",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/hasnain-zia-307",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/hasnain-zia-307",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/hassan-302",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/hassan-302",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/henrique-leite-77",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/henrique-leite-77",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/muhammad-hassan-303",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/muhammad-hassan-303",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/muhammad-jamshed-qamar-722f1",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/muhammad-jamshed-qamar-722f1",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/muhammad-waleed-asaf-308",
+      "component": "button.public-contact-mini-action",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    },
+    {
+      "page_path": "/talent/muhammad-waleed-asaf-308",
+      "component": "button.public-copy-link",
+      "trigger": "click",
+      "mechanism": "click_action",
+      "expected_behavior": "performs click action (details not observable statically)",
+      "success_behavior": null,
+      "error_behavior": null,
+      "confidence": 0.5
+    }
+  ]
+}

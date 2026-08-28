@@ -1,0 +1,112 @@
+{
+  "draft": false,
+  "assets": [
+    {
+      "asset": "content.section-profile-card",
+      "kind": "content_schema",
+      "entity": "section-profile-card",
+      "instance_count": 4,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "example": "<placeholder>"
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "example": "<placeholder>"
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "example": "<placeholder>"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "asset": "content.site-copy",
+      "kind": "content_schema",
+      "entity": "site-copy",
+      "instance_count": 1,
+      "fields": [
+        {
+          "name": "site_name",
+          "type": "string",
+          "required": true,
+          "example": "<placeholder>"
+        },
+        {
+          "name": "tagline",
+          "type": "string",
+          "required": false,
+          "example": "<placeholder>"
+        },
+        {
+          "name": "nav_items",
+          "type": "string[]",
+          "required": true,
+          "example": "<placeholder>"
+        },
+        {
+          "name": "footer_copy",
+          "type": "string",
+          "required": false,
+          "example": "<placeholder>"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "asset": "listing..section-profile-card",
+      "kind": "listing_data",
+      "route": "/",
+      "region_selector": "section.profile-card",
+      "count_captured": 4,
+      "count_advertised": null,
+      "count_consistent": true,
+      "items": [
+        {
+          "name": "Person 1",
+          "role": "Person 1View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-0"
+        },
+        {
+          "name": "Person 2",
+          "role": "Person 2View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-1"
+        },
+        {
+          "name": "Person 3",
+          "role": "Person 3View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-2"
+        },
+        {
+          "name": "Person 4",
+          "role": "Person 4View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-3"
+        }
+      ]
+    }
+  ]
+}

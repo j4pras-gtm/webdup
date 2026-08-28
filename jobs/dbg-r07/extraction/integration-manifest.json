@@ -1,0 +1,13 @@
+{
+  "endpoints": [
+    {
+      "source_page": "/",
+      "anchor_text": "LinkedIn",
+      "original_url": "https://www.linkedin.com/company/fixture",
+      "final_url": "https://www.linkedin.com/company/fixture",
+      "redirect_chain": [],
+      "endpoint_type": "linkedin",
+      "treatment": "record_only"
+    }
+  ]
+}

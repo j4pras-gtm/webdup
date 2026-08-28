@@ -1,0 +1,80 @@
+{
+  "collections": [
+    {
+      "page_path": "/",
+      "region_selector": "section.profile-card",
+      "item_count_captured": 4,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.85,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Person 1View",
+          "image": true,
+          "link": true,
+          "tags": [
+            "profile-card"
+          ]
+        },
+        {
+          "heading": "Person 2View",
+          "image": true,
+          "link": true,
+          "tags": [
+            "profile-card"
+          ]
+        },
+        {
+          "heading": "Person 3View",
+          "image": true,
+          "link": true,
+          "tags": [
+            "profile-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Person 1",
+          "role": "Person 1View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-0"
+        },
+        {
+          "name": "Person 2",
+          "role": "Person 2View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-1"
+        },
+        {
+          "name": "Person 3",
+          "role": "Person 3View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-2"
+        },
+        {
+          "name": "Person 4",
+          "role": "Person 4View",
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": "/profiles/person-3"
+        }
+      ]
+    }
+  ]
+}

@@ -28,11 +28,15 @@ function runBuildQA(jobId, artifact) {
   const ph = EX.readExtraction(jobId, 'placeholder-schema.json') || { groups: {} };
   const artDir = path.join(ROOT, 'jobs', jobId, artifact.dir);
 
-  // ---- Route QA: every generated route corresponds to a confirmed route ----
+  // ---- Route QA: every generated route corresponds to a confirmed route OR an
+  //      HITL-approved generated route family (data-evidenced slugs) ----
   checks++;
   const confirmedRoutes = new Set(scope ? scope.routes : []);
+  const genFamilies = (scope && scope.generated_route_families) || [];
+  const famPrefix = (fam) => fam.split('{')[0];
+  const isGenerated = (p) => genFamilies.some(fam => p.startsWith(famPrefix(fam)));
   for (const r of artifact.routes) {
-    if (!confirmedRoutes.has(r.path)) fails.push('route not in confirmed scope: ' + r.path);
+    if (!confirmedRoutes.has(r.path) && !isGenerated(r.path)) fails.push('route not in confirmed scope: ' + r.path);
     if (!fs.existsSync(path.join(artDir, r.file))) fails.push('missing route file: ' + r.file);
   }
   // every confirmed route must be generated (no silent omission)
@@ -40,10 +44,12 @@ function runBuildQA(jobId, artifact) {
     if (!artifact.routes.some(r => r.path === rt)) fails.push('confirmed route not generated: ' + rt);
   }
 
-  // ---- Anti-fabrication: no invented routes ----
+  // ---- Anti-fabrication: no invented routes (generated families excepted) ----
   checks++;
   const knownRoutes = new Set(ri.routes.map(x => x.path));
-  for (const r of artifact.routes) if (!knownRoutes.has(r.path)) fails.push('fabricated route (not in analysis): ' + r.path);
+  for (const r of artifact.routes) {
+    if (!knownRoutes.has(r.path) && !isGenerated(r.path)) fails.push('fabricated route (not in analysis): ' + r.path);
+  }
 
   // ---- Interaction QA: every generated interaction corresponds to an analyzed one ----
   checks++;
@@ -62,20 +68,24 @@ function runBuildQA(jobId, artifact) {
     if (col.behavior !== src.behavior) fails.push('behavior mismatch ' + col.route + '/' + col.region + ': built ' + col.behavior + ' vs source ' + src.behavior);
   }
 
-  // ---- Count consistency (§10): rendered items must equal captured items per collection ----
+  // ---- Count consistency (§10): rendered items must equal captured items per collection.
+  //      When a HITL-approved API source covers the region, its verified count is
+  //      the authoritative captured count (the DOM window is partial by design). ----
   checks++;
+  const apiAssets = (EX.readExtraction(jobId, 'content-assets.json') || { assets: [] }).assets.filter(a => a.kind === 'api_data');
   for (const r of artifact.routes) {
     const html = fs.readFileSync(path.join(artDir, r.file), 'utf8');
     for (const src of (dynByRoute[r.path] || []).filter(c => c.behavior === 'static')) {
       const m = html.match(new RegExp('data-region="' + src.region_selector.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '"'));
       if (!m) { fails.push('collection region not rendered: ' + r.path + '/' + src.region_selector); continue; }
-      // count cards inside this section: from its tag to the next </section>
       const start = html.indexOf(m[0]);
       const end = html.indexOf('</section>', start);
       const chunk = html.slice(start, end === -1 ? undefined : end);
       const rendered = (chunk.match(/class="card"/g) || []).length;
-      if (rendered !== src.item_count_captured) {
-        fails.push('count mismatch ' + r.path + '/' + src.region_selector + ': rendered ' + rendered + ' vs captured ' + src.item_count_captured);
+      const apiAsset = apiAssets.find(a => a.route === r.path && a.region_selector === src.region_selector);
+      const expected = apiAsset ? apiAsset.count_captured : src.item_count_captured;
+      if (rendered !== expected) {
+        fails.push('count mismatch ' + r.path + '/' + src.region_selector + ': rendered ' + rendered + ' vs captured ' + expected);
       }
     }
   }
@@ -101,27 +111,27 @@ function runBuildQA(jobId, artifact) {
 
   // ---- Link QA: internal links resolve; external links match confirmed endpoints ----
   checks++;
-  const genPaths = new Set(artifact.routes.map(r => r.path));
-  const extUrls = new Set(integ.endpoints.map(e => e.original_url));
+  const decodeEnt = (s) => s.replace(/&amp;/g, '&').replace(/&#x27;/gi, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  // Normalize both sides: the manifest may have recorded entity-encoded URLs verbatim.
+  const extUrls = new Set(integ.endpoints.map(e => decodeEnt(e.original_url)));
   for (const r of artifact.routes) {
     const html = fs.readFileSync(path.join(artDir, r.file), 'utf8');
+    const pageDir = path.dirname(path.join(artDir, r.file));
     for (const m of html.matchAll(/href="([^"]+)"/g)) {
-      const href = m[1];
-      if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) continue;
+      const href = decodeEnt(m[1]);
+      if (href.startsWith('#')) continue;
       if (/^https?:\/\//.test(href)) {
         if (!extUrls.has(href)) fails.push('external link not in confirmed endpoints: ' + href + ' (on ' + r.path + ')');
+      } else if (/^[a-zA-Z][a-zA-Z0-9+.\-]*:/.test(href)) {
+        continue; // protocol links (mailto:, tel:, sms:, ...) — not local files, not web destinations
       } else {
-        let p = href.split('?')[0].split('#')[0];
-        if (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1);
-        if (/\.(css|js|png|jpe?g|gif|svg|webp|ico|json|woff2?)$/i.test(p)) {
-          // asset reference — must exist in the artifact
-          if (!fs.existsSync(path.join(artDir, p.replace(/^\//, '')))) fails.push('referenced asset missing: ' + p + ' (on ' + r.path + ')');
-        } else if (!genPaths.has(p)) {
-          fails.push('internal link does not resolve to a generated route: ' + p + ' (on ' + r.path + ')');
-        }
+        const p = href.split('?')[0].split('#')[0];
+        // resolve relative to the page's own directory (artifact uses relative refs)
+        const abs = path.resolve(pageDir, p);
+        if (!fs.existsSync(abs)) fails.push('internal link does not resolve to a generated file: ' + href + ' (on ' + r.path + ')');
       }
     }
-  }
+  };
 
   return { passed: fails.length === 0, checks_run: checks, failures: fails };
 }

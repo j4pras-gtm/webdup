@@ -1,0 +1,1406 @@
+{
+  "job_id": "job-002",
+  "generated_at": "2026-08-28T03:18:53.686Z",
+  "routes": [
+    {
+      "path": "/",
+      "file": "index.html"
+    },
+    {
+      "path": "/applications",
+      "file": "applications/index.html"
+    },
+    {
+      "path": "/company",
+      "file": "company/index.html"
+    },
+    {
+      "path": "/contact-us",
+      "file": "contact-us/index.html"
+    },
+    {
+      "path": "/faq",
+      "file": "faq/index.html"
+    },
+    {
+      "path": "/how-it-works",
+      "file": "how-it-works/index.html"
+    },
+    {
+      "path": "/investors",
+      "file": "investors/index.html"
+    },
+    {
+      "path": "/job-seekers",
+      "file": "job-seekers/index.html"
+    },
+    {
+      "path": "/our-promise",
+      "file": "our-promise/index.html"
+    },
+    {
+      "path": "/vacancies",
+      "file": "vacancies/index.html"
+    },
+    {
+      "path": "/why-choose-us",
+      "file": "why-choose-us/index.html"
+    },
+    {
+      "path": "/guides/hire-appointment-setters",
+      "file": "guides/hire-appointment-setters/index.html"
+    },
+    {
+      "path": "/guides/hire-bookkeepers",
+      "file": "guides/hire-bookkeepers/index.html"
+    },
+    {
+      "path": "/guides/hire-content-writers",
+      "file": "guides/hire-content-writers/index.html"
+    },
+    {
+      "path": "/guides/hire-customer-support-specialists",
+      "file": "guides/hire-customer-support-specialists/index.html"
+    },
+    {
+      "path": "/guides/hire-data-entry-specialists",
+      "file": "guides/hire-data-entry-specialists/index.html"
+    },
+    {
+      "path": "/guides/hire-digital-marketers",
+      "file": "guides/hire-digital-marketers/index.html"
+    },
+    {
+      "path": "/guides/hire-ecommerce-virtual-assistants",
+      "file": "guides/hire-ecommerce-virtual-assistants/index.html"
+    },
+    {
+      "path": "/guides/hire-graphic-designers",
+      "file": "guides/hire-graphic-designers/index.html"
+    },
+    {
+      "path": "/guides/hire-lead-generation-specialists",
+      "file": "guides/hire-lead-generation-specialists/index.html"
+    },
+    {
+      "path": "/guides/hire-project-managers",
+      "file": "guides/hire-project-managers/index.html"
+    },
+    {
+      "path": "/guides/hire-react-developers",
+      "file": "guides/hire-react-developers/index.html"
+    },
+    {
+      "path": "/guides/hire-remote-developers",
+      "file": "guides/hire-remote-developers/index.html"
+    },
+    {
+      "path": "/guides/hire-seo-specialists",
+      "file": "guides/hire-seo-specialists/index.html"
+    },
+    {
+      "path": "/guides/hire-shopify-developers",
+      "file": "guides/hire-shopify-developers/index.html"
+    },
+    {
+      "path": "/guides/hire-social-media-managers",
+      "file": "guides/hire-social-media-managers/index.html"
+    },
+    {
+      "path": "/guides/hire-ui-ux-designers",
+      "file": "guides/hire-ui-ux-designers/index.html"
+    },
+    {
+      "path": "/guides/hire-video-editors",
+      "file": "guides/hire-video-editors/index.html"
+    },
+    {
+      "path": "/guides/hire-virtual-assistants",
+      "file": "guides/hire-virtual-assistants/index.html"
+    },
+    {
+      "path": "/guides/hire-wordpress-developers",
+      "file": "guides/hire-wordpress-developers/index.html"
+    },
+    {
+      "path": "/guides/remote-staffing-guide",
+      "file": "guides/remote-staffing-guide/index.html"
+    },
+    {
+      "path": "/talent/aaliyan-asif-294",
+      "file": "talent/aaliyan-asif-294/index.html"
+    },
+    {
+      "path": "/talent/aamir-sohail-217",
+      "file": "talent/aamir-sohail-217/index.html"
+    },
+    {
+      "path": "/talent/abdul-hanan-baig-67",
+      "file": "talent/abdul-hanan-baig-67/index.html"
+    },
+    {
+      "path": "/talent/abdul-kareem-5",
+      "file": "talent/abdul-kareem-5/index.html"
+    },
+    {
+      "path": "/talent/abdul-malik-aransi-197",
+      "file": "talent/abdul-malik-aransi-197/index.html"
+    },
+    {
+      "path": "/talent/abdul-mannan-100",
+      "file": "talent/abdul-mannan-100/index.html"
+    },
+    {
+      "path": "/talent/abdul-mustafa-186",
+      "file": "talent/abdul-mustafa-186/index.html"
+    },
+    {
+      "path": "/talent/abdul-qadeer-mudasar-157",
+      "file": "talent/abdul-qadeer-mudasar-157/index.html"
+    },
+    {
+      "path": "/talent/abdul-rafay-129",
+      "file": "talent/abdul-rafay-129/index.html"
+    },
+    {
+      "path": "/talent/abdul-saboor-148",
+      "file": "talent/abdul-saboor-148/index.html"
+    },
+    {
+      "path": "/talent/abdul-sami-75",
+      "file": "talent/abdul-sami-75/index.html"
+    },
+    {
+      "path": "/talent/abdul-sattar-64",
+      "file": "talent/abdul-sattar-64/index.html"
+    },
+    {
+      "path": "/talent/abdul-wahab-211",
+      "file": "talent/abdul-wahab-211/index.html"
+    },
+    {
+      "path": "/talent/abdul-wasiu-175",
+      "file": "talent/abdul-wasiu-175/index.html"
+    },
+    {
+      "path": "/talent/abdulahad-284",
+      "file": "talent/abdulahad-284/index.html"
+    },
+    {
+      "path": "/talent/abdulahad-shah-174",
+      "file": "talent/abdulahad-shah-174/index.html"
+    },
+    {
+      "path": "/talent/abdulazeez-m-3",
+      "file": "talent/abdulazeez-m-3/index.html"
+    },
+    {
+      "path": "/talent/abdullah-105",
+      "file": "talent/abdullah-105/index.html"
+    },
+    {
+      "path": "/talent/abdullah-266",
+      "file": "talent/abdullah-266/index.html"
+    },
+    {
+      "path": "/talent/abdullah-ahmed-176",
+      "file": "talent/abdullah-ahmed-176/index.html"
+    },
+    {
+      "path": "/talent/abdullah-haroon-162",
+      "file": "talent/abdullah-haroon-162/index.html"
+    },
+    {
+      "path": "/talent/abdullah-khan-184",
+      "file": "talent/abdullah-khan-184/index.html"
+    },
+    {
+      "path": "/talent/abdulwahab-ajarat-o-187",
+      "file": "talent/abdulwahab-ajarat-o-187/index.html"
+    },
+    {
+      "path": "/talent/abdur-rehman-151",
+      "file": "talent/abdur-rehman-151/index.html"
+    },
+    {
+      "path": "/talent/abu-hurara-25",
+      "file": "talent/abu-hurara-25/index.html"
+    },
+    {
+      "path": "/talent/adil-170",
+      "file": "talent/adil-170/index.html"
+    },
+    {
+      "path": "/talent/adil-maqsood-19",
+      "file": "talent/adil-maqsood-19/index.html"
+    },
+    {
+      "path": "/talent/affan-m-chohan-26",
+      "file": "talent/affan-m-chohan-26/index.html"
+    },
+    {
+      "path": "/talent/afsheen-42",
+      "file": "talent/afsheen-42/index.html"
+    },
+    {
+      "path": "/talent/ahmad-raza-53",
+      "file": "talent/ahmad-raza-53/index.html"
+    },
+    {
+      "path": "/talent/ahmed-190",
+      "file": "talent/ahmed-190/index.html"
+    },
+    {
+      "path": "/talent/ahmed-khalil-135",
+      "file": "talent/ahmed-khalil-135/index.html"
+    },
+    {
+      "path": "/talent/ahmed-ramadan-13",
+      "file": "talent/ahmed-ramadan-13/index.html"
+    },
+    {
+      "path": "/talent/ahmed-shobky-20",
+      "file": "talent/ahmed-shobky-20/index.html"
+    },
+    {
+      "path": "/talent/ahmedzayan-285",
+      "file": "talent/ahmedzayan-285/index.html"
+    },
+    {
+      "path": "/talent/ahsen-niaz-295",
+      "file": "talent/ahsen-niaz-295/index.html"
+    },
+    {
+      "path": "/talent/ahtisham-safdar-287",
+      "file": "talent/ahtisham-safdar-287/index.html"
+    },
+    {
+      "path": "/talent/aiman-hussain-260",
+      "file": "talent/aiman-hussain-260/index.html"
+    },
+    {
+      "path": "/talent/akash-mishra-72",
+      "file": "talent/akash-mishra-72/index.html"
+    },
+    {
+      "path": "/talent/ali-adnan-arif-215",
+      "file": "talent/ali-adnan-arif-215/index.html"
+    },
+    {
+      "path": "/talent/ali-muhammad-69",
+      "file": "talent/ali-muhammad-69/index.html"
+    },
+    {
+      "path": "/talent/ali-shair-30",
+      "file": "talent/ali-shair-30/index.html"
+    },
+    {
+      "path": "/talent/ali-usman-200",
+      "file": "talent/ali-usman-200/index.html"
+    },
+    {
+      "path": "/talent/alina-292",
+      "file": "talent/alina-292/index.html"
+    },
+    {
+      "path": "/talent/alisha-designs-279",
+      "file": "talent/alisha-designs-279/index.html"
+    },
+    {
+      "path": "/talent/allwell-onen-274",
+      "file": "talent/allwell-onen-274/index.html"
+    },
+    {
+      "path": "/talent/amaan-saeed-226",
+      "file": "talent/amaan-saeed-226/index.html"
+    },
+    {
+      "path": "/talent/aman-ullah-289",
+      "file": "talent/aman-ullah-289/index.html"
+    },
+    {
+      "path": "/talent/amarachukwu-nnaeto-247",
+      "file": "talent/amarachukwu-nnaeto-247/index.html"
+    },
+    {
+      "path": "/talent/amina-batool-169",
+      "file": "talent/amina-batool-169/index.html"
+    },
+    {
+      "path": "/talent/amr-kamal-227",
+      "file": "talent/amr-kamal-227/index.html"
+    },
+    {
+      "path": "/talent/arbaz-mubasher-butt-93",
+      "file": "talent/arbaz-mubasher-butt-93/index.html"
+    },
+    {
+      "path": "/talent/arcxe-aria-46",
+      "file": "talent/arcxe-aria-46/index.html"
+    },
+    {
+      "path": "/talent/arooj-ali-288",
+      "file": "talent/arooj-ali-288/index.html"
+    },
+    {
+      "path": "/talent/arshad-jamil-62",
+      "file": "talent/arshad-jamil-62/index.html"
+    },
+    {
+      "path": "/talent/asad-ahmed-193",
+      "file": "talent/asad-ahmed-193/index.html"
+    },
+    {
+      "path": "/talent/asad-mehmood-80",
+      "file": "talent/asad-mehmood-80/index.html"
+    },
+    {
+      "path": "/talent/asad-ullah-146",
+      "file": "talent/asad-ullah-146/index.html"
+    },
+    {
+      "path": "/talent/ashutosh-yadav-107",
+      "file": "talent/ashutosh-yadav-107/index.html"
+    },
+    {
+      "path": "/talent/asjad-ali-137",
+      "file": "talent/asjad-ali-137/index.html"
+    },
+    {
+      "path": "/talent/asjal-zaka-59",
+      "file": "talent/asjal-zaka-59/index.html"
+    },
+    {
+      "path": "/talent/ayatul-chowdhury-123",
+      "file": "talent/ayatul-chowdhury-123/index.html"
+    },
+    {
+      "path": "/talent/ayub-nazeer-125",
+      "file": "talent/ayub-nazeer-125/index.html"
+    },
+    {
+      "path": "/talent/ayyaz-boota-271",
+      "file": "talent/ayyaz-boota-271/index.html"
+    },
+    {
+      "path": "/talent/azeem-arshad-189",
+      "file": "talent/azeem-arshad-189/index.html"
+    },
+    {
+      "path": "/talent/azhar-hussain-156",
+      "file": "talent/azhar-hussain-156/index.html"
+    },
+    {
+      "path": "/talent/bareeqa-aamer-258",
+      "file": "talent/bareeqa-aamer-258/index.html"
+    },
+    {
+      "path": "/talent/basil-mustafa-ch-164",
+      "file": "talent/basil-mustafa-ch-164/index.html"
+    },
+    {
+      "path": "/talent/basit-ali-225",
+      "file": "talent/basit-ali-225/index.html"
+    },
+    {
+      "path": "/talent/beriso-beker-hadji-276",
+      "file": "talent/beriso-beker-hadji-276/index.html"
+    },
+    {
+      "path": "/talent/bukunmi-olaniyan-298",
+      "file": "talent/bukunmi-olaniyan-298/index.html"
+    },
+    {
+      "path": "/talent/burhan-aftab-32",
+      "file": "talent/burhan-aftab-32/index.html"
+    },
+    {
+      "path": "/talent/celso-casalme-jr-181",
+      "file": "talent/celso-casalme-jr-181/index.html"
+    },
+    {
+      "path": "/talent/daniel-salihu-124",
+      "file": "talent/daniel-salihu-124/index.html"
+    },
+    {
+      "path": "/talent/daniele-manca-63",
+      "file": "talent/daniele-manca-63/index.html"
+    },
+    {
+      "path": "/talent/david-kamau-301",
+      "file": "talent/david-kamau-301/index.html"
+    },
+    {
+      "path": "/talent/defi-hiller-104",
+      "file": "talent/defi-hiller-104/index.html"
+    },
+    {
+      "path": "/talent/deyan-haider-68",
+      "file": "talent/deyan-haider-68/index.html"
+    },
+    {
+      "path": "/talent/digimarkom-305",
+      "file": "talent/digimarkom-305/index.html"
+    },
+    {
+      "path": "/talent/dr-saima-hassan-44",
+      "file": "talent/dr-saima-hassan-44/index.html"
+    },
+    {
+      "path": "/talent/dua-amir-178",
+      "file": "talent/dua-amir-178/index.html"
+    },
+    {
+      "path": "/talent/duraiz-haider-14",
+      "file": "talent/duraiz-haider-14/index.html"
+    },
+    {
+      "path": "/talent/eduwa-osa-272",
+      "file": "talent/eduwa-osa-272/index.html"
+    },
+    {
+      "path": "/talent/eduwa-osa-8f2b6",
+      "file": "talent/eduwa-osa-8f2b6/index.html"
+    },
+    {
+      "path": "/talent/emmanuel-omunizua-306",
+      "file": "talent/emmanuel-omunizua-306/index.html"
+    },
+    {
+      "path": "/talent/faizan-ahmed-171",
+      "file": "talent/faizan-ahmed-171/index.html"
+    },
+    {
+      "path": "/talent/faizan-mughal-224",
+      "file": "talent/faizan-mughal-224/index.html"
+    },
+    {
+      "path": "/talent/faraz-maqsood-87",
+      "file": "talent/faraz-maqsood-87/index.html"
+    },
+    {
+      "path": "/talent/faz-239",
+      "file": "talent/faz-239/index.html"
+    },
+    {
+      "path": "/talent/gloria-solomon-2",
+      "file": "talent/gloria-solomon-2/index.html"
+    },
+    {
+      "path": "/talent/graphic-design-280",
+      "file": "talent/graphic-design-280/index.html"
+    },
+    {
+      "path": "/talent/gustavo-arias-encias-231",
+      "file": "talent/gustavo-arias-encias-231/index.html"
+    },
+    {
+      "path": "/talent/habib-ur-rehman-150",
+      "file": "talent/habib-ur-rehman-150/index.html"
+    },
+    {
+      "path": "/talent/hadsaw-kakazai-132",
+      "file": "talent/hadsaw-kakazai-132/index.html"
+    },
+    {
+      "path": "/talent/hafiz-ali-raza-263",
+      "file": "talent/hafiz-ali-raza-263/index.html"
+    },
+    {
+      "path": "/talent/hafiz-muhammad-qasim-114",
+      "file": "talent/hafiz-muhammad-qasim-114/index.html"
+    },
+    {
+      "path": "/talent/haider-khan-203",
+      "file": "talent/haider-khan-203/index.html"
+    },
+    {
+      "path": "/talent/hamad-badar-213",
+      "file": "talent/hamad-badar-213/index.html"
+    },
+    {
+      "path": "/talent/hamesh-raj-167",
+      "file": "talent/hamesh-raj-167/index.html"
+    },
+    {
+      "path": "/talent/hamid-250",
+      "file": "talent/hamid-250/index.html"
+    },
+    {
+      "path": "/talent/hammad-ali-10",
+      "file": "talent/hammad-ali-10/index.html"
+    },
+    {
+      "path": "/talent/hammad-asghar-126",
+      "file": "talent/hammad-asghar-126/index.html"
+    },
+    {
+      "path": "/talent/hammed-olatunde-216",
+      "file": "talent/hammed-olatunde-216/index.html"
+    },
+    {
+      "path": "/talent/hamza-a-sheikh-37",
+      "file": "talent/hamza-a-sheikh-37/index.html"
+    },
+    {
+      "path": "/talent/hamza-mahmood-66",
+      "file": "talent/hamza-mahmood-66/index.html"
+    },
+    {
+      "path": "/talent/hamza-sadiq-212",
+      "file": "talent/hamza-sadiq-212/index.html"
+    },
+    {
+      "path": "/talent/hamza-saeed-56",
+      "file": "talent/hamza-saeed-56/index.html"
+    },
+    {
+      "path": "/talent/haris-ali-118",
+      "file": "talent/haris-ali-118/index.html"
+    },
+    {
+      "path": "/talent/harris-sameer-8",
+      "file": "talent/harris-sameer-8/index.html"
+    },
+    {
+      "path": "/talent/hasan-haider-133",
+      "file": "talent/hasan-haider-133/index.html"
+    },
+    {
+      "path": "/talent/haseeb-arshad-108",
+      "file": "talent/haseeb-arshad-108/index.html"
+    },
+    {
+      "path": "/talent/hasnain-zia-307",
+      "file": "talent/hasnain-zia-307/index.html"
+    },
+    {
+      "path": "/talent/hassam-ashraf-61",
+      "file": "talent/hassam-ashraf-61/index.html"
+    },
+    {
+      "path": "/talent/hassan-302",
+      "file": "talent/hassan-302/index.html"
+    },
+    {
+      "path": "/talent/hassan-adesokan-74",
+      "file": "talent/hassan-adesokan-74/index.html"
+    },
+    {
+      "path": "/talent/hassan-saeed-152",
+      "file": "talent/hassan-saeed-152/index.html"
+    },
+    {
+      "path": "/talent/henrique-leite-77",
+      "file": "talent/henrique-leite-77/index.html"
+    },
+    {
+      "path": "/talent/himanshu-tiwari-21",
+      "file": "talent/himanshu-tiwari-21/index.html"
+    },
+    {
+      "path": "/talent/hubbab-sabir-261",
+      "file": "talent/hubbab-sabir-261/index.html"
+    },
+    {
+      "path": "/talent/husnain-raza-134",
+      "file": "talent/husnain-raza-134/index.html"
+    },
+    {
+      "path": "/talent/hussain-siddiqui-265",
+      "file": "talent/hussain-siddiqui-265/index.html"
+    },
+    {
+      "path": "/talent/ibrahim-laeeq-220",
+      "file": "talent/ibrahim-laeeq-220/index.html"
+    },
+    {
+      "path": "/talent/ibtehaj-khan-172",
+      "file": "talent/ibtehaj-khan-172/index.html"
+    },
+    {
+      "path": "/talent/ifeanyi-emmanuel-228",
+      "file": "talent/ifeanyi-emmanuel-228/index.html"
+    },
+    {
+      "path": "/talent/iftikhar-ahmad-57",
+      "file": "talent/iftikhar-ahmad-57/index.html"
+    },
+    {
+      "path": "/talent/ikram-ullah-232",
+      "file": "talent/ikram-ullah-232/index.html"
+    },
+    {
+      "path": "/talent/ilyn-bulatao-31",
+      "file": "talent/ilyn-bulatao-31/index.html"
+    },
+    {
+      "path": "/talent/immanuel-ajimah-29",
+      "file": "talent/immanuel-ajimah-29/index.html"
+    },
+    {
+      "path": "/talent/irum-saeed-293",
+      "file": "talent/irum-saeed-293/index.html"
+    },
+    {
+      "path": "/talent/isra-rafique-138",
+      "file": "talent/isra-rafique-138/index.html"
+    },
+    {
+      "path": "/talent/jahed-miah-4",
+      "file": "talent/jahed-miah-4/index.html"
+    },
+    {
+      "path": "/talent/jawad-mughal-195",
+      "file": "talent/jawad-mughal-195/index.html"
+    },
+    {
+      "path": "/talent/john-agbaje-121",
+      "file": "talent/john-agbaje-121/index.html"
+    },
+    {
+      "path": "/talent/john-prosper-270",
+      "file": "talent/john-prosper-270/index.html"
+    },
+    {
+      "path": "/talent/junaid-murad-183",
+      "file": "talent/junaid-murad-183/index.html"
+    },
+    {
+      "path": "/talent/kainat-saif-166",
+      "file": "talent/kainat-saif-166/index.html"
+    },
+    {
+      "path": "/talent/khadija-iqbal-48",
+      "file": "talent/khadija-iqbal-48/index.html"
+    },
+    {
+      "path": "/talent/khawar-sultan-96",
+      "file": "talent/khawar-sultan-96/index.html"
+    },
+    {
+      "path": "/talent/kingsley-nwachukwu-207",
+      "file": "talent/kingsley-nwachukwu-207/index.html"
+    },
+    {
+      "path": "/talent/konstantin-89",
+      "file": "talent/konstantin-89/index.html"
+    },
+    {
+      "path": "/talent/kumar-utsav-82",
+      "file": "talent/kumar-utsav-82/index.html"
+    },
+    {
+      "path": "/talent/laiba-anjum-15",
+      "file": "talent/laiba-anjum-15/index.html"
+    },
+    {
+      "path": "/talent/m-daniyal-tariq-196",
+      "file": "talent/m-daniyal-tariq-196/index.html"
+    },
+    {
+      "path": "/talent/m-ehtisham-ashraf-120",
+      "file": "talent/m-ehtisham-ashraf-120/index.html"
+    },
+    {
+      "path": "/talent/m-fahad-khawaja-109",
+      "file": "talent/m-fahad-khawaja-109/index.html"
+    },
+    {
+      "path": "/talent/m-faizan-sajid-38",
+      "file": "talent/m-faizan-sajid-38/index.html"
+    },
+    {
+      "path": "/talent/m-irfan-shahid-251",
+      "file": "talent/m-irfan-shahid-251/index.html"
+    },
+    {
+      "path": "/talent/m-salman-akbar-16",
+      "file": "talent/m-salman-akbar-16/index.html"
+    },
+    {
+      "path": "/talent/m-zain-hassan-191",
+      "file": "talent/m-zain-hassan-191/index.html"
+    },
+    {
+      "path": "/talent/maaz-nazir-256",
+      "file": "talent/maaz-nazir-256/index.html"
+    },
+    {
+      "path": "/talent/maha-zainab-18",
+      "file": "talent/maha-zainab-18/index.html"
+    },
+    {
+      "path": "/talent/malik-faraz-97",
+      "file": "talent/malik-faraz-97/index.html"
+    },
+    {
+      "path": "/talent/manahil-asif-222",
+      "file": "talent/manahil-asif-222/index.html"
+    },
+    {
+      "path": "/talent/mansoor-khan-269",
+      "file": "talent/mansoor-khan-269/index.html"
+    },
+    {
+      "path": "/talent/manzar-abbas-241",
+      "file": "talent/manzar-abbas-241/index.html"
+    },
+    {
+      "path": "/talent/maryam-akmal-277",
+      "file": "talent/maryam-akmal-277/index.html"
+    },
+    {
+      "path": "/talent/maryam-nasir-27",
+      "file": "talent/maryam-nasir-27/index.html"
+    },
+    {
+      "path": "/talent/maurice-257",
+      "file": "talent/maurice-257/index.html"
+    },
+    {
+      "path": "/talent/md-masjidul-islam-234",
+      "file": "talent/md-masjidul-islam-234/index.html"
+    },
+    {
+      "path": "/talent/medina-mohamed-219",
+      "file": "talent/medina-mohamed-219/index.html"
+    },
+    {
+      "path": "/talent/mehdi-abbas-nathani-33",
+      "file": "talent/mehdi-abbas-nathani-33/index.html"
+    },
+    {
+      "path": "/talent/mehroz-sheikh-60",
+      "file": "talent/mehroz-sheikh-60/index.html"
+    },
+    {
+      "path": "/talent/michael-bashit-86",
+      "file": "talent/michael-bashit-86/index.html"
+    },
+    {
+      "path": "/talent/mohammad-abbas-142",
+      "file": "talent/mohammad-abbas-142/index.html"
+    },
+    {
+      "path": "/talent/mohammad-bilal-149",
+      "file": "talent/mohammad-bilal-149/index.html"
+    },
+    {
+      "path": "/talent/moiz-masood-110",
+      "file": "talent/moiz-masood-110/index.html"
+    },
+    {
+      "path": "/talent/momin-bukhari-238",
+      "file": "talent/momin-bukhari-238/index.html"
+    },
+    {
+      "path": "/talent/monir-hosen-113",
+      "file": "talent/monir-hosen-113/index.html"
+    },
+    {
+      "path": "/talent/mubasher-khan-286",
+      "file": "talent/mubasher-khan-286/index.html"
+    },
+    {
+      "path": "/talent/mubashir-ejaz-84",
+      "file": "talent/mubashir-ejaz-84/index.html"
+    },
+    {
+      "path": "/talent/muhammad-ahbab-khan-262",
+      "file": "talent/muhammad-ahbab-khan-262/index.html"
+    },
+    {
+      "path": "/talent/muhammad-ahmad-246",
+      "file": "talent/muhammad-ahmad-246/index.html"
+    },
+    {
+      "path": "/talent/muhammad-ahmad-39",
+      "file": "talent/muhammad-ahmad-39/index.html"
+    },
+    {
+      "path": "/talent/muhammad-ali-221",
+      "file": "talent/muhammad-ali-221/index.html"
+    },
+    {
+      "path": "/talent/muhammad-ashar-51",
+      "file": "talent/muhammad-ashar-51/index.html"
+    },
+    {
+      "path": "/talent/muhammad-farooq-52",
+      "file": "talent/muhammad-farooq-52/index.html"
+    },
+    {
+      "path": "/talent/muhammad-hamza-163",
+      "file": "talent/muhammad-hamza-163/index.html"
+    },
+    {
+      "path": "/talent/muhammad-hassan-303",
+      "file": "talent/muhammad-hassan-303/index.html"
+    },
+    {
+      "path": "/talent/muhammad-jamshed-90",
+      "file": "talent/muhammad-jamshed-90/index.html"
+    },
+    {
+      "path": "/talent/muhammad-jamshed-qamar-722f1",
+      "file": "talent/muhammad-jamshed-qamar-722f1/index.html"
+    },
+    {
+      "path": "/talent/muhammad-kashif-12",
+      "file": "talent/muhammad-kashif-12/index.html"
+    },
+    {
+      "path": "/talent/muhammad-nisar-245",
+      "file": "talent/muhammad-nisar-245/index.html"
+    },
+    {
+      "path": "/talent/muhammad-rafay-7",
+      "file": "talent/muhammad-rafay-7/index.html"
+    },
+    {
+      "path": "/talent/muhammad-saeed-205",
+      "file": "talent/muhammad-saeed-205/index.html"
+    },
+    {
+      "path": "/talent/muhammad-saqib-58",
+      "file": "talent/muhammad-saqib-58/index.html"
+    },
+    {
+      "path": "/talent/muhammad-shahnawaz-218",
+      "file": "talent/muhammad-shahnawaz-218/index.html"
+    },
+    {
+      "path": "/talent/muhammad-shahryar-115",
+      "file": "talent/muhammad-shahryar-115/index.html"
+    },
+    {
+      "path": "/talent/muhammad-suleman-230",
+      "file": "talent/muhammad-suleman-230/index.html"
+    },
+    {
+      "path": "/talent/muhammad-usman-47",
+      "file": "talent/muhammad-usman-47/index.html"
+    },
+    {
+      "path": "/talent/muhammad-usman-55",
+      "file": "talent/muhammad-usman-55/index.html"
+    },
+    {
+      "path": "/talent/muhammad-waleed-243",
+      "file": "talent/muhammad-waleed-243/index.html"
+    },
+    {
+      "path": "/talent/muhammad-waleed-asaf-308",
+      "file": "talent/muhammad-waleed-asaf-308/index.html"
+    },
+    {
+      "path": "/talent/muhammad-waqar-111",
+      "file": "talent/muhammad-waqar-111/index.html"
+    },
+    {
+      "path": "/talent/muhammad-zain-hassan-192",
+      "file": "talent/muhammad-zain-hassan-192/index.html"
+    },
+    {
+      "path": "/talent/muhammed-usman-76",
+      "file": "talent/muhammed-usman-76/index.html"
+    },
+    {
+      "path": "/talent/muneer-iqbal-40",
+      "file": "talent/muneer-iqbal-40/index.html"
+    },
+    {
+      "path": "/talent/murtaza-abdul-razzaq-254",
+      "file": "talent/murtaza-abdul-razzaq-254/index.html"
+    },
+    {
+      "path": "/talent/muzaffar-sial-158",
+      "file": "talent/muzaffar-sial-158/index.html"
+    },
+    {
+      "path": "/talent/nasir-bin-tahir-214",
+      "file": "talent/nasir-bin-tahir-214/index.html"
+    },
+    {
+      "path": "/talent/nauman-sohail-296",
+      "file": "talent/nauman-sohail-296/index.html"
+    },
+    {
+      "path": "/talent/nida-saif-244",
+      "file": "talent/nida-saif-244/index.html"
+    },
+    {
+      "path": "/talent/nnanweobi-ikechukwu-275",
+      "file": "talent/nnanweobi-ikechukwu-275/index.html"
+    },
+    {
+      "path": "/talent/numan-anees-122",
+      "file": "talent/numan-anees-122/index.html"
+    },
+    {
+      "path": "/talent/ojogwu-chelsea-282",
+      "file": "talent/ojogwu-chelsea-282/index.html"
+    },
+    {
+      "path": "/talent/oladosu-james-78",
+      "file": "talent/oladosu-james-78/index.html"
+    },
+    {
+      "path": "/talent/olamide-emmanuel-278",
+      "file": "talent/olamide-emmanuel-278/index.html"
+    },
+    {
+      "path": "/talent/pelumi-oladayo-131",
+      "file": "talent/pelumi-oladayo-131/index.html"
+    },
+    {
+      "path": "/talent/promise-okechukwu-290",
+      "file": "talent/promise-okechukwu-290/index.html"
+    },
+    {
+      "path": "/talent/raahim-irfan-23",
+      "file": "talent/raahim-irfan-23/index.html"
+    },
+    {
+      "path": "/talent/rafay-233",
+      "file": "talent/rafay-233/index.html"
+    },
+    {
+      "path": "/talent/raham-irfan-34",
+      "file": "talent/raham-irfan-34/index.html"
+    },
+    {
+      "path": "/talent/rahama-abdulkadir-283",
+      "file": "talent/rahama-abdulkadir-283/index.html"
+    },
+    {
+      "path": "/talent/rakibul-hassan-22",
+      "file": "talent/rakibul-hassan-22/index.html"
+    },
+    {
+      "path": "/talent/raz-muhammad-36",
+      "file": "talent/raz-muhammad-36/index.html"
+    },
+    {
+      "path": "/talent/rida-zehra-248",
+      "file": "talent/rida-zehra-248/index.html"
+    },
+    {
+      "path": "/talent/rizwan-akbar-28",
+      "file": "talent/rizwan-akbar-28/index.html"
+    },
+    {
+      "path": "/talent/rojohnil-coca-182",
+      "file": "talent/rojohnil-coca-182/index.html"
+    },
+    {
+      "path": "/talent/rouel-albao-202",
+      "file": "talent/rouel-albao-202/index.html"
+    },
+    {
+      "path": "/talent/ruturaj-gole-65",
+      "file": "talent/ruturaj-gole-65/index.html"
+    },
+    {
+      "path": "/talent/sabeen-209",
+      "file": "talent/sabeen-209/index.html"
+    },
+    {
+      "path": "/talent/sabir-nawaz-206",
+      "file": "talent/sabir-nawaz-206/index.html"
+    },
+    {
+      "path": "/talent/safa-yousaf-136",
+      "file": "talent/safa-yousaf-136/index.html"
+    },
+    {
+      "path": "/talent/safwan-ahmad-saffi-98",
+      "file": "talent/safwan-ahmad-saffi-98/index.html"
+    },
+    {
+      "path": "/talent/sam-fourie-177",
+      "file": "talent/sam-fourie-177/index.html"
+    },
+    {
+      "path": "/talent/sameed-ahmad-102",
+      "file": "talent/sameed-ahmad-102/index.html"
+    },
+    {
+      "path": "/talent/samrat-dhar-249",
+      "file": "talent/samrat-dhar-249/index.html"
+    },
+    {
+      "path": "/talent/samuel-chibuike-127",
+      "file": "talent/samuel-chibuike-127/index.html"
+    },
+    {
+      "path": "/talent/saqib-ahmed-41",
+      "file": "talent/saqib-ahmed-41/index.html"
+    },
+    {
+      "path": "/talent/saqib-iqbal-194",
+      "file": "talent/saqib-iqbal-194/index.html"
+    },
+    {
+      "path": "/talent/sedara-joshua-130",
+      "file": "talent/sedara-joshua-130/index.html"
+    },
+    {
+      "path": "/talent/segun-olusanu-291",
+      "file": "talent/segun-olusanu-291/index.html"
+    },
+    {
+      "path": "/talent/shafa-ullah-112",
+      "file": "talent/shafa-ullah-112/index.html"
+    },
+    {
+      "path": "/talent/shah-hassan-54",
+      "file": "talent/shah-hassan-54/index.html"
+    },
+    {
+      "path": "/talent/shahan-nafees-35",
+      "file": "talent/shahan-nafees-35/index.html"
+    },
+    {
+      "path": "/talent/shahmir-siddiqui-297",
+      "file": "talent/shahmir-siddiqui-297/index.html"
+    },
+    {
+      "path": "/talent/shahzad-hassan-179",
+      "file": "talent/shahzad-hassan-179/index.html"
+    },
+    {
+      "path": "/talent/shahzad-malik-141",
+      "file": "talent/shahzad-malik-141/index.html"
+    },
+    {
+      "path": "/talent/shantanu-bombatkar-91",
+      "file": "talent/shantanu-bombatkar-91/index.html"
+    },
+    {
+      "path": "/talent/shanzae-aurangzaib-264",
+      "file": "talent/shanzae-aurangzaib-264/index.html"
+    },
+    {
+      "path": "/talent/shariq-ahmed-khan-140",
+      "file": "talent/shariq-ahmed-khan-140/index.html"
+    },
+    {
+      "path": "/talent/sheikh-salaar-jamal-155",
+      "file": "talent/sheikh-salaar-jamal-155/index.html"
+    },
+    {
+      "path": "/talent/shubham-pal-6",
+      "file": "talent/shubham-pal-6/index.html"
+    },
+    {
+      "path": "/talent/subhan-imran-71",
+      "file": "talent/subhan-imran-71/index.html"
+    },
+    {
+      "path": "/talent/sumaiyyah-161",
+      "file": "talent/sumaiyyah-161/index.html"
+    },
+    {
+      "path": "/talent/syed-abdullah-ali-117",
+      "file": "talent/syed-abdullah-ali-117/index.html"
+    },
+    {
+      "path": "/talent/syed-arsalan-khan-24",
+      "file": "talent/syed-arsalan-khan-24/index.html"
+    },
+    {
+      "path": "/talent/syed-hammad-168",
+      "file": "talent/syed-hammad-168/index.html"
+    },
+    {
+      "path": "/talent/syed-hashir-husnain-147",
+      "file": "talent/syed-hashir-husnain-147/index.html"
+    },
+    {
+      "path": "/talent/syed-muhammad-asad-116",
+      "file": "talent/syed-muhammad-asad-116/index.html"
+    },
+    {
+      "path": "/talent/syed-shahzad-hussain-160",
+      "file": "talent/syed-shahzad-hussain-160/index.html"
+    },
+    {
+      "path": "/talent/tabban-ghani-143",
+      "file": "talent/tabban-ghani-143/index.html"
+    },
+    {
+      "path": "/talent/talha-khan-95",
+      "file": "talent/talha-khan-95/index.html"
+    },
+    {
+      "path": "/talent/talha-sattar-45",
+      "file": "talent/talha-sattar-45/index.html"
+    },
+    {
+      "path": "/talent/talha-warind-173",
+      "file": "talent/talha-warind-173/index.html"
+    },
+    {
+      "path": "/talent/timileyin-sorunke-188",
+      "file": "talent/timileyin-sorunke-188/index.html"
+    },
+    {
+      "path": "/talent/umair-gul-237",
+      "file": "talent/umair-gul-237/index.html"
+    },
+    {
+      "path": "/talent/umais-usmani-106",
+      "file": "talent/umais-usmani-106/index.html"
+    },
+    {
+      "path": "/talent/usama-pervez-204",
+      "file": "talent/usama-pervez-204/index.html"
+    },
+    {
+      "path": "/talent/usama-rahman-281",
+      "file": "talent/usama-rahman-281/index.html"
+    },
+    {
+      "path": "/talent/uzair-farid-khan-50",
+      "file": "talent/uzair-farid-khan-50/index.html"
+    },
+    {
+      "path": "/talent/vincent-destiny-259",
+      "file": "talent/vincent-destiny-259/index.html"
+    },
+    {
+      "path": "/talent/vishal-199",
+      "file": "talent/vishal-199/index.html"
+    },
+    {
+      "path": "/talent/walaa-nasr-139",
+      "file": "talent/walaa-nasr-139/index.html"
+    },
+    {
+      "path": "/talent/waseem-hassan-17",
+      "file": "talent/waseem-hassan-17/index.html"
+    },
+    {
+      "path": "/talent/yameen-mohsan-144",
+      "file": "talent/yameen-mohsan-144/index.html"
+    },
+    {
+      "path": "/talent/yamman-tariq-253",
+      "file": "talent/yamman-tariq-253/index.html"
+    },
+    {
+      "path": "/talent/yousuf-cfo-252",
+      "file": "talent/yousuf-cfo-252/index.html"
+    },
+    {
+      "path": "/talent/yugta-bista-300",
+      "file": "talent/yugta-bista-300/index.html"
+    },
+    {
+      "path": "/talent/zabih-ullah-145",
+      "file": "talent/zabih-ullah-145/index.html"
+    },
+    {
+      "path": "/talent/zahid-mahmood-255",
+      "file": "talent/zahid-mahmood-255/index.html"
+    },
+    {
+      "path": "/talent/zainab-imran-267",
+      "file": "talent/zainab-imran-267/index.html"
+    },
+    {
+      "path": "/talent/zainul-abdin-khuhro-154",
+      "file": "talent/zainul-abdin-khuhro-154/index.html"
+    },
+    {
+      "path": "/talent/zeerik-raza-103",
+      "file": "talent/zeerik-raza-103/index.html"
+    },
+    {
+      "path": "/talent/zohaib-khalid-92",
+      "file": "talent/zohaib-khalid-92/index.html"
+    }
+  ],
+  "components": [
+    "header",
+    "footer",
+    "card"
+  ],
+  "interactions": [
+    "client_toggle",
+    "click_action",
+    "in_page_anchor"
+  ],
+  "collections": [
+    {
+      "route": "/",
+      "region": "div.hero-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/",
+      "region": "div.profile-card",
+      "count": 272,
+      "behavior": "static",
+      "source": "api:talent-directory"
+    },
+    {
+      "route": "/talent/digimarkom-305",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/eduwa-osa-8f2b6",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/emmanuel-omunizua-306",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/hasnain-zia-307",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/hassan-302",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/henrique-leite-77",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/muhammad-hassan-303",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/muhammad-jamshed-qamar-722f1",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    },
+    {
+      "route": "/talent/muhammad-waleed-asaf-308",
+      "region": "div.related-talent-card",
+      "count": 3,
+      "behavior": "static",
+      "source": "dom"
+    }
+  ],
+  "externalLinks": [
+    "https://wa.me/5531999779086?text=Hi%20Henrique%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhenrique-leite-77%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhenrique-leite-739422218%2F",
+    "https://www.linkedin.com/in/henrique-leite-739422218/",
+    "https://wa.me/2348168375237?text=Hi%20Eduwa%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Feduwa-osa-8f2b6",
+    "https://wa.me/923070463496?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-jamshed-qamar-722f1%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammad-jamshed-qamar-982227172",
+    "https://www.linkedin.com/in/muhammad-jamshed-qamar-982227172",
+    "https://wa.me/923255653654?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-waleed-asaf-308%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fwaleed-asaf-devops%2F",
+    "https://www.linkedin.com/in/waleed-asaf-devops/",
+    "https://wa.me/923489883726?text=Hi%20Hasnain%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhasnain-zia-307%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Flinkedin.com%2Fin%2Fhasnain-zia",
+    "https://linkedin.com/in/hasnain-zia",
+    "https://wa.me/2348086804544?text=Hi%20Emmanuel%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Femmanuel-omunizua-306%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-omunizua-80b380301",
+    "https://www.linkedin.com/in/emmanuel-omunizua-80b380301",
+    "https://wa.me/923323622181?text=Hi%20Digimarkom%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fdigimarkom-305%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faunrizvi23",
+    "https://www.linkedin.com/in/aunrizvi23",
+    "https://wa.me/923175429933?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-hassan-303%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammadhassan03%2F",
+    "https://www.linkedin.com/in/muhammadhassan03/",
+    "https://wa.me/923099538524?text=Hi%20Hassan%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhassan-302%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmhassansubhani%2F",
+    "https://www.linkedin.com/in/mhassansubhani/",
+    "https://wa.me/254715441689?text=Hi%20David%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fdavid-kamau-301%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdavid-kamau-1a5930308",
+    "https://www.linkedin.com/in/david-kamau-1a5930308",
+    "https://wa.me/919862318167?text=Hi%20Yugta%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fyugta-bista-300%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fyugta-bista%2F",
+    "https://www.linkedin.com/in/yugta-bista/",
+    "https://wa.me/923352650558?text=Hi%20Shahmir%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fshahmir-siddiqui-297%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fshahmir-fastnu",
+    "https://www.linkedin.com/in/shahmir-fastnu",
+    "https://wa.me/923009561117?text=Hi%20Nauman%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fnauman-sohail-296%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmsohail82%2F",
+    "https://www.linkedin.com/in/msohail82/",
+    "https://wa.me/923209509396?text=Hi%20Ahsen%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fahsen-niaz-295%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahsen-niaz-073b50215%2F",
+    "https://www.linkedin.com/in/ahsen-niaz-073b50215/",
+    "https://wa.me/923317610355?text=Hi%20Aaliyan%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Faaliyan-asif-294%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faaliyan-asif-67b090271",
+    "https://www.linkedin.com/in/aaliyan-asif-67b090271",
+    "https://wa.me/923333436566?text=Hi%20Irum%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Firum-saeed-293%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Firum-saeed-11a14868",
+    "https://www.linkedin.com/in/irum-saeed-11a14868",
+    "https://wa.me/380509254759?text=Hi%20Alina%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Falina-292%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Falina-vinichenko-487988285",
+    "https://www.linkedin.com/in/alina-vinichenko-487988285",
+    "https://wa.me/2348126563160?text=Hi%20Segun%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fsegun-olusanu-291%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-olusanu-47b576265",
+    "https://www.linkedin.com/in/emmanuel-olusanu-47b576265",
+    "https://wa.me/2347012897856?text=Hi%20Promise%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fpromise-okechukwu-290%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpromiseokechukwu%2F",
+    "https://www.linkedin.com/in/promiseokechukwu/",
+    "https://wa.me/923158351616?text=Hi%20Aman%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Faman-ullah-289%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faman-ullah-haroon-6b57a2182",
+    "https://www.linkedin.com/in/aman-ullah-haroon-6b57a2182",
+    "https://wa.me/447930132746?text=Hi%20Arooj%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Farooj-ali-288%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faroojali%2F",
+    "https://www.linkedin.com/in/aroojali/",
+    "https://wa.me/923225523399?text=Hi%20Ahtisham%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fahtisham-safdar-287%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fehtisham-safdar-tech%2F",
+    "https://www.linkedin.com/in/ehtisham-safdar-tech/",
+    "https://wa.me/923032727037?text=Hi%20Mubasher%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmubasher-khan-286%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmubasherkhan856%2F",
+    "https://www.linkedin.com/in/mubasherkhan856/",
+    "https://wa.me/447951579147?text=Hi%20Monthly%20Staff%2C%20I%20need%20some%20help.",
+    "https://api.whatsapp.com/send?phone=447951579147&amp;text=MonthlyStaff.com%20Web%20Enquiry",
+    "https://www.youtube.com/@newhorizons3925/videos",
+    "mailto:eusoulegal6@gmail.com",
+    "tel:+5531999779086",
+    "sms:+5531999779086",
+    "mailto:eduwaosa13@gmail.com",
+    "tel:+2348168375237",
+    "sms:+2348168375237",
+    "https://hotelselection.store/",
+    "https://unze.com.pk/",
+    "https://zarr.com.pk/",
+    "mailto:jamshed.shopifydeveloper@gmail.com",
+    "tel:+923070463496",
+    "sms:+923070463496",
+    "https://waleedasaf.github.io/",
+    "mailto:iwaleedasaf@gmail.com",
+    "tel:+923255653654",
+    "sms:+923255653654",
+    "https://hasnainzia.com/",
+    "mailto:hasnainzia438@gmail.com",
+    "tel:+923489883726",
+    "sms:+923489883726",
+    "https://portfolio-site-2126.vercel.app/",
+    "mailto:emmanuel.omunizua@proton.me",
+    "tel:+2348086804544",
+    "sms:+2348086804544",
+    "https://m.facebook.com/Digimarkom",
+    "mailto:farheenrizvi59@gmail.com",
+    "tel:+923323622181",
+    "sms:+923323622181",
+    "http://devmirzahassan.netlify.app/",
+    "mailto:engineermirzahassan@gmail.com",
+    "tel:+923175429933",
+    "sms:+923175429933",
+    "mailto:hassansubhani8@hotmail.com",
+    "tel:+923099538524",
+    "sms:+923099538524"
+  ],
+  "dir": "artifact",
+  "generated_route_families": [
+    "/talent/{slug}"
+  ],
+  "portable": true,
+  "view_instructions": "Open index.html in any browser, or: npx serve <dir> (any static server works)"
+}

@@ -155,7 +155,16 @@ async function a03SitemapDiscovery(jobId) {
       };
 
       for (const s of (preflight ? preflight.sitemaps : [])) {
-        for (const loc of s.routes) { const p = crawl.canonPath(loc, origin); if (p) addRoute(p, 'sitemap.xml'); }
+        for (const loc of s.routes) {
+          // Sitemaps may reference a mirror/origin alias (e.g. a staging host).
+          // Take the path component; if it's on another origin, treat it as an
+          // equivalent path on our origin (recorded as evidence 'sitemap.xml').
+          let p = null;
+          try { p = new URL(loc).pathname; } catch (_) { p = loc; }
+          if (!p.startsWith('/')) p = '/' + p;
+          if (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1);
+          if (p) addRoute(p, 'sitemap.xml');
+        }
       }
       for (const a of navLinks) { const p = crawl.canonPath(a.attrs.href, origin); if (p) addRoute(p, 'navigation'); }
       for (const a of allLinks) { const p = crawl.canonPath(a.attrs.href, origin); if (p) addRoute(p, 'internal_links'); }

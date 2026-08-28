@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "entity_name": "section-profile-card",
+      "instance_count": 4,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Person 1View",
+            "Person 2View",
+            "Person 3View"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": [
+            "<url>"
+          ]
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_name": "site-copy",
+      "instance_count": 1,
+      "fields": [
+        {
+          "name": "site_name",
+          "type": "string",
+          "required": true,
+          "observed_examples": []
+        },
+        {
+          "name": "tagline",
+          "type": "string",
+          "required": false,
+          "observed_examples": []
+        },
+        {
+          "name": "nav_items",
+          "type": "string[]",
+          "required": true,
+          "observed_examples": []
+        },
+        {
+          "name": "footer_copy",
+          "type": "string",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

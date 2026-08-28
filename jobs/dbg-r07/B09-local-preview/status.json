@@ -1,0 +1,8 @@
+{
+  "build_id": "B09-local-preview",
+  "job_id": "dbg-r07",
+  "status": "blocked_manual_review",
+  "attempts": 5,
+  "ts": "2026-08-28T01:13:18.441Z",
+  "blocked_reason": "QA failed: missing local asset: services\\index.html -> services/index.html"
+}

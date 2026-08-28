@@ -1,0 +1,377 @@
+{
+  "entities": [
+    {
+      "entity_name": "div-hero-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "AlinaFigma, Adobe Photoshop",
+            "Gloria SolomonFrom $300/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-profile-card",
+      "instance_count": 24,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "AvailableHenrique LeiteVideo Maker, Copywriter6+ yrsBelo Hor",
+            "AvailableEduwa OsaVirtual Executive Assistant | Appointment ",
+            "AvailableMuhammad Jamshed QamarShopify Developer7+ yrsLahore"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": [
+            "<url>"
+          ]
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Maryam AkmalDigital marketingFrom $2,000/month",
+            "Hussain SiddiquiDigital Marketing & WPFrom $500/month",
+            "Hafiz Ali RazaDigital marketing & E-comFrom $300/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "David KamauFlutterFrom $300/month",
+            "Aiman HussainRecruitment HRFrom $300/month",
+            "Maaz NazirAccountsFrom $300/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Muhammad Jamshed QamarShopify DeveloperFrom $300/month",
+            "Muhammad HassanReact.js, Node.jsFrom $600/month",
+            "HassanBusiness Central DevFrom $1,200/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Muhammad Waleed AsafDevOps, CI/CD, AWSFrom $700/month",
+            "Yugta BistaWordpress, PHP, HTML, CSSFrom $600/month",
+            "Bukunmi OlaniyanAI Prompt EngineerFrom $200/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Muhammad Jamshed QamarShopify DeveloperFrom $300/month",
+            "Emmanuel OmunizuaReactjs, ReactNative,From $2,000/month",
+            "Muhammad HassanReact.js, Node.jsFrom $600/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "AlinaFigma, Adobe PhotoshopFrom $300/month",
+            "Segun OlusanuGraphic designFrom $700/month",
+            "Aman Ullahgraphic designFrom $1,000/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Muhammad Jamshed QamarShopify DeveloperFrom $300/month",
+            "Emmanuel OmunizuaReactjs, ReactNative,From $2,000/month",
+            "HassanBusiness Central DevFrom $1,200/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Emmanuel OmunizuaReactjs, ReactNative,From $2,000/month",
+            "Muhammad HassanReact.js, Node.jsFrom $600/month",
+            "HassanBusiness Central DevFrom $1,200/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "div-related-talent-card",
+      "instance_count": 3,
+      "fields": [
+        {
+          "name": "heading",
+          "type": "string",
+          "required": true,
+          "observed_examples": [
+            "Hasnain ZiaWordpress, React,Next.jsFrom $500/month",
+            "Yugta BistaWordpress, PHP, HTML, CSSFrom $600/month",
+            "Bukunmi OlaniyanAI Prompt EngineerFrom $200/month"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "image_url",
+          "required": false,
+          "observed_examples": [
+            "<image>"
+          ]
+        },
+        {
+          "name": "link",
+          "type": "url",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "entity_name": "site-copy",
+      "instance_count": 1,
+      "fields": [
+        {
+          "name": "site_name",
+          "type": "string",
+          "required": true,
+          "observed_examples": []
+        },
+        {
+          "name": "tagline",
+          "type": "string",
+          "required": false,
+          "observed_examples": []
+        },
+        {
+          "name": "nav_items",
+          "type": "string[]",
+          "required": true,
+          "observed_examples": []
+        },
+        {
+          "name": "footer_copy",
+          "type": "string",
+          "required": false,
+          "observed_examples": []
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

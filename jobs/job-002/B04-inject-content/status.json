@@ -1,0 +1,22 @@
+{
+  "build_id": "B04-inject-content",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:53.741Z",
+  "result": {
+    "filled": {
+      "brand.name": "Bench Staff",
+      "brand.tagline": "Vetted freelance talent, monthly.",
+      "brand.footer_note": null
+    },
+    "unresolved": [
+      "brand.footer_note"
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

@@ -72,6 +72,90 @@ async function a05RouteInventory(jobId) {
 // A06-dynamic-content-analysis
 // ---------------------------------------------------------------------------
 
+/** Find advertised item counts in visible page text, e.g. "272 active profiles". */
+function findAdvertisedCounts(pageText) {
+  const out = [];
+  const re = /([\d][\d,]{1,8})\+?\s+(?:\w+\s){0,3}?(profiles|specialists|professionals|experts|tools|products|services|people|members|listings|jobs|vacancies|guides|articles)/gi;
+  let m;
+  while ((m = re.exec(pageText)) !== null) {
+    const n = parseInt(m[1].replace(/,/g, ''), 10);
+    if (!n || n < 3 || n > 100000) continue;
+    const dup = out.find(o => o.count === n && o.noun === m[2].toLowerCase() && Math.abs(o.pos - m.index) < 40);
+    if (!dup) out.push({ count: n, noun: m[2].toLowerCase(), pos: m.index, phrase: m[0].trim() });
+  }
+  return out;
+}
+
+/** Extract FACTUAL listing fields from one card element (policy: data yes, prose no).
+ *  Prefers structural selectors (name/role/price/location/skills); falls back to
+ *  text heuristics for cards without the expected classes. */
+function extractFactualItem(e) {
+  const txt = textOf(e).replace(/\s+/g, ' ').trim();
+  const q = (sel) => querySelector(e, sel);
+
+  const nameEl = q('h1, h2, h3, h4') || q('strong');
+  const name = nameEl ? textOf(nameEl).trim().slice(0, 80) : null;
+
+  // role: the <p> sibling of the name heading, or a <small> label, else first
+  // short line after the name in the flat text.
+  let role = null;
+  if (nameEl && nameEl.parent) {
+    const sib = (nameEl.parent.children || []).find(c => c.tag === 'p');
+    if (sib) role = textOf(sib).trim().slice(0, 120) || null;
+  }
+  if (!role) {
+    const sm = q('small');
+    if (sm) { const t = textOf(sm).trim(); if (t && t.length < 120) role = t.slice(0, 120); }
+  }
+  if (!role) {
+    const lines = txt.split(/\s{2,}|\n/).map(s => s.trim()).filter(Boolean);
+    role = (lines.find(l => l !== name && l.length > 2 && l.length < 90 && !/^\$/.test(l)) || null);
+  }
+
+  // price: structured .price block, else regex on full text
+  let price = null;
+  const priceEl = q('.price');
+  if (priceEl) {
+    price = textOf(priceEl).replace(/\s+/g, ' ').trim() || null;
+  } else {
+    const pm = txt.match(/(?:from\s*)?\$\s?\d[\d,]*\s*\/\s*month/i) || txt.match(/\$\s?\d[\d,]+/);
+    price = pm ? pm[0].replace(/\s+/g, ' ').trim() : null;
+  }
+
+  const expEl = q('[class*="experience"]');
+  const experience = expEl ? textOf(expEl).trim() : null;
+
+  // location: dedicated location block, else "City, Country" pattern
+  let location = null;
+  const locEl = q('[class*="location"]');
+  if (locEl) location = textOf(locEl).trim().slice(0, 60) || null;
+  else {
+    const lm = txt.match(/([A-Z][a-zA-Z .'-]{2,20},\s+[A-Z][a-zA-Z .'-]{2,30})/);
+    if (lm) location = lm[1].trim();
+  }
+
+  // skills: short label spans inside a skills container
+  const skills = [];
+  const skEl = q('[class*="skill"]');
+  if (skEl) {
+    for (const s of queryAll(skEl, 'span')) {
+      const t = textOf(s).trim();
+      if (t && t.length <= 40) skills.push(t);
+    }
+  }
+
+  const detail = queryAll(e, 'a[href]').find(a => /^\/[^/]+\/[^/]+/.test(a.attrs.href || ''));
+  return {
+    name: name || null,
+    role: role || null,
+    price,
+    experience,
+    location,
+    skills: skills.slice(0, 6),
+    detail_link: detail ? detail.attrs.href : null,
+  };
+}
+
 async function a06DynamicContent(jobId) {
   return P.runAnalyzeBuild(jobId, 'A06-dynamic-content-analysis',
     'Detect dynamic/repeating content regions; classify behavior; record advertised vs captured counts (count consistency).',
@@ -79,6 +163,9 @@ async function a06DynamicContent(jobId) {
       const pages = loadPages(jobId);
       const reports = [];
       for (const pg of pages) {
+        const pageText = textOf(pg.tree).replace(/\s+/g, ' ');
+        const advertised = findAdvertisedCounts(pageText);
+
         // find repeating sibling groups (>=3 siblings sharing a class)
         const groups = new Map();
         for (const el of allElements(pg.tree)) {
@@ -88,25 +175,77 @@ async function a06DynamicContent(jobId) {
           if (!groups.has(key)) groups.set(key, []);
           groups.get(key).push(el);
         }
+        // Collect candidate groups first so nesting can be checked across groups.
+        const candidates = [];
         for (const [key, els] of groups) {
           if (els.length < 3) continue;
+          // Prioritize genuine collection cards: items carrying internal
+          // detail links. Icon-button groups (e.g. button.lucide) have none.
+          const detailLinks = els.filter(e =>
+            queryAll(e, 'a[href]').some(a => /^\/[^/]+\/[^/]+/.test(a.attrs.href || ''))
+          ).length;
+          const isCardGroup = detailLinks >= Math.max(2, Math.floor(els.length / 2));
+          // Card-likeness for non-link groups: item carries an image and is
+          // compact (a card), not a whole page section.
+          const avgText = els.reduce((s, e) => s + textOf(e).length, 0) / els.length;
+          const looksLikeCard = isCardGroup || (els.some(e => queryAll(e, 'img')[0]) && avgText < 400);
+          if (!looksLikeCard) continue;
+          candidates.push({ key, els, isCardGroup });
+        }
+        // Flat map: element -> index of the FIRST candidate group containing it.
+        const owner = new Map();
+        candidates.forEach((c, i) => { for (const e of c.els) if (!owner.has(e)) owner.set(e, i); });
+        for (let ci = 0; ci < candidates.length; ci++) {
+          const { key, els, isCardGroup } = candidates[ci];
+          // Nesting dedupe: skip groups whose items mostly live INSIDE items
+          // owned by ANOTHER candidate group (e.g. .profile-body inside
+          // .profile-card). Same-group ancestors don't count.
+          let inOther = 0;
+          for (const e of els) {
+            let p = e.parent;
+            while (p && p.tag) {
+              const o = owner.get(p);
+              if (o !== undefined && o !== ci) { inOther++; break; }
+              p = p.parent;
+            }
+          }
+          if (inOther >= Math.ceil(els.length / 2)) continue;
+
           const sample = els.slice(0, 3).map(e => ({
             heading: textOf(e).slice(0, 60),
             image: !!queryAll(e, 'img')[0],
             link: !!queryAll(e, 'a[href]')[0],
             tags: (e.attrs.class || '').split(/\s+/).slice(0, 4),
           }));
+
+          // Factual listing data (user-confirmed policy 2026-08-27): names,
+          // roles, prices, locations, short skill labels, detail links.
+          // Prose descriptions are NOT captured — they stay placeholders.
+          const items = els.map(e => extractFactualItem(e));
+
+          // Match an advertised counter to this collection: counter must
+          // appear at or before the collection's first item in page order.
+          let adv = null;
+          if (advertised.length) {
+            const firstPos = pg.html.indexOf(els[0].attrs.class.split(/\s+/)[0]);
+            adv = advertised.find(a => firstPos === -1 || a.pos <= firstPos) || null;
+          }
+          const consistent = adv ? adv.count === els.length : true;
           reports.push({
             page_path: pg.path,
             region_selector: key,
             item_count_captured: els.length,
-            item_count_advertised: null, // no visible counter found in static DOM
-            count_consistent: true,
+            item_count_advertised: adv ? adv.count : null,
+            advertised_phrase: adv ? adv.phrase : null,
+            count_consistent: consistent,
             behavior: 'static',
             pagination_type: 'none',
-            confidence: 0.6,
-            notes: 'static HTML capture; dynamic loading not observable without browser rendering (spec 32)',
+            confidence: isCardGroup ? 0.85 : 0.6,
+            notes: consistent
+              ? 'static HTML capture; dynamic loading not observable without browser rendering (spec 32)'
+              : 'COUNT GAP: source advertises ' + adv.count + ' (' + adv.phrase + ') but static DOM contains ' + els.length + '; remainder likely loaded client-side (spec 32)',
             sample_items: sample,
+            items,
           });
         }
       }

@@ -1,0 +1,21 @@
+{
+  "build_id": "A01-intake",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.810Z",
+  "result": {
+    "url": "http://127.0.0.1:62657/",
+    "origin": "http://127.0.0.1:62657",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:62657/",
+    "chain": [
+      "http://127.0.0.1:62657/"
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

@@ -1,0 +1,1043 @@
+{
+  "collections": [
+    {
+      "page_path": "/",
+      "region_selector": "div.hero-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": 272,
+      "advertised_phrase": "272 active profiles",
+      "count_consistent": false,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "COUNT GAP: source advertises 272 (272 active profiles) but static DOM contains 3; remainder likely loaded client-side (spec 32)",
+      "sample_items": [
+        {
+          "heading": "AlinaFigma, Adobe Photoshop",
+          "image": true,
+          "link": false,
+          "tags": [
+            "hero-talent-card",
+            "hero-talent-main"
+          ]
+        },
+        {
+          "heading": "Gloria SolomonFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "hero-talent-card",
+            "hero-talent-side"
+          ]
+        },
+        {
+          "heading": "",
+          "image": true,
+          "link": false,
+          "tags": [
+            "hero-talent-card",
+            "hero-talent-small"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Alina",
+          "role": "AlinaFigma, Adobe Photoshop",
+          "price": null,
+          "experience": null,
+          "location": "AlinaFigma, Adobe Photoshop",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Gloria Solomon",
+          "role": "Gloria SolomonFrom $300/month",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": null,
+          "role": null,
+          "price": null,
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/",
+      "region_selector": "div.profile-card",
+      "item_count_captured": 24,
+      "item_count_advertised": 272,
+      "advertised_phrase": "272 active profiles",
+      "count_consistent": false,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.85,
+      "notes": "COUNT GAP: source advertises 272 (272 active profiles) but static DOM contains 24; remainder likely loaded client-side (spec 32)",
+      "sample_items": [
+        {
+          "heading": "AvailableHenrique LeiteVideo Maker, Copywriter6+ yrsBelo Hor",
+          "image": true,
+          "link": true,
+          "tags": [
+            "profile-card"
+          ]
+        },
+        {
+          "heading": "AvailableEduwa OsaVirtual Executive Assistant | Appointment ",
+          "image": true,
+          "link": true,
+          "tags": [
+            "profile-card"
+          ]
+        },
+        {
+          "heading": "AvailableMuhammad Jamshed QamarShopify Developer7+ yrsLahore",
+          "image": true,
+          "link": true,
+          "tags": [
+            "profile-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Henrique Leite",
+          "role": "Video Maker, Copywriter",
+          "price": "From$100/month",
+          "experience": "6+ yrs",
+          "location": "Belo Horizonte, Brazil",
+          "skills": [
+            "Video Editor",
+            "Copywriting",
+            "Graphic Design"
+          ],
+          "detail_link": "/talent/henrique-leite-77"
+        },
+        {
+          "name": "Eduwa Osa",
+          "role": "Virtual Executive Assistant | Appointment Setter | Bookkeeping Specialist|",
+          "price": "From$500/month",
+          "experience": "7+ yrs",
+          "location": "Lagos, Nigeria",
+          "skills": [
+            "Executive Assistance",
+            "Virtual Assistance",
+            "Bookkeeping",
+            "Appointment Setting"
+          ],
+          "detail_link": "/talent/eduwa-osa-8f2b6"
+        },
+        {
+          "name": "Muhammad Jamshed Qamar",
+          "role": "Shopify Developer",
+          "price": "From$300/month",
+          "experience": "7+ yrs",
+          "location": "Lahore, Pakistan",
+          "skills": [
+            "Shopify Developer",
+            "eCommerce Specialist",
+            "HTML",
+            "CSS"
+          ],
+          "detail_link": "/talent/muhammad-jamshed-qamar-722f1"
+        },
+        {
+          "name": "Muhammad Waleed Asaf",
+          "role": "DevOps, CI/CD, AWS",
+          "price": "From$700/month",
+          "experience": "2+ yrs",
+          "location": "Faisalabad, Pakistan",
+          "skills": [
+            "AWS",
+            "Kubernetes",
+            "Docker",
+            "Terraform"
+          ],
+          "detail_link": "/talent/muhammad-waleed-asaf-308"
+        },
+        {
+          "name": "Hasnain Zia",
+          "role": "Wordpress, React,Next.js",
+          "price": "From$500/month",
+          "experience": "2+ yrs",
+          "location": "Abbottabad, Pakistan",
+          "skills": [
+            "WordPress Developer",
+            "Frontend developer",
+            "Ecommerce store",
+            "Woocommerce"
+          ],
+          "detail_link": "/talent/hasnain-zia-307"
+        },
+        {
+          "name": "Emmanuel Omunizua",
+          "role": "Reactjs, ReactNative,",
+          "price": "From$2,000/month",
+          "experience": "3+ yrs",
+          "location": "Lagos, Nigeria",
+          "skills": [
+            "JavaScriot",
+            "CSS & Tailwind",
+            "Typescript",
+            "ReactJs"
+          ],
+          "detail_link": "/talent/emmanuel-omunizua-306"
+        },
+        {
+          "name": "Digimarkom",
+          "role": "Visual Assistance",
+          "price": "From$300/month",
+          "experience": "10+ yrs",
+          "location": "Karachi, Pakistan",
+          "skills": [
+            "Visual Assistance for Daily Operations",
+            "Data Entry & Database Management",
+            "E-commerce Store Management"
+          ],
+          "detail_link": "/talent/digimarkom-305"
+        },
+        {
+          "name": "Muhammad Hassan",
+          "role": "React.js, Node.js",
+          "price": "From$600/month",
+          "experience": "2+ yrs",
+          "location": "Jhelum, Pakistan",
+          "skills": [
+            "ReactJs",
+            "Nodejs",
+            "PostgreSQL",
+            "Supabase"
+          ],
+          "detail_link": "/talent/muhammad-hassan-303"
+        },
+        {
+          "name": "Hassan",
+          "role": "Business Central Dev",
+          "price": "From$1,200/month",
+          "experience": "4+ yrs",
+          "location": "Lahore, Pakistan",
+          "skills": [
+            "Microsoft Dynamics Business Central",
+            "Navision 2009 onwards",
+            "Power Platform",
+            "Api integrations"
+          ],
+          "detail_link": "/talent/hassan-302"
+        },
+        {
+          "name": "David Kamau",
+          "role": "Flutter",
+          "price": "From$300/month",
+          "experience": "1+ yrs",
+          "location": "Nairobi, Kenya",
+          "skills": [
+            "Dart",
+            "Flutter",
+            "Android Java/ Kotlin",
+            "Web Development"
+          ],
+          "detail_link": "/talent/david-kamau-301"
+        },
+        {
+          "name": "Yugta Bista",
+          "role": "Wordpress, PHP, HTML, CSS",
+          "price": "From$600/month",
+          "experience": "7+ yrs",
+          "location": "Guwahati, India",
+          "skills": [
+            "HTML",
+            "HTML/CSS",
+            "PHP",
+            "Laravel"
+          ],
+          "detail_link": "/talent/yugta-bista-300"
+        },
+        {
+          "name": "Bukunmi Olaniyan",
+          "role": "AI Prompt Engineer",
+          "price": "From$200/month",
+          "experience": "2+ yrs",
+          "location": "New York, United States",
+          "skills": [
+            "Bot creation",
+            "JavaScript",
+            "HTML",
+            "Css"
+          ],
+          "detail_link": "/talent/bukunmi-olaniyan-298"
+        },
+        {
+          "name": "Shahmir Siddiqui",
+          "role": "Flask, Django, VAPT",
+          "price": "From$400/month",
+          "experience": "1+ yrs",
+          "location": "Gujranwala, Pakistan",
+          "skills": [
+            "Python",
+            "Flask",
+            "Django",
+            "Javascript"
+          ],
+          "detail_link": "/talent/shahmir-siddiqui-297"
+        },
+        {
+          "name": "Nauman Sohail",
+          "role": "project management",
+          "price": "From$3,000/month",
+          "experience": "10+ yrs",
+          "location": "Lahore, Pakistan",
+          "skills": [
+            "Agile Project Management",
+            "Exceptional Communication"
+          ],
+          "detail_link": "/talent/nauman-sohail-296"
+        },
+        {
+          "name": "Ahsen Niaz",
+          "role": "Data Analyst",
+          "price": "From$300/month",
+          "experience": "1+ yrs",
+          "location": "Peshawar, Pakistan",
+          "skills": [
+            "Excel",
+            "Google Sheets",
+            "Power BI",
+            "Data Visualization"
+          ],
+          "detail_link": "/talent/ahsen-niaz-295"
+        },
+        {
+          "name": "Aaliyan Asif",
+          "role": "Reactjs Nextjs Nodejs AWS",
+          "price": "From$600/month",
+          "experience": "3+ yrs",
+          "location": "Gujranwala, Pakistan",
+          "skills": [
+            "ReactJs",
+            "Nextjs",
+            "Typescript",
+            "JavaScript"
+          ],
+          "detail_link": "/talent/aaliyan-asif-294"
+        },
+        {
+          "name": "Irum Saeed",
+          "role": "Shopify, Wordpress",
+          "price": "From$2,000/month",
+          "experience": "3+ yrs",
+          "location": "Rawalpindi, Pakistan",
+          "skills": [
+            "Shopify",
+            "WordPress"
+          ],
+          "detail_link": "/talent/irum-saeed-293"
+        },
+        {
+          "name": "Alina",
+          "role": "Figma, Adobe Photoshop",
+          "price": "From$300/month",
+          "experience": "1+ yrs",
+          "location": "Kamianske, Ukraine",
+          "skills": [
+            "Figma",
+            "FigJam",
+            "Photoshop"
+          ],
+          "detail_link": "/talent/alina-292"
+        },
+        {
+          "name": "Segun Olusanu",
+          "role": "Graphic design",
+          "price": "From$700/month",
+          "experience": "9+ yrs",
+          "location": "Lagos, Nigeria",
+          "skills": [
+            "Graphic Design",
+            "Adobe Photoshop",
+            "CorelDRAW"
+          ],
+          "detail_link": "/talent/segun-olusanu-291"
+        },
+        {
+          "name": "Promise Okechukwu",
+          "role": "Next, React, Redux, Node",
+          "price": "From$700/month",
+          "experience": "4+ yrs",
+          "location": "Lagos, Nigeria",
+          "skills": [
+            "Nextjs",
+            "ReactJs",
+            "Redux",
+            "Redux Toolkit"
+          ],
+          "detail_link": "/talent/promise-okechukwu-290"
+        },
+        {
+          "name": "Aman Ullah",
+          "role": "graphic design",
+          "price": "From$1,000/month",
+          "experience": "2+ yrs",
+          "location": "swat, Pakistan",
+          "skills": [
+            "Graphic Design",
+            "Video Editing"
+          ],
+          "detail_link": "/talent/aman-ullah-289"
+        },
+        {
+          "name": "Arooj Ali",
+          "role": "Shopify , Wordpress",
+          "price": "From$400/month",
+          "experience": "3+ yrs",
+          "location": "Walsall, United Kingdom",
+          "skills": [
+            "Shopify dropshipping expert",
+            "Shopify store designer",
+            "Shopify developer",
+            "Shopify SEO expert"
+          ],
+          "detail_link": "/talent/arooj-ali-288"
+        },
+        {
+          "name": "Ahtisham Safdar",
+          "role": "Google Apps Script",
+          "price": "From$1,000/month",
+          "experience": "5+ yrs",
+          "location": "Islamabad, Pakistan",
+          "skills": [
+            "VBA",
+            "Excel",
+            "Google Apps Script",
+            "Visual Bais.net"
+          ],
+          "detail_link": "/talent/ahtisham-safdar-287"
+        },
+        {
+          "name": "Mubasher Khan",
+          "role": "Ruby on Rails, Cloud Comp",
+          "price": "From$700/month",
+          "experience": "3+ yrs",
+          "location": "Lahore, Pakistan",
+          "skills": [
+            "Ruby on Rails",
+            "Cloud Computing",
+            "S3",
+            "RDS"
+          ],
+          "detail_link": "/talent/mubasher-khan-286"
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/digimarkom-305",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Maryam AkmalDigital marketingFrom $2,000/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Hussain SiddiquiDigital Marketing & WPFrom $500/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Hafiz Ali RazaDigital marketing & E-comFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Maryam Akmal",
+          "role": "Digital marketing",
+          "price": "From $2,000/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Hussain Siddiqui",
+          "role": "Digital Marketing & WP",
+          "price": "From $500/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Hafiz Ali Raza",
+          "role": "Digital marketing & E-com",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/eduwa-osa-8f2b6",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "David KamauFlutterFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Aiman HussainRecruitment HRFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Maaz NazirAccountsFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "David Kamau",
+          "role": "Flutter",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Aiman Hussain",
+          "role": "Recruitment HR",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Maaz Nazir",
+          "role": "Accounts",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/emmanuel-omunizua-306",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Muhammad Jamshed QamarShopify DeveloperFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Muhammad HassanReact.js, Node.jsFrom $600/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "HassanBusiness Central DevFrom $1,200/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Muhammad Jamshed Qamar",
+          "role": "Shopify Developer",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Muhammad Hassan",
+          "role": "React.js, Node.js",
+          "price": "From $600/month",
+          "experience": null,
+          "location": "HassanReact.js, Node.jsFrom",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Hassan",
+          "role": "Business Central Dev",
+          "price": "From $1,200/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/hasnain-zia-307",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Muhammad Waleed AsafDevOps, CI/CD, AWSFrom $700/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Yugta BistaWordpress, PHP, HTML, CSSFrom $600/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Bukunmi OlaniyanAI Prompt EngineerFrom $200/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Muhammad Waleed Asaf",
+          "role": "DevOps, CI/CD, AWS",
+          "price": "From $700/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Yugta Bista",
+          "role": "Wordpress, PHP, HTML, CSS",
+          "price": "From $600/month",
+          "experience": null,
+          "location": "Yugta BistaWordpress, PHP",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Bukunmi Olaniyan",
+          "role": "AI Prompt Engineer",
+          "price": "From $200/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/hassan-302",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Muhammad Jamshed QamarShopify DeveloperFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Emmanuel OmunizuaReactjs, ReactNative,From $2,000/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Muhammad HassanReact.js, Node.jsFrom $600/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Muhammad Jamshed Qamar",
+          "role": "Shopify Developer",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Emmanuel Omunizua",
+          "role": "Reactjs, ReactNative,",
+          "price": "From $2,000/month",
+          "experience": null,
+          "location": "OmunizuaReactjs, ReactNative",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Muhammad Hassan",
+          "role": "React.js, Node.js",
+          "price": "From $600/month",
+          "experience": null,
+          "location": "HassanReact.js, Node.jsFrom",
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/henrique-leite-77",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "AlinaFigma, Adobe PhotoshopFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Segun OlusanuGraphic designFrom $700/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Aman Ullahgraphic designFrom $1,000/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Alina",
+          "role": "Figma, Adobe Photoshop",
+          "price": "From $300/month",
+          "experience": null,
+          "location": "AlinaFigma, Adobe PhotoshopFrom",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Segun Olusanu",
+          "role": "Graphic design",
+          "price": "From $700/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Aman Ullah",
+          "role": "graphic design",
+          "price": "From $1,000/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/muhammad-hassan-303",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Muhammad Jamshed QamarShopify DeveloperFrom $300/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Emmanuel OmunizuaReactjs, ReactNative,From $2,000/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "HassanBusiness Central DevFrom $1,200/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Muhammad Jamshed Qamar",
+          "role": "Shopify Developer",
+          "price": "From $300/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Emmanuel Omunizua",
+          "role": "Reactjs, ReactNative,",
+          "price": "From $2,000/month",
+          "experience": null,
+          "location": "OmunizuaReactjs, ReactNative",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Hassan",
+          "role": "Business Central Dev",
+          "price": "From $1,200/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/muhammad-jamshed-qamar-722f1",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Emmanuel OmunizuaReactjs, ReactNative,From $2,000/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Muhammad HassanReact.js, Node.jsFrom $600/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "HassanBusiness Central DevFrom $1,200/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Emmanuel Omunizua",
+          "role": "Reactjs, ReactNative,",
+          "price": "From $2,000/month",
+          "experience": null,
+          "location": "OmunizuaReactjs, ReactNative",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Muhammad Hassan",
+          "role": "React.js, Node.js",
+          "price": "From $600/month",
+          "experience": null,
+          "location": "HassanReact.js, Node.jsFrom",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Hassan",
+          "role": "Business Central Dev",
+          "price": "From $1,200/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    },
+    {
+      "page_path": "/talent/muhammad-waleed-asaf-308",
+      "region_selector": "div.related-talent-card",
+      "item_count_captured": 3,
+      "item_count_advertised": null,
+      "advertised_phrase": null,
+      "count_consistent": true,
+      "behavior": "static",
+      "pagination_type": "none",
+      "confidence": 0.6,
+      "notes": "static HTML capture; dynamic loading not observable without browser rendering (spec 32)",
+      "sample_items": [
+        {
+          "heading": "Hasnain ZiaWordpress, React,Next.jsFrom $500/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Yugta BistaWordpress, PHP, HTML, CSSFrom $600/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        },
+        {
+          "heading": "Bukunmi OlaniyanAI Prompt EngineerFrom $200/month",
+          "image": true,
+          "link": false,
+          "tags": [
+            "related-talent-card"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Hasnain Zia",
+          "role": "Wordpress, React,Next.js",
+          "price": "From $500/month",
+          "experience": null,
+          "location": "Hasnain ZiaWordpress, React",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Yugta Bista",
+          "role": "Wordpress, PHP, HTML, CSS",
+          "price": "From $600/month",
+          "experience": null,
+          "location": "Yugta BistaWordpress, PHP",
+          "skills": [],
+          "detail_link": null
+        },
+        {
+          "name": "Bukunmi Olaniyan",
+          "role": "AI Prompt Engineer",
+          "price": "From $200/month",
+          "experience": null,
+          "location": null,
+          "skills": [],
+          "detail_link": null
+        }
+      ]
+    }
+  ]
+}

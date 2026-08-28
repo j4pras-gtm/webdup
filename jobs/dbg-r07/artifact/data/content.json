@@ -1,0 +1,10 @@
+{
+  "filled": {
+    "brand.name": "NewCo",
+    "brand.tagline": "Fresh tagline",
+    "brand.footer_note": null
+  },
+  "unresolved": [
+    "brand.footer_note"
+  ]
+}

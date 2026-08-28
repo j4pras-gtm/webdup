@@ -1,0 +1,27 @@
+{
+  "draft": true,
+  "groups": {
+    "brand": [
+      "displayName",
+      "logo",
+      "primaryColor",
+      "fonts",
+      "logo_home"
+    ],
+    "contact_integrations": [],
+    "content": [
+      "copy.home.h1-0",
+      "copy.home.h3-1",
+      "copy.home.h3-2",
+      "copy.home.h3-3",
+      "copy.home.h3-4",
+      "image.home-5",
+      "image.home-6",
+      "image.home-7",
+      "image.home-8",
+      "image.home-9",
+      "copy.services.h1-10"
+    ],
+    "legal": []
+  }
+}

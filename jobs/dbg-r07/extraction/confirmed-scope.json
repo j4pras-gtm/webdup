@@ -1,0 +1,26 @@
+{
+  "job_id": "dbg-r07",
+  "decision": "confirmed",
+  "confirmed_at": "2026-08-28T01:13:18.039Z",
+  "routes": [
+    "/",
+    "/services"
+  ],
+  "components": [
+    "header",
+    "footer",
+    "navigation",
+    "card.profile-card",
+    "section"
+  ],
+  "dynamic_collections": [
+    "section.profile-card"
+  ],
+  "external_endpoints": [
+    "https://www.linkedin.com/company/fixture"
+  ],
+  "removed_pages": [],
+  "removed_components": [],
+  "user_supplied_data": {},
+  "source_url": "http://127.0.0.1:62657/"
+}

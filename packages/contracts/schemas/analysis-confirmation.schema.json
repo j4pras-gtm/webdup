@@ -28,6 +28,15 @@
     },
     "user_supplied_data": {
       "type": "object"
+    },
+    "approved_sources": {
+      "type": "array"
+    },
+    "include_pii": {
+      "type": "array"
+    },
+    "generated_route_families": {
+      "type": "array"
     }
   }
 }

@@ -59,7 +59,10 @@ function check(name, ok, detail) { checks.push({ name, ok: !!ok, detail: detail 
 
     const content = readX('content-assets.json');
     check('E03: content schemas extracted', content.assets.some(a => a.kind === 'content_schema' && a.entity === 'site-copy'));
-    check('E03: examples placeholderized', !JSON.stringify(content.assets).includes('Person 1'));
+    // 2026-08-27 data policy: factual listing names ARE extracted; PROSE is never copied
+    check('E03: prose not copied (We do things)', !JSON.stringify(content.assets).includes('We do things'));
+    const listing = content.assets.find(a => a.kind === 'listing_data');
+    check('E03: factual listing data present', !!listing && listing.items.length > 0 && listing.items[0].name === 'Person 1', JSON.stringify(listing && listing.items && listing.items[0]));
 
     const media = readX('media-assets.json');
     check('E04: media slots only (no copied bytes)', media.assets.length > 0 && media.assets.every(a => a.source_copied === false));

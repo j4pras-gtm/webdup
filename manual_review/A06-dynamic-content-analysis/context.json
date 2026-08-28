@@ -1,0 +1,8 @@
+{
+  "build_id": "A06-dynamic-content-analysis",
+  "job_id": "job-002",
+  "status": "blocked_manual_review",
+  "attempts": 5,
+  "error": "isCardGroup is not defined",
+  "ts": "2026-08-28T00:50:01.345Z"
+}

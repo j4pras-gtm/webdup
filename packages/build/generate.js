@@ -43,11 +43,20 @@ function loadContext(jobId) {
 
 function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 
+/** Route -> artifact file. Directory-style layout (dir/slug/index.html) so
+ *  relative asset links from any depth resolve correctly on disk AND under a
+ *  static server (extensionless /dir/slug/ works out of the box). */
 function routeFile(p) {
   if (p === '/' || p === '') return 'index.html';
-  let f = p.replace(/^\//, '').replace(/[\/]/g, '__') + '.html';
-  return f;
+  return p.replace(/^\//, '') + '/index.html';
 }
+
+/** Relative prefix from a route's directory back to the artifact root. */
+function relPrefix(route) {
+  const segs = (route || '/').split('/').filter(Boolean);
+  return segs.length ? '../'.repeat(segs.length) : '';
+}
+
 
 // ---------------------------------------------------------------------------
 // B01 — build shell
@@ -72,32 +81,40 @@ function b02Components(jobId, cfg) {
   const brand = readConfig(jobId).brand;
   const brandName = brand.name || '[Brand Name]';
 
-  // header: nav links = confirmed routes only
-  const navLinks = ctx.scope.routes.map(r => `<a href="${esc(r === '/' ? '/' : r)}">${esc(r === '/' ? 'Home' : r.replace(/^\//, '').replace(/-/g, ' '))}</a>`).join('\n        ');
+  // header: nav links = confirmed routes only. {{BASE}} is replaced per-page by
+  // B05 with the relative prefix back to the artifact root (fragments are shared
+  // across pages at different depths, so they can't hardcode relative paths).
+  const navLinks = ctx.scope.routes.map(r => `<a href="{{BASE}}${esc(routeFile(r))}">${esc(r === '/' ? 'Home' : r.replace(/^\//, '').replace(/-/g, ' '))}</a>`).join('\n        ');
   const header = `<header class="site-header">
-      <a class="logo" href="/"><span class="logo-slot" data-slot="logo">[LOGO]</span></a>
+      <a class="logo" href="{{BASE}}${esc(routeFile('/'))}"><span class="logo-slot" data-slot="logo">[LOGO]</span></a>
       <nav class="site-nav">
         ${navLinks}
       </nav>
     </header>`;
   fs.writeFileSync(path.join(compDir, 'header.html'), header, 'utf8');
 
-  // footer: external endpoints recorded in analysis (record-only destinations, linked verbatim)
+  // footer: external endpoints recorded in analysis (record-only destinations, linked verbatim).
+  // URLs are NOT entity-escaped: they are confirmed analysis data and must stay byte-identical
+  // so the Build QA link check can match them against the integration manifest.
   const extByPage = {};
   for (const e of ctx.integ.endpoints) (extByPage[e.source_page] = extByPage[e.source_page] || []).push(e);
   const allExt = ctx.integ.endpoints;
-  const footerLinks = allExt.map(e => `<a class="ext-link" href="${esc(e.original_url)}" rel="noopener">${esc(e.anchor_text || e.endpoint_type)}</a>`).join('\n      ');
+  const footerLinks = allExt.map(e => `<a class="ext-link" href="${e.original_url}" rel="noopener">${esc(e.anchor_text || e.endpoint_type)}</a>`).join('\n      ');
   const footer = `<footer class="site-footer">
       <p class="footer-copy" data-placeholder="brand.footer_note">${esc(brand.footer_note || '[Footer note]')}</p>
       ${footerLinks}
     </footer>`;
   fs.writeFileSync(path.join(compDir, 'footer.html'), footer, 'utf8');
 
-  // card fragment for repeating collections
+  // card fragment for repeating collections. Factual fields are filled by B05
+  // from confirmed listing_data; anything absent renders as a visible slot.
   const card = `<article class="card">
       <div class="card-media" data-slot="image"><span>[IMAGE]</span></div>
       <h3 class="card-title" data-placeholder="content.item_title">[Item title]</h3>
-      <p class="card-body" data-placeholder="content.item_body">[Item description]</p>
+      <p class="card-role" data-placeholder="content.item_role">[Role]</p>
+      <ul class="card-skills"></ul>
+      <p class="card-meta" data-placeholder="content.item_meta"></p>
+      <p class="card-body" data-placeholder="content.item_body">[Description]</p>
     </article>`;
   fs.writeFileSync(path.join(compDir, 'card.html'), card, 'utf8');
 
@@ -128,7 +145,12 @@ function b03Design(jobId, cfg) {
   L.push('.card { border: 1px solid var(--color-1, #ddd); border-radius: var(--radius-0, 8px); overflow: hidden; box-shadow: var(--shadow-0, none); }');
   L.push('.card-media { background: var(--color-1, #eee); aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; color: #666; }');
   L.push('.card-title { margin: 0.75rem 1rem 0; font-size: 1.1rem; }');
+  L.push('.card-role { margin: 0.25rem 1rem 0; font-size: 0.9rem; color: #555; }');
+  L.push('.card-skills { list-style: none; display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.5rem 1rem 0; padding: 0; }');
+  L.push('.card-skills li { font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 999px; background: var(--color-1, #eee); color: #444; }');
+  L.push('.card-meta { margin: 0.5rem 1rem 0; font-size: 0.85rem; color: #666; }');
   L.push('.card-body { margin: 0.5rem 1rem 1rem; color: #444; }');
+  L.push('.card-link { display: inline-block; margin: 0.5rem 1rem 0; font-size: 0.85rem; text-decoration: none; color: var(--color-3, #06c); }');
   L.push('.site-footer { padding: 2rem; border-top: 1px solid var(--color-1, #ddd); margin-top: 3rem; }');
   L.push('.ext-link { margin-right: 1rem; }');
   L.push('[data-hidden] { display: none; }');
@@ -156,6 +178,13 @@ function b04Content(jobId, cfg) {
 // ---------------------------------------------------------------------------
 // B05 — build routes (render each confirmed route from its wireframe)
 // ---------------------------------------------------------------------------
+
+/** Relative prefix so a page at depth N reaches the artifact root (works from disk). */
+function relPrefix(route) {
+  const segs = (route || '/').split('/').filter(Boolean);
+  return segs.length ? '../'.repeat(segs.length) : '';
+}
+
 function b05Routes(jobId, cfg) {
   const ctx = loadContext(jobId);
   const dir = artifactDir(jobId);
@@ -166,12 +195,44 @@ function b05Routes(jobId, cfg) {
   const brandName = content.filled['brand.name'] || '[Brand Name]';
   const tagline = content.filled['brand.tagline'] || '[Tagline]';
 
+  // factual listing data per route (E03): DOM-captured AND HITL-approved API sources.
+  // An API asset covering a region supersedes the DOM window (same data, complete).
+  const listingsByRoute = {};
+  for (const a of ctx.content.assets.filter(x => x.kind === 'listing_data' || x.kind === 'api_data')) {
+    (listingsByRoute[a.route] = listingsByRoute[a.route] || []).push(a);
+  }
+
   const dynByRoute = {};
   for (const c of ctx.dyn.collections) (dynByRoute[c.page_path] = dynByRoute[c.page_path] || []).push(c);
+
+  const confirmedRoutes = new Set(ctx.scope.routes);
+  // Approved generated route families (HITL-gated): e.g. '/talent/{slug}'.
+  const generatedFamilies = ctx.scope.generated_route_families || [];
+  const familyPrefix = (fam) => fam.split('{')[0];
+  const isGeneratedRoute = (p) => generatedFamilies.some(fam => p.startsWith(familyPrefix(fam)));
+
+  function renderCard(item, i, rel) {
+    let c = cardTpl;
+    c = c.replace('[Item title]', esc(item && item.name ? item.name : `Item ${i + 1}`));
+    c = c.replace('[Role]', esc(item && item.role ? item.role : '[Role]'));
+    const skills = item && Array.isArray(item.skills) && item.skills.length
+      ? '<ul class="card-skills">' + item.skills.map(s => `<li>${esc(s)}</li>`).join('') + '</ul>'
+      : '<ul class="card-skills" data-hidden></ul>';
+    c = c.replace('<ul class="card-skills"></ul>', skills);
+    const meta = item ? [item.experience, item.location, item.price].filter(Boolean).join(' · ') : '';
+    c = c.replace('<p class="card-meta" data-placeholder="content.item_meta"></p>',
+      meta ? `<p class="card-meta">${esc(meta)}</p>` : '<p class="card-meta" data-hidden></p>');
+    // description is NEVER copied from source — always a placeholder slot
+    if (item && item.detail_link && (confirmedRoutes.has(item.detail_link) || isGeneratedRoute(item.detail_link))) {
+      c = c.replace('<p class="card-body"', `<a class="card-link" href="${rel}${esc(routeFile(item.detail_link))}">View profile</a>\n      <p class="card-body"`);
+    }
+    return c;
+  }
 
   const rendered = [];
   for (const wf of ctx.wire.wireframes) {
     if (!ctx.scope.routes.includes(wf.route)) continue; // confirmed scope only
+    const rel = relPrefix(wf.route);
     const routeDyn = dynByRoute[wf.route] || [];
     let dynIdx = 0;
     const sections = [];
@@ -180,9 +241,19 @@ function b05Routes(jobId, cfg) {
       const isCollectionSection = s.role === 'collection' || (s.data_bindings || []).includes('repeating_items');
       const dynHere = isCollectionSection && dynIdx < routeDyn.length ? routeDyn[dynIdx++] : null;
       if (dynHere) {
-        // render EXACTLY the captured count; behavior attribute drives B06 mechanism
-        const items = Array.from({ length: dynHere.item_count_captured }, (_, i) => cardTpl.replace(/\[Item title\]/g, `Item ${i + 1}`).replace(/\[Item description\]/g, `[Description ${i + 1}]`)).join('\n      ');
-        sections.push(`<section id="${esc(s.id)}" class="grid collection" data-region="${esc(dynHere.region_selector)}" data-behavior="${esc(dynHere.behavior)}" data-captured="${dynHere.item_count_captured}">\n      ${items}\n    </section>`);
+        // Render EXACTLY the captured count; behavior attribute drives B06 mechanism.
+        // Prefer the HITL-approved API source when it covers this region.
+        const listAssets = (listingsByRoute[wf.route] || []).filter(a => a.region_selector === dynHere.region_selector);
+        const apiAsset = listAssets.find(a => a.kind === 'api_data') || null;
+        const domAsset = listAssets.find(a => a.kind === 'listing_data') || null;
+        const src = apiAsset || domAsset;
+        const itemsArr = src ? src.items : [];
+        const captured = apiAsset ? apiAsset.count_captured : dynHere.item_count_captured;
+        const advertised = apiAsset ? apiAsset.count_advertised : dynHere.item_count_advertised;
+        const items = Array.from({ length: captured }, (_, i) =>
+          renderCard(itemsArr[i], i, rel)).join('\n      ');
+        const advAttr = advertised ? ` data-advertised="${advertised}"` : '';
+        sections.push(`<section id="${esc(s.id)}" class="grid collection" data-region="${esc(dynHere.region_selector)}" data-behavior="${esc(dynHere.behavior)}" data-captured="${captured}"${advAttr}>\n      ${items}\n    </section>`);
       } else if (s.role === 'hero') {
         sections.push(`<section id="${esc(s.id)}" class="hero">\n      <h1>${esc(brandName)}</h1>\n      <p>${esc(tagline)}</p>\n    </section>`);
       } else {
@@ -195,23 +266,79 @@ function b05Routes(jobId, cfg) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(brandName)}${wf.route !== '/' ? ' — ' + esc(wf.route.replace(/^\//, '')) : ''}</title>
-<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="${rel}css/tokens.css">
 </head>
 <body>
-${header}
+${header.replace(/\{\{BASE\}\}/g, rel)}
 <main>
 ${sections.join('\n')}
 </main>
 ${footer}
-<script src="/js/interactions.js"></script>
+<script src="${rel}js/interactions.js"></script>
 </body>
 </html>
 `;
     const file = routeFile(wf.route);
-    fs.writeFileSync(path.join(dir, file), html, 'utf8');
+    const absFile = path.join(dir, file);
+    fs.mkdirSync(path.dirname(absFile), { recursive: true });
+    fs.writeFileSync(absFile, html, 'utf8');
     rendered.push({ path: wf.route, file });
   }
-  return { rendered };
+
+  // Generated detail pages from HITL-approved route families. Slugs come from the
+  // data itself (legacy_slugs in the rows) — evidenced, not fabricated. Content is
+  // factual fields + placeholder prose only.
+  const generated = [];
+  for (const fam of generatedFamilies) {
+    const prefix = familyPrefix(fam);
+    for (const a of ctx.content.assets.filter(x => x.kind === 'api_data' && x.generated_route_family === fam)) {
+      for (const it of a.items) {
+        if (!it.detail_link || !it.detail_link.startsWith(prefix)) continue;
+        // Confirmed (crawled) routes keep their wireframe rendering — the generated
+        // family only fills in pages the crawl never visited.
+        if (confirmedRoutes.has(it.detail_link)) continue;
+        const file = routeFile(it.detail_link);
+        const absFile = path.join(dir, file);
+        fs.mkdirSync(path.dirname(absFile), { recursive: true });
+        const rel = relPrefix(it.detail_link);
+        const meta = [it.experience, it.location, it.price].filter(Boolean).join(' \u00b7 ');
+        const skills = Array.isArray(it.skills) && it.skills.length
+          ? '<ul class="card-skills">' + it.skills.map(s => `<li>${esc(s)}</li>`).join('') + '</ul>' : '';
+        const contact = (a.pii_included && it.contact) ? `<p class="card-meta">Contact: ${esc(it.contact)}</p>` : '';
+        const cat = it.category ? `<p class="card-role">${esc(it.category)}</p>` : '';
+        const html = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(it.name)} \u2014 ${esc(brandName)}</title>
+<link rel="stylesheet" href="${rel}css/tokens.css">
+</head>
+<body>
+${header.replace(/\{\{BASE\}\}/g, rel)}
+<main>
+<section class="hero">
+  <h1>${esc(it.name)}</h1>
+  <p class="card-role">${esc(it.role || '')}</p>
+  ${cat}
+  ${skills}
+  ${meta ? `<p class="card-meta">${esc(meta)}</p>` : ''}
+  ${contact}
+  <p data-placeholder="content.profile_bio">[Profile description]</p>
+  <a class="card-link" href="${rel}index.html">\u2190 Back to directory</a>
+</section>
+</main>
+${footer}
+<script src="${rel}js/interactions.js"></script>
+</body>
+</html>
+`;
+        fs.writeFileSync(absFile, html, 'utf8');
+        generated.push({ path: it.detail_link, file });
+      }
+    }
+  }
+  return { rendered, generated };
 }
 
 // ---------------------------------------------------------------------------
@@ -279,13 +406,17 @@ function b07Responsive(jobId, cfg) {
   }
   if (!bps.length) L.push('/* no breakpoints detected in source — single-column layout */');
   fs.writeFileSync(path.join(artifactDir(jobId), 'css', 'responsive.css'), L.join('\n') + '\n', 'utf8');
-  // append link into every page head
+  // append link into every page head (recursive; pages use relative asset refs)
   const dir = artifactDir(jobId);
-  for (const f of fs.readdirSync(dir)) {
-    if (f.endsWith('.html')) {
-      const p = path.join(dir, f);
-      let h = fs.readFileSync(p, 'utf8');
-      if (!h.includes('responsive.css')) h = h.replace('<link rel="stylesheet" href="/css/tokens.css">', '<link rel="stylesheet" href="/css/tokens.css">\n<link rel="stylesheet" href="/css/responsive.css">');
+  for (const f of fs.readdirSync(dir, { recursive: true })) {
+    if (!f.endsWith('.html')) continue;
+    if (f.split(path.sep)[0] === 'components') continue; // fragments: hrefs resolve in page context, checked by B10
+    const p = path.join(dir, f);
+    let h = fs.readFileSync(p, 'utf8');
+    if (!h.includes('responsive.css')) {
+      const relF = f.split(path.sep).join('/');
+      const route = relF === 'index.html' ? '/' : '/' + relF.replace(/\/index\.html$/, '');
+      h = h.replace(/(<link rel="stylesheet" href="[^"]*tokens\.css">)/, '$1\n<link rel="stylesheet" href="' + relPrefix(route) + 'css/responsive.css">');
       fs.writeFileSync(p, h, 'utf8');
     }
   }
@@ -300,10 +431,27 @@ function b08Static(jobId, cfg) {
   const dir = artifactDir(jobId);
   const mf = path.join(dir, 'manifest.json');
   const m = JSON.parse(fs.readFileSync(mf, 'utf8'));
-  m.routes = fs.readdirSync(dir).filter(f => f.endsWith('.html')).map(f => ({ path: f === 'index.html' ? '/' : '/' + f.replace(/\.html$/, '').replace(/__/g, '/'), file: f }));
+  m.routes = fs.readdirSync(dir, { recursive: true })
+    .filter(f => f.endsWith('.html'))
+    .filter(f => {
+      const rel = f.split(path.sep).join('/');
+      // only page files count as routes: top-level index.html or <dir>/index.html
+      return rel === 'index.html' || /(^|\/)[^/]+\/index\.html$/.test(rel);
+    })
+    .map(f => {
+      const rel = f.split(path.sep).join('/'); // readdirSync(recursive) already returns dir-relative
+      const p = rel === 'index.html' ? '/' : '/' + rel.replace(/\/index\.html$/, '');
+      return { path: p, file: rel };
+    });
   m.components = ['header', 'footer', 'card'];
   m.interactions = [...new Set(ctx.inter.interactions.map(i => i.mechanism))];
-  m.collections = ctx.dyn.collections.filter(c => ctx.scope.routes.includes(c.page_path)).map(c => ({ route: c.page_path, region: c.region_selector, count: c.item_count_captured, behavior: c.behavior }));
+  m.collections = ctx.dyn.collections.filter(c => ctx.scope.routes.includes(c.page_path)).map(c => {
+    const apiAsset = (ctx.content.assets || []).find(a => a.kind === 'api_data' && a.route === c.page_path && a.region_selector === c.region_selector);
+    return apiAsset
+      ? { route: c.page_path, region: c.region_selector, count: apiAsset.count_captured, behavior: c.behavior, source: 'api:' + apiAsset.source_id }
+      : { route: c.page_path, region: c.region_selector, count: c.item_count_captured, behavior: c.behavior, source: 'dom' };
+  });
+  m.generated_route_families = ctx.scope.generated_route_families || [];
   m.externalLinks = ctx.integ.endpoints.map(e => e.original_url);
   m.portable = true;
   m.view_instructions = 'Open index.html in any browser, or: npx serve <dir> (any static server works)';
@@ -318,18 +466,18 @@ function b09Preview(jobId, cfg) {
   const dir = artifactDir(jobId);
   const missing = [];
   const ASSET_EXT = /\.(css|js|png|jpe?g|gif|svg|webp|ico|json|woff2?)$/i;
-  for (const f of fs.readdirSync(dir)) {
+  for (const f of fs.readdirSync(dir, { recursive: true })) {
     if (!f.endsWith('.html')) continue;
-    const html = fs.readFileSync(path.join(dir, f), 'utf8');
+    if (f.split(path.sep)[0] === 'components') continue; // fragments: hrefs resolve in page context, checked by B10
+    const absFile = path.join(dir, f);
+    const html = fs.readFileSync(absFile, 'utf8');
     for (const m of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
       const u = m[1];
-      if (/^(https?:|mailto:|tel:|#)/.test(u)) continue;
-      let p = u.split('?')[0].split('#')[0];
-      if (p.startsWith('/')) p = p.slice(1);
-      if (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1);
-      // route links (no asset extension) are checked by B10 link QA, not here
-      if (!ASSET_EXT.test(p)) continue;
-      if (!fs.existsSync(path.join(dir, p))) missing.push(f + ' -> ' + u);
+      if (/^[a-zA-Z][a-zA-Z0-9+.\-]*:/.test(u) || u.startsWith('#')) continue; // any URI scheme is not a local file ref
+      const p = u.split('?')[0].split('#')[0];
+      // resolve relative to the page's own directory (artifact uses relative refs)
+      const abs = path.resolve(path.dirname(absFile), p);
+      if (!fs.existsSync(abs)) missing.push(f + ' -> ' + u);
     }
   }
   return { missing, ok: missing.length === 0 };

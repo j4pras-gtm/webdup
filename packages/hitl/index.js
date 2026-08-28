@@ -87,6 +87,24 @@ function generateReviewReport(jobId) {
   L.push('');
   L.push('Content collections: ' + dyn.collections.map(c => c.region_selector + ' (' + c.item_count_captured + ' items, ' + c.behavior + ')').join('; ') || 'none');
 
+  L.push('');
+  L.push('## Data sources (recon decisions — confirm how each collection is extracted)');
+  L.push('');
+  const dsd = read('data-source-decision.json');
+  if (dsd && dsd.sources && dsd.sources.length) {
+    L.push('| Collection | Advertised | DOM captured | Source | Verified rows | PII fields | Generated route family |');
+    L.push('|---|---|---|---|---|---|---|');
+    for (const s of dsd.sources) {
+      L.push('| `' + s.collection + '` (' + s.page_path + ') | ' + (s.advertised_count ?? '?') + ' | ' + s.dom_captured_count + ' | ' + s.source_type + ' | ' + (s.verified_row_count ?? 'unverified') + ' | ' + ((s.pii_fields || []).join(', ') || 'none') + ' | ' + (s.generated_route_family || '—') + ' |');
+    }
+    L.push('');
+    L.push('Recommended: **' + dsd.recommended + '** — ' + dsd.evidence);
+    L.push('');
+    L.push('> Extraction fetches data ONLY through sources you approve here. PII fields require explicit opt-in (`include_pii`). Generated route families create one page per data row.');
+  } else {
+    L.push('No non-DOM data sources found — all collections are served from static HTML.');
+  }
+
   if (ap.uncertainties && ap.uncertainties.length) {
     L.push('');
     L.push('## Uncertainties / gaps');
@@ -133,11 +151,36 @@ function recordConfirmation(jobId, decision) {
     if (!knownComps.has(c)) throw new Error('cannot remove component not in analysis: ' + c);
   }
 
+  const dsd = P.readArtifact(jobId, 'data-source-decision.json') || { sources: [] };
+
+  // Data-source approvals: user may approve a subset of recon sources, opt in to
+  // PII per source, and accept/decline generated route families. Anything not
+  // explicitly approved is excluded from extraction (default-deny).
+  const approved = decision.approved_sources || [];
+  const approvedSet = new Set(approved);
+  for (const id of approved) {
+    if (!dsd.sources.some(s => s.id === id)) throw new Error('cannot approve unknown data source: ' + id);
+  }
+  const piiOptIn = new Set(decision.include_pii || []);
+  for (const id of piiOptIn) {
+    if (!approvedSet.has(id)) throw new Error('include_pii requires approved_sources entry: ' + id);
+  }
+  const genFamilies = (decision.generated_route_families || []).filter(f => {
+    const owner = dsd.sources.find(s => s.generated_route_family === f);
+    return owner && approvedSet.has(owner.id);
+  });
+
   const confirmedScope = {
     routes: routes.routes.filter(r => !(decision.removed_pages || []).includes(r.path)).map(r => r.path),
     components: comps.components.filter(c => !(decision.removed_components || []).includes(c.name)).map(c => c.name),
     dynamic_collections: (P.readArtifact(jobId, 'dynamic-content.json') || { collections: [] }).collections.map(c => c.region_selector),
     external_endpoints: (P.readArtifact(jobId, 'integration-manifest.json') || { endpoints: [] }).endpoints.map(e => e.original_url),
+    data_sources: dsd.sources.filter(s => approvedSet.has(s.id)).map(s => ({
+      ...s,
+      pii_included: piiOptIn.has(s.id),
+      family_included: genFamilies.includes(s.generated_route_family || ''),
+    })),
+    generated_route_families: genFamilies,
   };
 
   const rec = {
@@ -148,6 +191,9 @@ function recordConfirmation(jobId, decision) {
     removed_pages: decision.removed_pages || [],
     removed_components: decision.removed_components || [],
     user_supplied_data: decision.user_supplied_data || {},
+    approved_sources: approved,
+    include_pii: [...piiOptIn],
+    generated_route_families: genFamilies,
     note: decision.note || '',
   };
   const v = contracts.validate('analysis-confirmation', rec);

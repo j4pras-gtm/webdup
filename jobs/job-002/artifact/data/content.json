@@ -1,0 +1,10 @@
+{
+  "filled": {
+    "brand.name": "Bench Staff",
+    "brand.tagline": "Vetted freelance talent, monthly.",
+    "brand.footer_note": null
+  },
+  "unresolved": [
+    "brand.footer_note"
+  ]
+}

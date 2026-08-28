@@ -1,0 +1,8 @@
+{
+  "build_id": "E03-content-assets",
+  "job_id": "job-002",
+  "status": "blocked_manual_review",
+  "attempts": 5,
+  "error": "QA failed: pii approved but no contact data extracted: api.talent-directory",
+  "ts": "2026-08-28T03:14:56.304Z"
+}

@@ -1,0 +1,57 @@
+{
+  "build_id": "A13-analysis-synthesis",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T00:54:57.055Z",
+  "result": {
+    "job_id": "job-002",
+    "source_url": "https://monthlystaff.com/",
+    "artifacts": {
+      "sitemap": "analysis/sitemap.json",
+      "link_graph": "analysis/link-graph.json",
+      "redirect_map": "analysis/redirect-map.json",
+      "integration_manifest": "analysis/integration-manifest.json",
+      "route_inventory": "analysis/route-inventory.json",
+      "dynamic_content": "analysis/dynamic-content.json",
+      "wireframes": "analysis/wireframes.json",
+      "content_schemas": "analysis/content-schemas.json",
+      "design_tokens": "analysis/design-tokens.json",
+      "interactions": "analysis/interactions.json",
+      "components": "analysis/components.json",
+      "placeholder_map": "analysis/placeholder-map.json"
+    },
+    "uncertainties": [
+      {
+        "area": "count_consistency",
+        "description": "/ div.hero-talent-card: advertised 272 vs captured 3",
+        "severity": "high"
+      },
+      {
+        "area": "count_consistency",
+        "description": "/ div.profile-card: advertised 272 vs captured 24",
+        "severity": "high"
+      }
+    ],
+    "counts": {
+      "crawlable_routes": 55,
+      "excluded_routes": 1,
+      "restricted_routes": 0,
+      "routes_inventoried": 40,
+      "dynamic_collections": 11,
+      "wireframes": 40,
+      "content_entities": 12,
+      "interactions": 306,
+      "components": 49,
+      "placeholders": 659,
+      "external_endpoints": 83,
+      "link_edges": 1565,
+      "redirect_entries": 0
+    }
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 3,
+    "failures": []
+  }
+}

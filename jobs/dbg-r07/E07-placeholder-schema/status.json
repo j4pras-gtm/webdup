@@ -1,0 +1,106 @@
+{
+  "build_id": "E07-placeholder-schema",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.091Z",
+  "result": {
+    "draft": false,
+    "groups": {
+      "brand": [
+        "displayName",
+        "logo",
+        "primaryColor",
+        "fonts",
+        "logo_home"
+      ],
+      "contact_integrations": [],
+      "content": [
+        "copy.home.h1-0",
+        "copy.home.h3-1",
+        "copy.home.h3-2",
+        "copy.home.h3-3",
+        "copy.home.h3-4",
+        "image.home-5",
+        "image.home-6",
+        "image.home-7",
+        "image.home-8",
+        "image.home-9",
+        "copy.services.h1-10"
+      ],
+      "legal": []
+    },
+    "user_supplied_data": {},
+    "required_fields": [
+      {
+        "group": "brand",
+        "key": "displayName"
+      },
+      {
+        "group": "brand",
+        "key": "logo"
+      },
+      {
+        "group": "brand",
+        "key": "primaryColor"
+      },
+      {
+        "group": "brand",
+        "key": "fonts"
+      },
+      {
+        "group": "brand",
+        "key": "logo_home"
+      },
+      {
+        "group": "content",
+        "key": "copy.home.h1-0"
+      },
+      {
+        "group": "content",
+        "key": "copy.home.h3-1"
+      },
+      {
+        "group": "content",
+        "key": "copy.home.h3-2"
+      },
+      {
+        "group": "content",
+        "key": "copy.home.h3-3"
+      },
+      {
+        "group": "content",
+        "key": "copy.home.h3-4"
+      },
+      {
+        "group": "content",
+        "key": "image.home-5"
+      },
+      {
+        "group": "content",
+        "key": "image.home-6"
+      },
+      {
+        "group": "content",
+        "key": "image.home-7"
+      },
+      {
+        "group": "content",
+        "key": "image.home-8"
+      },
+      {
+        "group": "content",
+        "key": "image.home-9"
+      },
+      {
+        "group": "content",
+        "key": "copy.services.h1-10"
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

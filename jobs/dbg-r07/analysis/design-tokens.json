@@ -1,0 +1,27 @@
+{
+  "source_evidence": {
+    "css_files_scanned": true,
+    "inline_style_blocks": true
+  },
+  "colors": [
+    {
+      "name": "color-1",
+      "value": "#111",
+      "usage": "observed"
+    }
+  ],
+  "typography": {
+    "font_families": [],
+    "scale": []
+  },
+  "spacing": [],
+  "radii": [
+    {
+      "value": "8px",
+      "usage": "observed"
+    }
+  ],
+  "shadows": [],
+  "breakpoints": [],
+  "notes": "Token layer is rebrandable; values are source evidence, not copied CSS."
+}

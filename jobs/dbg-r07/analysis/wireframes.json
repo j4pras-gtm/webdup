@@ -1,0 +1,50 @@
+{
+  "wireframes": [
+    {
+      "route": "/",
+      "page_type": "landing",
+      "sections": [
+        {
+          "id": "section-0",
+          "class": "hero",
+          "role": "hero",
+          "heading": "We do things",
+          "components": [],
+          "data_bindings": []
+        },
+        {
+          "id": "section-1",
+          "class": "grid",
+          "role": "collection",
+          "heading": "Person 1",
+          "components": [
+            "img"
+          ],
+          "data_bindings": [
+            "images",
+            "links",
+            "repeating_items"
+          ]
+        }
+      ],
+      "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+      "confidence": 0.7
+    },
+    {
+      "route": "/services",
+      "page_type": "content",
+      "sections": [
+        {
+          "id": "h1-0",
+          "class": null,
+          "role": "section",
+          "heading": null,
+          "components": [],
+          "data_bindings": []
+        }
+      ],
+      "responsive_notes": "static analysis only; breakpoints not observable without rendering (spec 32)",
+      "confidence": 0.7
+    }
+  ]
+}

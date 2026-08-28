@@ -1,0 +1,45 @@
+{
+  "draft": false,
+  "assets": [
+    {
+      "asset": "structure.",
+      "kind": "structure",
+      "route": "/",
+      "page_type": "landing",
+      "sections": [
+        {
+          "id": "section-0",
+          "role": "hero",
+          "heading": "<heading-placeholder>",
+          "data_bindings": []
+        },
+        {
+          "id": "section-1",
+          "role": "collection",
+          "heading": "<heading-placeholder>",
+          "data_bindings": [
+            "images",
+            "links",
+            "repeating_items"
+          ]
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "asset": "structure.services",
+      "kind": "structure",
+      "route": "/services",
+      "page_type": "content",
+      "sections": [
+        {
+          "id": "h1-0",
+          "role": "section",
+          "heading": null,
+          "data_bindings": []
+        }
+      ],
+      "confidence": 0.7
+    }
+  ]
+}

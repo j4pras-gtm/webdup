@@ -1,0 +1,240 @@
+{
+  "build_id": "E08-extraction-QA",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.103Z",
+  "result": {
+    "job_id": "dbg-r07",
+    "assets": [
+      {
+        "asset": "structure.",
+        "kind": "structure",
+        "route": "/",
+        "page_type": "landing",
+        "sections": [
+          {
+            "id": "section-0",
+            "role": "hero",
+            "heading": "<heading-placeholder>",
+            "data_bindings": []
+          },
+          {
+            "id": "section-1",
+            "role": "collection",
+            "heading": "<heading-placeholder>",
+            "data_bindings": [
+              "images",
+              "links",
+              "repeating_items"
+            ]
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "structure.services",
+        "kind": "structure",
+        "route": "/services",
+        "page_type": "content",
+        "sections": [
+          {
+            "id": "h1-0",
+            "role": "section",
+            "heading": null,
+            "data_bindings": []
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "asset": "content.section-profile-card",
+        "kind": "content_schema",
+        "entity": "section-profile-card",
+        "instance_count": 4,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "asset": "content.site-copy",
+        "kind": "content_schema",
+        "entity": "site-copy",
+        "instance_count": 1,
+        "fields": [
+          {
+            "name": "site_name",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "tagline",
+            "type": "string",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "nav_items",
+            "type": "string[]",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "footer_copy",
+            "type": "string",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "asset": "listing..section-profile-card",
+        "kind": "listing_data",
+        "route": "/",
+        "region_selector": "section.profile-card",
+        "count_captured": 4,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Person 1",
+            "role": "Person 1View",
+            "price": null,
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": "/profiles/person-0"
+          },
+          {
+            "name": "Person 2",
+            "role": "Person 2View",
+            "price": null,
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": "/profiles/person-1"
+          },
+          {
+            "name": "Person 3",
+            "role": "Person 3View",
+            "price": null,
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": "/profiles/person-2"
+          },
+          {
+            "name": "Person 4",
+            "role": "Person 4View",
+            "price": null,
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": "/profiles/person-3"
+          }
+        ]
+      },
+      {
+        "asset": "image.home-5",
+        "kind": "media_slot",
+        "slot": "image",
+        "replacement_required": true,
+        "source_copied": false
+      },
+      {
+        "asset": "image.home-6",
+        "kind": "media_slot",
+        "slot": "image",
+        "replacement_required": true,
+        "source_copied": false
+      },
+      {
+        "asset": "image.home-7",
+        "kind": "media_slot",
+        "slot": "image",
+        "replacement_required": true,
+        "source_copied": false
+      },
+      {
+        "asset": "image.home-8",
+        "kind": "media_slot",
+        "slot": "image",
+        "replacement_required": true,
+        "source_copied": false
+      },
+      {
+        "asset": "image.home-9",
+        "kind": "media_slot",
+        "slot": "image",
+        "replacement_required": true,
+        "source_copied": false
+      },
+      {
+        "asset": "logo_home",
+        "kind": "media_slot",
+        "slot": "logo",
+        "replacement_required": true,
+        "source_copied": false
+      },
+      {
+        "asset": "design.tokens",
+        "kind": "design_tokens",
+        "colors": [
+          {
+            "name": "color-1",
+            "value": "#111",
+            "usage": "observed"
+          }
+        ],
+        "typography": {
+          "font_families": [],
+          "scale": []
+        },
+        "spacing": [],
+        "radii": [
+          {
+            "value": "8px",
+            "usage": "observed"
+          }
+        ],
+        "shadows": [],
+        "breakpoints": [],
+        "rebrandable": true
+      }
+    ],
+    "counts": {
+      "structure": 2,
+      "content": 3,
+      "media": 6,
+      "design": 1,
+      "integrations": 1,
+      "placeholder_groups": 4
+    },
+    "gaps": []
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

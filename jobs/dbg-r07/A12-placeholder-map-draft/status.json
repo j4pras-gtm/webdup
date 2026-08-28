@@ -1,0 +1,39 @@
+{
+  "build_id": "A12-placeholder-map-draft",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.993Z",
+  "result": {
+    "draft": true,
+    "groups": {
+      "brand": [
+        "displayName",
+        "logo",
+        "primaryColor",
+        "fonts",
+        "logo_home"
+      ],
+      "contact_integrations": [],
+      "content": [
+        "copy.home.h1-0",
+        "copy.home.h3-1",
+        "copy.home.h3-2",
+        "copy.home.h3-3",
+        "copy.home.h3-4",
+        "image.home-5",
+        "image.home-6",
+        "image.home-7",
+        "image.home-8",
+        "image.home-9",
+        "copy.services.h1-10"
+      ],
+      "legal": []
+    }
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 3,
+    "failures": []
+  }
+}

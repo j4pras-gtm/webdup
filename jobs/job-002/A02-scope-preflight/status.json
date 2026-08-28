@@ -1,0 +1,66 @@
+{
+  "build_id": "A02-scope-preflight",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T00:54:47.554Z",
+  "result": {
+    "origin": "https://monthlystaff.com",
+    "robots": {
+      "disallowed": [
+        "/auth",
+        "/profile"
+      ],
+      "sitemaps": [
+        "https://monthly-staff.lovable.app/sitemap.xml"
+      ],
+      "appliesToAll": true,
+      "found": true
+    },
+    "sitemaps": [
+      {
+        "url": "https://monthly-staff.lovable.app/sitemap.xml",
+        "routes": [
+          "https://monthly-staff.lovable.app/",
+          "https://monthly-staff.lovable.app/how-it-works",
+          "https://monthly-staff.lovable.app/why-choose-us",
+          "https://monthly-staff.lovable.app/job-seekers",
+          "https://monthly-staff.lovable.app/our-promise",
+          "https://monthly-staff.lovable.app/faq",
+          "https://monthly-staff.lovable.app/contact-us",
+          "https://monthly-staff.lovable.app/investors",
+          "https://monthly-staff.lovable.app/vacancies",
+          "https://monthly-staff.lovable.app/guides/hire-virtual-assistants",
+          "https://monthly-staff.lovable.app/guides/hire-remote-developers",
+          "https://monthly-staff.lovable.app/guides/hire-react-developers",
+          "https://monthly-staff.lovable.app/guides/hire-wordpress-developers",
+          "https://monthly-staff.lovable.app/guides/hire-shopify-developers",
+          "https://monthly-staff.lovable.app/guides/hire-graphic-designers",
+          "https://monthly-staff.lovable.app/guides/hire-ui-ux-designers",
+          "https://monthly-staff.lovable.app/guides/hire-video-editors",
+          "https://monthly-staff.lovable.app/guides/hire-digital-marketers",
+          "https://monthly-staff.lovable.app/guides/hire-seo-specialists",
+          "https://monthly-staff.lovable.app/guides/hire-social-media-managers",
+          "https://monthly-staff.lovable.app/guides/hire-content-writers",
+          "https://monthly-staff.lovable.app/guides/hire-customer-support-specialists",
+          "https://monthly-staff.lovable.app/guides/hire-lead-generation-specialists",
+          "https://monthly-staff.lovable.app/guides/hire-appointment-setters",
+          "https://monthly-staff.lovable.app/guides/hire-data-entry-specialists",
+          "https://monthly-staff.lovable.app/guides/hire-ecommerce-virtual-assistants",
+          "https://monthly-staff.lovable.app/guides/hire-bookkeepers",
+          "https://monthly-staff.lovable.app/guides/hire-project-managers",
+          "https://monthly-staff.lovable.app/guides/remote-staffing-guide"
+        ]
+      }
+    ],
+    "boundary": {
+      "max_pages": 40,
+      "same_origin_only": true
+    }
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

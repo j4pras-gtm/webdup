@@ -1,0 +1,26 @@
+{
+  "build_id": "A02-scope-preflight",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.823Z",
+  "result": {
+    "origin": "http://127.0.0.1:62657",
+    "robots": {
+      "disallowed": [],
+      "sitemaps": [],
+      "appliesToAll": true,
+      "found": true
+    },
+    "sitemaps": [],
+    "boundary": {
+      "max_pages": 40,
+      "same_origin_only": true
+    }
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

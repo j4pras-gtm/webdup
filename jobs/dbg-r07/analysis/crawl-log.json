@@ -1,0 +1,25 @@
+{
+  "pages_crawled": 2,
+  "page_paths": [
+    "/",
+    "/services"
+  ],
+  "errors": [
+    {
+      "path": "/profiles/person-0",
+      "status": 404
+    },
+    {
+      "path": "/profiles/person-1",
+      "status": 404
+    },
+    {
+      "path": "/profiles/person-2",
+      "status": 404
+    },
+    {
+      "path": "/profiles/person-3",
+      "status": 404
+    }
+  ]
+}

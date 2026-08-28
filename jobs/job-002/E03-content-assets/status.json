@@ -1,0 +1,5648 @@
+{
+  "build_id": "E03-content-assets",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:53.637Z",
+  "result": {
+    "draft": false,
+    "assets": [
+      {
+        "asset": "content.div-hero-talent-card",
+        "kind": "content_schema",
+        "entity": "div-hero-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-profile-card",
+        "kind": "content_schema",
+        "entity": "div-profile-card",
+        "instance_count": 24,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.div-related-talent-card",
+        "kind": "content_schema",
+        "entity": "div-related-talent-card",
+        "instance_count": 3,
+        "fields": [
+          {
+            "name": "heading",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "image",
+            "type": "image_url",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "link",
+            "type": "url",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "asset": "content.site-copy",
+        "kind": "content_schema",
+        "entity": "site-copy",
+        "instance_count": 1,
+        "fields": [
+          {
+            "name": "site_name",
+            "type": "string",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "tagline",
+            "type": "string",
+            "required": false,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "nav_items",
+            "type": "string[]",
+            "required": true,
+            "example": "<placeholder>"
+          },
+          {
+            "name": "footer_copy",
+            "type": "string",
+            "required": false,
+            "example": "<placeholder>"
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "asset": "listing..div-hero-talent-card",
+        "kind": "listing_data",
+        "route": "/",
+        "region_selector": "div.hero-talent-card",
+        "count_captured": 3,
+        "count_advertised": 272,
+        "count_consistent": false,
+        "items": [
+          {
+            "name": "Alina",
+            "role": "AlinaFigma, Adobe Photoshop",
+            "price": null,
+            "experience": null,
+            "location": "AlinaFigma, Adobe Photoshop",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Gloria Solomon",
+            "role": "Gloria SolomonFrom $300/month",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "price": null,
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-digimarkom-305.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/digimarkom-305",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Maryam Akmal",
+            "role": "Digital marketing",
+            "price": "From $2,000/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Hussain Siddiqui",
+            "role": "Digital Marketing & WP",
+            "price": "From $500/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Hafiz Ali Raza",
+            "role": "Digital marketing & E-com",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-eduwa-osa-8f2b6.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/eduwa-osa-8f2b6",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "David Kamau",
+            "role": "Flutter",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Aiman Hussain",
+            "role": "Recruitment HR",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Maaz Nazir",
+            "role": "Accounts",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-emmanuel-omunizua-306.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/emmanuel-omunizua-306",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Muhammad Jamshed Qamar",
+            "role": "Shopify Developer",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Muhammad Hassan",
+            "role": "React.js, Node.js",
+            "price": "From $600/month",
+            "experience": null,
+            "location": "HassanReact.js, Node.jsFrom",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Hassan",
+            "role": "Business Central Dev",
+            "price": "From $1,200/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-hasnain-zia-307.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/hasnain-zia-307",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Muhammad Waleed Asaf",
+            "role": "DevOps, CI/CD, AWS",
+            "price": "From $700/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Yugta Bista",
+            "role": "Wordpress, PHP, HTML, CSS",
+            "price": "From $600/month",
+            "experience": null,
+            "location": "Yugta BistaWordpress, PHP",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Bukunmi Olaniyan",
+            "role": "AI Prompt Engineer",
+            "price": "From $200/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-hassan-302.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/hassan-302",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Muhammad Jamshed Qamar",
+            "role": "Shopify Developer",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Emmanuel Omunizua",
+            "role": "Reactjs, ReactNative,",
+            "price": "From $2,000/month",
+            "experience": null,
+            "location": "OmunizuaReactjs, ReactNative",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Muhammad Hassan",
+            "role": "React.js, Node.js",
+            "price": "From $600/month",
+            "experience": null,
+            "location": "HassanReact.js, Node.jsFrom",
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-henrique-leite-77.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/henrique-leite-77",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Alina",
+            "role": "Figma, Adobe Photoshop",
+            "price": "From $300/month",
+            "experience": null,
+            "location": "AlinaFigma, Adobe PhotoshopFrom",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Segun Olusanu",
+            "role": "Graphic design",
+            "price": "From $700/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Aman Ullah",
+            "role": "graphic design",
+            "price": "From $1,000/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-muhammad-hassan-303.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/muhammad-hassan-303",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Muhammad Jamshed Qamar",
+            "role": "Shopify Developer",
+            "price": "From $300/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Emmanuel Omunizua",
+            "role": "Reactjs, ReactNative,",
+            "price": "From $2,000/month",
+            "experience": null,
+            "location": "OmunizuaReactjs, ReactNative",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Hassan",
+            "role": "Business Central Dev",
+            "price": "From $1,200/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-muhammad-jamshed-qamar-722f1.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/muhammad-jamshed-qamar-722f1",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Emmanuel Omunizua",
+            "role": "Reactjs, ReactNative,",
+            "price": "From $2,000/month",
+            "experience": null,
+            "location": "OmunizuaReactjs, ReactNative",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Muhammad Hassan",
+            "role": "React.js, Node.js",
+            "price": "From $600/month",
+            "experience": null,
+            "location": "HassanReact.js, Node.jsFrom",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Hassan",
+            "role": "Business Central Dev",
+            "price": "From $1,200/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "listing.talent-muhammad-waleed-asaf-308.div-related-talent-card",
+        "kind": "listing_data",
+        "route": "/talent/muhammad-waleed-asaf-308",
+        "region_selector": "div.related-talent-card",
+        "count_captured": 3,
+        "count_advertised": null,
+        "count_consistent": true,
+        "items": [
+          {
+            "name": "Hasnain Zia",
+            "role": "Wordpress, React,Next.js",
+            "price": "From $500/month",
+            "experience": null,
+            "location": "Hasnain ZiaWordpress, React",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Yugta Bista",
+            "role": "Wordpress, PHP, HTML, CSS",
+            "price": "From $600/month",
+            "experience": null,
+            "location": "Yugta BistaWordpress, PHP",
+            "skills": [],
+            "detail_link": null
+          },
+          {
+            "name": "Bukunmi Olaniyan",
+            "role": "AI Prompt Engineer",
+            "price": "From $200/month",
+            "experience": null,
+            "location": null,
+            "skills": [],
+            "detail_link": null
+          }
+        ]
+      },
+      {
+        "asset": "api.talent-directory",
+        "kind": "api_data",
+        "source_id": "talent-directory",
+        "route": "/",
+        "region_selector": "div.profile-card",
+        "endpoint": "https://nwlirjygtyukhpmgzejk.supabase.co/rest/v1/rpc/get_public_talent_directory",
+        "source_type": "api_rpc",
+        "count_captured": 272,
+        "count_advertised": 272,
+        "count_consistent": true,
+        "verified_row_count": 272,
+        "pii_included": true,
+        "generated_route_family": "/talent/{slug}",
+        "items": [
+          {
+            "name": "Haseeb Arshad",
+            "role": "Ruby on Rails, NextJS",
+            "category": "Development",
+            "price": "$4500",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "ReactJS",
+              "Typescript",
+              "JavaScript",
+              "Node",
+              "Ruby on rails",
+              "Graphql",
+              "Rest",
+              "NextJS",
+              "Remix"
+            ],
+            "detail_link": "/talent/haseeb-arshad-108",
+            "contact": "haseeb9009@gmail.com"
+          },
+          {
+            "name": "Muhammad Jamshed Qamar",
+            "role": "Shopify Developer",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$7",
+            "location": "Lahore",
+            "skills": [
+              "Shopify Developer",
+              "eCommerce Specialist",
+              "HTML",
+              "CSS",
+              "LiQuid",
+              "API Integration"
+            ],
+            "detail_link": "/talent/muhammad-jamshed-90",
+            "contact": "jamshed.shopifydeveloper@gmail.com"
+          },
+          {
+            "name": "Shafa Ullah",
+            "role": "UX UI Designer",
+            "category": "Design",
+            "price": "$2000",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "UX Design",
+              "UI Design",
+              "Web Design",
+              "Figma Pro",
+              "Framer Pro"
+            ],
+            "detail_link": "/talent/shafa-ullah-112",
+            "contact": "shafatrains@gmail.com"
+          },
+          {
+            "name": "Eduwa Osa",
+            "role": "Virtual Executive Assistant | Appointment Setter | Bookkeeping Specialist|",
+            "category": "Business",
+            "price": "$500",
+            "experience": "$7",
+            "location": "Lagos",
+            "skills": [
+              "Executive Assistance",
+              "Virtual Assistance",
+              "Bookkeeping",
+              "Appointment Setting",
+              "Sales Outreach",
+              "Calendar Management",
+              "Business Support",
+              "Business Operations",
+              "Executive Support",
+              "Administrative Operations",
+              "Google Workspace",
+              "Email Management",
+              "Calendar Management",
+              "Research & Information Gathering",
+              "Data Entry"
+            ],
+            "detail_link": "/talent/eduwa-osa-272",
+            "contact": "eduwaosa13@gmail.com"
+          },
+          {
+            "name": "Muhammad Waqar",
+            "role": "SaaS & Mobile Apps",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Karachi",
+            "skills": [
+              "Flutter",
+              "AI ChatBot",
+              "UI/UX",
+              "Mobile Apps",
+              "SaaS"
+            ],
+            "detail_link": "/talent/muhammad-waqar-111",
+            "contact": "waqar@softcodix.com"
+          },
+          {
+            "name": "Hafiz Muhammad Qasim",
+            "role": "Graphic Designer",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Graphic Design"
+            ],
+            "detail_link": "/talent/hafiz-muhammad-qasim-114",
+            "contact": "hafizmuhammadqasimh59@gmail.com"
+          },
+          {
+            "name": "Haris Ali",
+            "role": "NodeJs, ReactJs, NextJs",
+            "category": "Development",
+            "price": "$2000",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "MERN Stack",
+              "NodeJS",
+              "ReactJS",
+              "NextJS"
+            ],
+            "detail_link": "/talent/haris-ali-118",
+            "contact": "harisali2928@gmail.com"
+          },
+          {
+            "name": "Muhammad Kashif",
+            "role": "Full Stack Developer",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "Full Stack Developer"
+            ],
+            "detail_link": "/talent/muhammad-kashif-12",
+            "contact": "m.kashi613@gmail.com"
+          },
+          {
+            "name": "Hammed Olatunde",
+            "role": "AI, Node, Reactjs,",
+            "category": "AI & data",
+            "price": "$700",
+            "experience": "$5",
+            "location": "Lagos",
+            "skills": [
+              "AI Engineer",
+              "Nextjs",
+              "Reactjs",
+              "React Native",
+              "Python",
+              "HTML",
+              "CSS",
+              "Fullstack Developer",
+              "Frontend developer",
+              "Backend Developer"
+            ],
+            "detail_link": "/talent/hammed-olatunde-216",
+            "contact": "Timmortaltech@gmail.com"
+          },
+          {
+            "name": "Henrique Leite",
+            "role": "Video Maker, Copywriter",
+            "category": "Design",
+            "price": "$100",
+            "experience": "$6",
+            "location": "Belo Horizonte",
+            "skills": [
+              "Video Editor",
+              "Copywriting",
+              "Graphic Design"
+            ],
+            "detail_link": "/talent/henrique-leite-77",
+            "contact": "eusoulegal6@gmail.com"
+          },
+          {
+            "name": "Sameed Ahmad",
+            "role": "Full-Stack Developer",
+            "category": "AI & data",
+            "price": "$3000",
+            "experience": "$5",
+            "location": "Manchester",
+            "skills": [
+              "SaaS",
+              "MVP",
+              "NodeJS",
+              "AI",
+              "API's",
+              "ChatGPT",
+              "Claude",
+              "Chrome Extensions"
+            ],
+            "detail_link": "/talent/sameed-ahmad-102",
+            "contact": "sameedyousafazai456@gmail.com"
+          },
+          {
+            "name": "Hammad Ali",
+            "role": "ReactJS",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$3",
+            "location": "Mirpur A.K.",
+            "skills": [
+              "ReactJS"
+            ],
+            "detail_link": "/talent/hammad-ali-10",
+            "contact": "hammad2000ch@gmail.com"
+          },
+          {
+            "name": "Abdul Mannan",
+            "role": "Python",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$1",
+            "location": "Bahawalpur",
+            "skills": [
+              "AI/ML",
+              "NLP",
+              "Computer Vision"
+            ],
+            "detail_link": "/talent/abdul-mannan-100",
+            "contact": "malikmanan850@gmail.com"
+          },
+          {
+            "name": "Defi Hiller",
+            "role": "Marketing",
+            "category": "Marketing",
+            "price": "$700",
+            "experience": "$9",
+            "location": "Mission TX",
+            "skills": [
+              "Project management",
+              "Blockchain",
+              "Solidity",
+              "Reactjs",
+              "Community building"
+            ],
+            "detail_link": "/talent/defi-hiller-104",
+            "contact": "gomezhan08@gmail.com"
+          },
+          {
+            "name": "Zeerik Raza",
+            "role": "Salesforce Developer",
+            "category": "Business",
+            "price": "$1500",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "LWC",
+              "Apex",
+              "Visualforce",
+              "Aura Components",
+              "Rest API",
+              "Triggers",
+              "Flows",
+              "Admin",
+              "Experience Cloud"
+            ],
+            "detail_link": "/talent/zeerik-raza-103",
+            "contact": "ask2zeerik@gmail.com"
+          },
+          {
+            "name": "Abdullah",
+            "role": "Flutter",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Full Stack Developer",
+              "Flutter",
+              "App Developer"
+            ],
+            "detail_link": "/talent/abdullah-105",
+            "contact": "goge243@gmail.com"
+          },
+          {
+            "name": "Ashutosh Yadav",
+            "role": "Frontend Engineer",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Pune",
+            "skills": [
+              "ReactJS"
+            ],
+            "detail_link": "/talent/ashutosh-yadav-107",
+            "contact": "ashu.ydv2001@gmail.com"
+          },
+          {
+            "name": "Umais Usmani",
+            "role": "Photoshop, Illustration",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              ".NET",
+              "MERN Stack",
+              "UI/UX",
+              "Character Design",
+              "Concept Art",
+              "Digital Painting"
+            ],
+            "detail_link": "/talent/umais-usmani-106",
+            "contact": "umaisusmani3@gmail.com"
+          },
+          {
+            "name": "M Fahad Khawaja",
+            "role": "ReactJs, Node, NextJS,AWS",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "ReactJs",
+              "NodeJS",
+              "Python",
+              "NextJS",
+              "MongoDB",
+              "SQL",
+              "AWS",
+              "JavaScript",
+              "TypeScript"
+            ],
+            "detail_link": "/talent/m-fahad-khawaja-109",
+            "contact": "mkhfahad0@gmail.com"
+          },
+          {
+            "name": "Moiz Masood",
+            "role": "Laravel, React, Filament",
+            "category": "Development",
+            "price": "$800",
+            "experience": "$1",
+            "location": "Dubai",
+            "skills": [
+              "Laravel",
+              "ReactJs",
+              "Filament",
+              "Livewire",
+              "Tailwind CSS",
+              "Stripe",
+              "DigitalOcean",
+              "MySQL"
+            ],
+            "detail_link": "/talent/moiz-masood-110",
+            "contact": "moizmasood10@gmail.com"
+          },
+          {
+            "name": "Monir Hosen",
+            "role": "WordPress",
+            "category": "Development",
+            "price": "$600",
+            "experience": "$3",
+            "location": "Dhaka",
+            "skills": [
+              "WordPress",
+              "Theme Development",
+              "Plugin Development",
+              "Theme Customizer",
+              "Plugin Customize",
+              "Elementor Pro",
+              "All Type Page Builder"
+            ],
+            "detail_link": "/talent/monir-hosen-113",
+            "contact": "monirhosenakanda@gmail.com"
+          },
+          {
+            "name": "Muhammad Shahryar",
+            "role": "Flutter|Firebase",
+            "category": "Development",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Sheikhupura",
+            "skills": [
+              "Flutter",
+              "Firebase",
+              "Bug fixing",
+              "Google PlayStore"
+            ],
+            "detail_link": "/talent/muhammad-shahryar-115",
+            "contact": "miansheheryaraslam@gmail.com"
+          },
+          {
+            "name": "John Agbaje",
+            "role": "ReactJS, NextJs",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "HTML",
+              "CSS",
+              "Tailwind CSS",
+              "JavaScript"
+            ],
+            "detail_link": "/talent/john-agbaje-121",
+            "contact": "agbajeakin84@gmail.com"
+          },
+          {
+            "name": "Ahmed Khalil",
+            "role": "ReactJs,NextJs",
+            "category": "Development",
+            "price": "$1200",
+            "experience": "$5",
+            "location": "Sialkot",
+            "skills": [
+              "ReactJS",
+              "NextJS",
+              "NodeJS",
+              "Cordova",
+              "Nginx",
+              "Antd",
+              "MaterialUI",
+              "Tailwind CSS"
+            ],
+            "detail_link": "/talent/ahmed-khalil-135",
+            "contact": "ahmedkhalil9497@gmail.com"
+          },
+          {
+            "name": "Mohammad Abbas",
+            "role": "Generative AI & React JS",
+            "category": "AI & data",
+            "price": "$700",
+            "experience": "$3",
+            "location": "Karachi",
+            "skills": [
+              "Docker",
+              "Web Design",
+              "Software Development"
+            ],
+            "detail_link": "/talent/mohammad-abbas-142",
+            "contact": "Abbas.mohammad805@gmail.com"
+          },
+          {
+            "name": "Shariq Ahmed Khan",
+            "role": "ERP Functional",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$4",
+            "location": "Karachi",
+            "skills": [
+              "ERP Functional Admin",
+              "Documentation",
+              "Business Typing",
+              "Content Writing",
+              "Google Sheets Data Handling",
+              "Data Entry",
+              "Email",
+              "Postgre SQL Database Management",
+              "SRS documentation"
+            ],
+            "detail_link": "/talent/shariq-ahmed-khan-140",
+            "contact": "ahmedshariq298@gmail.com"
+          },
+          {
+            "name": "Hamesh Raj",
+            "role": "AI Engineer",
+            "category": "AI & data",
+            "price": "$900",
+            "experience": "$2",
+            "location": "Umerkot",
+            "skills": [
+              "Data Science",
+              "Data Analysis",
+              "Data Analytics",
+              "Data Analyst",
+              "Data Wrangling",
+              "Deep Learning",
+              "Artificial Neural Networks",
+              "Generative AI",
+              "Artificial Intelligence",
+              "Machine Learning",
+              "AI ChatBot",
+              "AI Prompt Engineer",
+              "AI Engineer",
+              "AI/ML",
+              "AI",
+              "ChatGPT"
+            ],
+            "detail_link": "/talent/hamesh-raj-167",
+            "contact": "hm.raisingani@gmail.com"
+          },
+          {
+            "name": "Syed Muhammad Asad",
+            "role": "Python, JavaScript, React",
+            "category": "AI & data",
+            "price": "$1000",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "Machine Learning",
+              "Deep Learning",
+              "Computer Vision",
+              "Data Science",
+              "Data Analytics",
+              "Data Wrangling",
+              "NLP",
+              "CI/CD",
+              "Automation",
+              "Django",
+              "React",
+              "Flask",
+              "MongoDB",
+              "MySQL",
+              "Postman API testing",
+              "Project Management"
+            ],
+            "detail_link": "/talent/syed-muhammad-asad-116",
+            "contact": "asad.haider.rizvi64@gmail.com"
+          },
+          {
+            "name": "Ayatul Chowdhury",
+            "role": "PHP, Laravel",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Sylhet",
+            "skills": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "PHP",
+              "Laravel"
+            ],
+            "detail_link": "/talent/ayatul-chowdhury-123",
+            "contact": "ayatulislam001@gmail.com"
+          },
+          {
+            "name": "Numan Anees",
+            "role": "Reactjs, Nextjs, Nestjs",
+            "category": "Development",
+            "price": "$1500",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "React",
+              "NextJS",
+              "NodeJS",
+              "NestJS",
+              "Graphql",
+              "MongoDb",
+              "PostgressSQL",
+              "AWS",
+              "Cloud",
+              "Full Stack Developer",
+              "Progressive Web Apps (PWAs)",
+              "Python",
+              "Django",
+              "FastAPI",
+              "Redis",
+              "Kafka",
+              "Nginx",
+              "JavaScript",
+              "TypeScript",
+              "MERN stack",
+              "MEAN stack",
+              "React native",
+              "frontend",
+              "backend",
+              "full stack",
+              "Reactjs",
+              "node"
+            ],
+            "detail_link": "/talent/numan-anees-122",
+            "contact": "numananees44@gmail.com"
+          },
+          {
+            "name": "Hammad Asghar",
+            "role": "Figma",
+            "category": "Design",
+            "price": "$700",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Figma",
+              "Adobe Creative Suite"
+            ],
+            "detail_link": "/talent/hammad-asghar-126",
+            "contact": "hamad.asghar@gmail.com"
+          },
+          {
+            "name": "Syed Abdullah Ali",
+            "role": "React,Node, Python",
+            "category": "Development",
+            "price": "$700",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "ReactJS",
+              "NodeJS",
+              "Python",
+              "MongoDb",
+              "SQL",
+              "Flask",
+              "Django",
+              "ExpressJS"
+            ],
+            "detail_link": "/talent/syed-abdullah-ali-117",
+            "contact": "abdullahaliquadri@gmail.com"
+          },
+          {
+            "name": "M Ehtisham Ashraf",
+            "role": "PHP, React, Python",
+            "category": "AI & data",
+            "price": "$1500",
+            "experience": "$8",
+            "location": "Rawalpindi",
+            "skills": [
+              "PHP",
+              "React",
+              "Laravel",
+              "MySQL",
+              "CSS",
+              "HTML",
+              "JS",
+              "JQuery",
+              "Python",
+              "Power BI",
+              "Data Analysis"
+            ],
+            "detail_link": "/talent/m-ehtisham-ashraf-120",
+            "contact": "ehtisham17893@gmail.com"
+          },
+          {
+            "name": "Abdul Rafay",
+            "role": "LinkedIn Account Manager",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Linkedin Expert",
+              "LinkedIn Account Manager"
+            ],
+            "detail_link": "/talent/abdul-rafay-129",
+            "contact": "virtualshelf1@gmail.com"
+          },
+          {
+            "name": "Ahmed Ramadan",
+            "role": "Native Android Dev",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Cairo",
+            "skills": [
+              "Native Android Dev"
+            ],
+            "detail_link": "/talent/ahmed-ramadan-13",
+            "contact": "ahmadalymohamad@gmail.com"
+          },
+          {
+            "name": "Daniel Salihu",
+            "role": "C++, Java, Python, AI/ML",
+            "category": "AI & data",
+            "price": "$4500",
+            "experience": "$10",
+            "location": "Abuja",
+            "skills": [
+              "C++",
+              "Python",
+              "Java",
+              "Project Management",
+              "Monitoring & Evaluation",
+              "Data Science",
+              "Digital Health",
+              "Business Analytics",
+              "Teaching",
+              "Technical Writing",
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Blockchain"
+            ],
+            "detail_link": "/talent/daniel-salihu-124",
+            "contact": "daniel.salihu247@gmail.com"
+          },
+          {
+            "name": "Samuel Chibuike",
+            "role": "ReactJs",
+            "category": "Development",
+            "price": "$2000",
+            "experience": "$7",
+            "location": "Accra",
+            "skills": [
+              "ReactJS",
+              "TypeScript",
+              "Elementor Pro",
+              "Vue.js"
+            ],
+            "detail_link": "/talent/samuel-chibuike-127",
+            "contact": "officialzapman@gmail.com"
+          },
+          {
+            "name": "Ayub Nazeer",
+            "role": "Social Media Management",
+            "category": "Marketing",
+            "price": "$400",
+            "experience": "$2",
+            "location": "Karachi",
+            "skills": [
+              "Social Media Management",
+              "Social Media Marketing",
+              "Social Media Posts",
+              "Social Media Strategy",
+              "Social Media Content",
+              "Social Media Manager"
+            ],
+            "detail_link": "/talent/ayub-nazeer-125",
+            "contact": "ayubadswala@gmail.com"
+          },
+          {
+            "name": "Asad Ullah",
+            "role": "Python, Django, Flask",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "Django",
+              "Flask"
+            ],
+            "detail_link": "/talent/asad-ullah-146",
+            "contact": "asad8827@gmail.com"
+          },
+          {
+            "name": "Abdur Rehman",
+            "role": "VueJs, NodeJs",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "London",
+            "skills": [
+              "VueJs",
+              "NodeJs",
+              "SQL Databases",
+              "ExpressJS",
+              "Github",
+              "API Management",
+              "Web Development",
+              "Web Design",
+              "IT"
+            ],
+            "detail_link": "/talent/abdur-rehman-151",
+            "contact": "Hlasmp@hotmail.com"
+          },
+          {
+            "name": "Sheikh Salaar Jamal",
+            "role": "Custom Web Development",
+            "category": "Design",
+            "price": "$1500",
+            "experience": "$4",
+            "location": "Attock",
+            "skills": [
+              "ReactJs",
+              "PHP",
+              "Laravel",
+              "Illustration",
+              "Graphic Design",
+              "SEO"
+            ],
+            "detail_link": "/talent/sheikh-salaar-jamal-155",
+            "contact": "salarsheikh07@gmail.com"
+          },
+          {
+            "name": "Azhar Hussain",
+            "role": "Telco Team Lead in Nokia",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "RAN+MW",
+              "NEC Nokia Ericsson Huawei",
+              "Implementation",
+              "Installation"
+            ],
+            "detail_link": "/talent/azhar-hussain-156",
+            "contact": "azhar.khaan60@gmail.com"
+          },
+          {
+            "name": "M Salman Akbar",
+            "role": "Python, Generative AI",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Lahore",
+            "skills": [
+              "Python",
+              "Generative AI",
+              "Cloud",
+              "DevOps",
+              "Data Science"
+            ],
+            "detail_link": "/talent/m-salman-akbar-16",
+            "contact": "salman.k.786000@gmail.com"
+          },
+          {
+            "name": "Sumaiyyah",
+            "role": "Flutter, Django, REST API",
+            "category": "Marketing",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Flutter",
+              "Python",
+              "Django",
+              "RESTful API",
+              "Communication",
+              "Mobile Application Development",
+              "Content Writing"
+            ],
+            "detail_link": "/talent/sumaiyyah-161",
+            "contact": "sumaiyyahtahir@gmail.com"
+          },
+          {
+            "name": "Pelumi Oladayo",
+            "role": "UI/UX , Design Engineer",
+            "category": "Design",
+            "price": "$1500",
+            "experience": "$7",
+            "location": "Lagos",
+            "skills": [
+              "Product Design",
+              "Research and Ideat"
+            ],
+            "detail_link": "/talent/pelumi-oladayo-131",
+            "contact": "oladayopelumi2018@gmail.com"
+          },
+          {
+            "name": "Husnain Raza",
+            "role": "Making you look BIG brand",
+            "category": "AI & data",
+            "price": "$4500",
+            "experience": "$10",
+            "location": "Houston",
+            "skills": [
+              "Adobe CS",
+              "Advertising Designer",
+              "HTML",
+              "JS",
+              "Java",
+              "SEO",
+              "WordPress",
+              "AMZ",
+              "Google",
+              "Azure Cloud",
+              "Project Leader"
+            ],
+            "detail_link": "/talent/husnain-raza-134",
+            "contact": "oagewyo@outsourceage.com"
+          },
+          {
+            "name": "Sedara Joshua",
+            "role": "Figma, Webflow, Framer",
+            "category": "Design",
+            "price": "$3000",
+            "experience": "$4",
+            "location": "Lagos",
+            "skills": [
+              "Figma",
+              "Web Design",
+              "Webflow"
+            ],
+            "detail_link": "/talent/sedara-joshua-130",
+            "contact": "sedaraoluwadamilola@gmail.com"
+          },
+          {
+            "name": "Hadsaw Kakazai",
+            "role": "UI UX Design",
+            "category": "Design",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Tampere",
+            "skills": [
+              "Figma",
+              "Adobe Creative Suite",
+              "UI Design",
+              "UX Design",
+              "UI/UX",
+              "Web Design",
+              "Brand Identity Designs"
+            ],
+            "detail_link": "/talent/hadsaw-kakazai-132",
+            "contact": "hadsawk@gmail.com"
+          },
+          {
+            "name": "Safa Yousaf",
+            "role": "WordPress, Python, PHP",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Sialkot",
+            "skills": [
+              "HTML",
+              "Java",
+              "JavaScript",
+              "CSS",
+              "PHP",
+              "Python"
+            ],
+            "detail_link": "/talent/safa-yousaf-136",
+            "contact": "safayousaf54@gmail.com"
+          },
+          {
+            "name": "Walaa Nasr",
+            "role": "Data Science. Generative",
+            "category": "AI & data",
+            "price": "$1000",
+            "experience": "$1",
+            "location": "Cairo",
+            "skills": [
+              "Project Management",
+              "Creative Director",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/walaa-nasr-139",
+            "contact": "W.ghitany@gmail.com"
+          },
+          {
+            "name": "Shahzad Malik",
+            "role": "Python Ai",
+            "category": "AI & data",
+            "price": "$1000",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Python",
+              "Artificial Intelligence"
+            ],
+            "detail_link": "/talent/shahzad-malik-141",
+            "contact": "mshazad170944@gmai.com"
+          },
+          {
+            "name": "Duraiz Haider",
+            "role": "MERN Stack",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "MERN Stack"
+            ],
+            "detail_link": "/talent/duraiz-haider-14",
+            "contact": "haiderduraiz@gmail.com"
+          },
+          {
+            "name": "Syed Hashir Husnain",
+            "role": "MERN, Generative AI",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "Generative AI",
+              "Python Web Scraping",
+              "Desktop Applications"
+            ],
+            "detail_link": "/talent/syed-hashir-husnain-147",
+            "contact": "syedhashir1001@gmail.com"
+          },
+          {
+            "name": "Hasan Haider",
+            "role": "Information Security",
+            "category": "Development",
+            "price": "$3500",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Security Solution",
+              "Technology Solution",
+              "Technology Advisor",
+              "SIEM",
+              "EDR / XDR",
+              "Encryption",
+              "IBM",
+              "Q Radar SIEM",
+              "Guardium",
+              "Antivirus (Trend Micro/Symantec/Kaspersky)",
+              "IDS/IPS",
+              "MobaXtreme",
+              "Linux Kali",
+              "Ubuntu",
+              "Microsoft SQL Server 2008 & Upwards",
+              "Microsoft Windows Server",
+              "Active directory/domain controller",
+              "Microsoft AX Dynamics",
+              "SCCM",
+              "Vulnerability Scanning tools",
+              "Trust wave",
+              "Velocity raptor",
+              "Auto run",
+              "GSI Scan",
+              "KVRT",
+              "Thor",
+              "Loki",
+              "PowerShell scripts"
+            ],
+            "detail_link": "/talent/hasan-haider-133",
+            "contact": "hasan.haider@live.co.uk"
+          },
+          {
+            "name": "Isra Rafique",
+            "role": "Data Science",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Mansehra",
+            "skills": [
+              "Tensorflow",
+              "Deep Learning",
+              "Machine Learning",
+              "Generative AI",
+              "LLM"
+            ],
+            "detail_link": "/talent/isra-rafique-138",
+            "contact": "israrafique2211@gmail.com"
+          },
+          {
+            "name": "Asjad Ali",
+            "role": "Generative AI",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Gujranwala",
+            "skills": [
+              "Python",
+              "Machine Learning",
+              "Data Analysis",
+              "Artificial Intelligence",
+              "Deep Learning"
+            ],
+            "detail_link": "/talent/asjad-ali-137",
+            "contact": "aliasjid009@gmail.com"
+          },
+          {
+            "name": "Tabban Ghani",
+            "role": "JavaScript,Reactjs",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Reactjs",
+              "Generative AI",
+              "Python",
+              "Web development"
+            ],
+            "detail_link": "/talent/tabban-ghani-143",
+            "contact": "tabbanghani123@gmail.com"
+          },
+          {
+            "name": "Yameen Mohsan",
+            "role": "Python",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Sialkot",
+            "skills": [
+              "Python",
+              "AI Systems Engineering",
+              "Data Science"
+            ],
+            "detail_link": "/talent/yameen-mohsan-144",
+            "contact": "yameench21@gmail.com"
+          },
+          {
+            "name": "Kainat Saif",
+            "role": "Legal Drafting",
+            "category": "Business",
+            "price": "$500",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "Legal Drafting",
+              "Startups",
+              "Communication",
+              "Project Leader",
+              "Project Management",
+              "Research"
+            ],
+            "detail_link": "/talent/kainat-saif-166",
+            "contact": "kainatsaif02@gmail.com"
+          },
+          {
+            "name": "Faizan Ahmed",
+            "role": "Flutter",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Dera Ismail Khan",
+            "skills": [
+              "Flutter",
+              "Mobile Apps",
+              "App Development"
+            ],
+            "detail_link": "/talent/faizan-ahmed-171",
+            "contact": "faizanbettani@gmail.com"
+          },
+          {
+            "name": "Adil",
+            "role": "VA, CSM, BD, Comms",
+            "category": "Business",
+            "price": "$1500",
+            "experience": "$10",
+            "location": "Islamabad",
+            "skills": [
+              "Customer Success",
+              "Virtual Assistant",
+              "Key Account Management",
+              "Business Growth",
+              "Partnership & Alliances",
+              "Cold Outreach",
+              "Client Communication"
+            ],
+            "detail_link": "/talent/adil-170",
+            "contact": "adilmehdi87@gmail.com"
+          },
+          {
+            "name": "Abdul Saboor",
+            "role": "ReactJs, NextJs, NodeJs,",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "ReactJS",
+              "NodeJS",
+              "NextJS",
+              "MongoDb",
+              "Sql",
+              "MySql",
+              "TypeScript",
+              "JavaScript"
+            ],
+            "detail_link": "/talent/abdul-saboor-148",
+            "contact": "abdulsaboormillwala123@gmail.com"
+          },
+          {
+            "name": "Habib Ur Rehman",
+            "role": "AI & ML Engineer (Python)",
+            "category": "AI & data",
+            "price": "$2000",
+            "experience": "$10",
+            "location": "Lahore",
+            "skills": [
+              "Generative AI",
+              "LLM",
+              "Python",
+              "Copywriting",
+              "Project Management",
+              "AI Prompt Engineer"
+            ],
+            "detail_link": "/talent/habib-ur-rehman-150",
+            "contact": "engr.hrq@gmail.com"
+          },
+          {
+            "name": "Mohammad Bilal",
+            "role": "MERN Stack Developer",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$2",
+            "location": "karachi",
+            "skills": [
+              "PHP",
+              "ReactJs",
+              "MySql",
+              "Laravel"
+            ],
+            "detail_link": "/talent/mohammad-bilal-149",
+            "contact": "bilalakber1221@gmail.com"
+          },
+          {
+            "name": "Muzaffar Sial",
+            "role": "Networking engineer",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Telecome Engineer"
+            ],
+            "detail_link": "/talent/muzaffar-sial-158",
+            "contact": "muzaffar.fahe1201@gmail.com"
+          },
+          {
+            "name": "Zainul Abdin Khuhro",
+            "role": "Python, Hiring",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$7",
+            "location": "Karachi",
+            "skills": [
+              "Generative AI",
+              "LLM",
+              "Project Management",
+              "Copyright",
+              "Artificial Intelligence"
+            ],
+            "detail_link": "/talent/zainul-abdin-khuhro-154",
+            "contact": "engr.zainul.abdin@morointernational.com"
+          },
+          {
+            "name": "Muhammad Hamza",
+            "role": "Generative AI",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$2",
+            "location": "Karachi",
+            "skills": [
+              "Generative AI",
+              "Data Analysis",
+              "Machine Learning",
+              "Computer Vision"
+            ],
+            "detail_link": "/talent/muhammad-hamza-163",
+            "contact": "mhamzafateh@gmail.com"
+          },
+          {
+            "name": "Syed Hammad",
+            "role": "ReactJS, WordPress",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "HTML",
+              "CSS",
+              "WordPress Developer",
+              "Shopify",
+              "UI/UX",
+              "Video Editor",
+              "Graphic Design"
+            ],
+            "detail_link": "/talent/syed-hammad-168",
+            "contact": "hammadaspirini@gmail.com"
+          },
+          {
+            "name": "Zabih Ullah",
+            "role": "Ai Developer",
+            "category": "AI & data",
+            "price": "$100",
+            "experience": "$1",
+            "location": "Peshawar",
+            "skills": [
+              "Python",
+              "Tensorflow",
+              "AI ChatBot",
+              "AI Engineer",
+              "AI/ML"
+            ],
+            "detail_link": "/talent/zabih-ullah-145",
+            "contact": "zabihullah18381@gmail.com"
+          },
+          {
+            "name": "Laiba Anjum",
+            "role": "ReactJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Karachi",
+            "skills": [
+              "ReactJS"
+            ],
+            "detail_link": "/talent/laiba-anjum-15",
+            "contact": "laibaanjum08@gmail.com"
+          },
+          {
+            "name": "Hassan Saeed",
+            "role": "C# .Net Framework",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "CSS",
+              "Bootstrap",
+              "HTML",
+              "C++",
+              ".NET"
+            ],
+            "detail_link": "/talent/hassan-saeed-152",
+            "contact": "hschatthi@gmail.com"
+          },
+          {
+            "name": "Abdul Qadeer Mudasar",
+            "role": "Flutter",
+            "category": "Development",
+            "price": "$2000",
+            "experience": "$10",
+            "location": "Multan",
+            "skills": [
+              "Mobile Application Development"
+            ],
+            "detail_link": "/talent/abdul-qadeer-mudasar-157",
+            "contact": "abdulqadeer.mudassar@gmail.com"
+          },
+          {
+            "name": "Syed Shahzad Hussain",
+            "role": "Electrical Engineering",
+            "category": "Development",
+            "price": "$3000",
+            "experience": "$10",
+            "location": "Lahore",
+            "skills": [
+              "Metlab",
+              "PowerTrade"
+            ],
+            "detail_link": "/talent/syed-shahzad-hussain-160",
+            "contact": "sshu@live.com"
+          },
+          {
+            "name": "Abdullah Haroon",
+            "role": "Communication",
+            "category": "Design",
+            "price": "$400",
+            "experience": "$5",
+            "location": "Karachi",
+            "skills": [
+              "Communication",
+              "Content Writing",
+              "Google Sheets Data Handling",
+              "Video Editor",
+              "Audio Editor",
+              "Voiceover Artist",
+              "Reporting Specialist & Analysis"
+            ],
+            "detail_link": "/talent/abdullah-haroon-162",
+            "contact": "abdullah.haroon@gmail.com"
+          },
+          {
+            "name": "Basil Mustafa Ch",
+            "role": "Graphic Design | 3D",
+            "category": "Design",
+            "price": "$400",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "Graphic Design",
+              "Motion Graphics",
+              "Video Editing",
+              "3D Modelling"
+            ],
+            "detail_link": "/talent/basil-mustafa-ch-164",
+            "contact": "basilmustafachaudhary@gmail.com"
+          },
+          {
+            "name": "Waseem Hassan",
+            "role": "GenAI",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Generative AI"
+            ],
+            "detail_link": "/talent/waseem-hassan-17",
+            "contact": "waseemhassan7711@gmail.com"
+          },
+          {
+            "name": "Abdul Wasiu",
+            "role": "Quran Recitation, Braille",
+            "category": "Development",
+            "price": "$100",
+            "experience": "$1",
+            "location": "Lagos",
+            "skills": [
+              "Braille (reading and speaking)",
+              "Quran Reading",
+              "Microsoft Word"
+            ],
+            "detail_link": "/talent/abdul-wasiu-175",
+            "contact": "abdulwasiuabdulgoniyu@gmail.com"
+          },
+          {
+            "name": "Syed Arsalan Khan",
+            "role": "MERN Stack",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Peshawar",
+            "skills": [
+              "MERN Stack"
+            ],
+            "detail_link": "/talent/syed-arsalan-khan-24",
+            "contact": "khansyed231am@gmail.com"
+          },
+          {
+            "name": "Amina Batool",
+            "role": "Writer, Analytics",
+            "category": "Marketing",
+            "price": "$1500",
+            "experience": "$7",
+            "location": "Rawalpindi",
+            "skills": [
+              "KNIME",
+              "Power BI",
+              "MS Excel",
+              "Social Media Strategy",
+              "Content Writing",
+              "Copywriting",
+              "MySql",
+              "Content Creation",
+              "Customer Support",
+              "Business Analytics",
+              "Project Management",
+              "CRM"
+            ],
+            "detail_link": "/talent/amina-batool-169",
+            "contact": "batoolamina11@gmail.com"
+          },
+          {
+            "name": "Ibtehaj Khan",
+            "role": "AI Chatbot, NLP, LLMs",
+            "category": "AI & data",
+            "price": "$2500",
+            "experience": "$4",
+            "location": "Karachi",
+            "skills": [
+              "Python",
+              "Large language models",
+              "Natural Language Processing",
+              "AI ChatBot",
+              "Langchain",
+              "Rasa",
+              "Conversational AI",
+              "ChatGPT",
+              "Llama",
+              "PyTorch",
+              "Tensorflow",
+              "AI Prompt Engineer",
+              "AI Engineer",
+              "AI/ML",
+              "Ai Bots",
+              "Generative AI",
+              "Gemini",
+              "AWS",
+              "Flask",
+              "Dialogflow",
+              "RAG based bots",
+              "LLM"
+            ],
+            "detail_link": "/talent/ibtehaj-khan-172",
+            "contact": "ai.thebotss@gmail.com"
+          },
+          {
+            "name": "Abdullah Ahmed",
+            "role": "Python, Javascript",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "React Native",
+              "SQL Databases",
+              "Python",
+              "Flask",
+              "HTML",
+              "CSS",
+              "Bootstrap",
+              "JavaScript",
+              "Sqlite3"
+            ],
+            "detail_link": "/talent/abdullah-ahmed-176",
+            "contact": "abdullahahmedraja5@gmail.com"
+          },
+          {
+            "name": "Celso Casalme Jr",
+            "role": "Video Editor",
+            "category": "Design",
+            "price": "$400",
+            "experience": "$7",
+            "location": "Pasig",
+            "skills": [
+              "Microsoft Office",
+              "Autocad",
+              "Sketchup",
+              "Photoshop",
+              "Linguistic Translator",
+              "Excel",
+              "Powerpoint",
+              "Word"
+            ],
+            "detail_link": "/talent/celso-casalme-jr-181",
+            "contact": "casalme.celso@gmail.com"
+          },
+          {
+            "name": "Rojohnil Coca",
+            "role": "Graphic Design, Editing",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "San Mateo",
+            "skills": [
+              "Graphic Design",
+              "Social Media Marketing",
+              "TypeScript",
+              "Editing",
+              "Adobe Photoshop",
+              "Adobe Creative Suite",
+              "Branding"
+            ],
+            "detail_link": "/talent/rojohnil-coca-182",
+            "contact": "rojohnilcoca@gmail.com"
+          },
+          {
+            "name": "Timileyin Sorunke",
+            "role": "Facebook & Instagram Ads",
+            "category": "Marketing",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Lagos",
+            "skills": [
+              "Facebook ads",
+              "Instagram Ads",
+              "Google Ads",
+              "Media buying",
+              "Social Media Strategy",
+              "Social Media Management"
+            ],
+            "detail_link": "/talent/timileyin-sorunke-188",
+            "contact": "oluwatimileyin321@gmail.com"
+          },
+          {
+            "name": "Abdulwahab Ajarat O.",
+            "role": "Digital Marketing",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$5",
+            "location": "Ibadan",
+            "skills": [
+              "Instagram Marketing",
+              "SEO and Marketing",
+              "Social Media Marketing",
+              "Cold Emails Outreach",
+              "Email Support",
+              "Graphic Design",
+              "Web Design"
+            ],
+            "detail_link": "/talent/abdulwahab-ajarat-o-187",
+            "contact": "ajarklaviyo@gmail.com"
+          },
+          {
+            "name": "Adil Maqsood",
+            "role": "Python, ML, GenAI",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Python",
+              "Machine Learning",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/adil-maqsood-19",
+            "contact": "adilmaqsood501@gmail.com"
+          },
+          {
+            "name": "Talha Warind",
+            "role": "CRM, Marketing, Analytics",
+            "category": "Marketing",
+            "price": "$3500",
+            "experience": "$5",
+            "location": "Karachi",
+            "skills": [
+              "Business Analytics",
+              "E-Commerce",
+              "CRM",
+              "Marketing",
+              "Performance Reporting"
+            ],
+            "detail_link": "/talent/talha-warind-173",
+            "contact": "talha.aslam.warind@gmail.com"
+          },
+          {
+            "name": "Dua Amir",
+            "role": "Maths Tutor, Writer",
+            "category": "Marketing",
+            "price": "$100",
+            "experience": "$6",
+            "location": "Karachi",
+            "skills": [
+              "Teaching",
+              "Content Creator",
+              "Social Media Marketing",
+              "Maths Tutor"
+            ],
+            "detail_link": "/talent/dua-amir-178",
+            "contact": "duaaameer4@gmail.com"
+          },
+          {
+            "name": "Sam Fourie",
+            "role": "WordPress, Photographer",
+            "category": "AI & data",
+            "price": "$900",
+            "experience": "$1",
+            "location": "Gordons Bay",
+            "skills": [
+              "HTML",
+              "WordPress",
+              "CSS",
+              "Photographer"
+            ],
+            "detail_link": "/talent/sam-fourie-177",
+            "contact": "samfourie@gmail.com"
+          },
+          {
+            "name": "Shahzad Hassan",
+            "role": "Business Development",
+            "category": "Business",
+            "price": "$1000",
+            "experience": "$4",
+            "location": "Islamabad",
+            "skills": [
+              "Resource Augmentation",
+              "Business Development",
+              "Cold Emails Outreach",
+              "Email"
+            ],
+            "detail_link": "/talent/shahzad-hassan-179",
+            "contact": "shahzad.hassan.128@gmail.com"
+          },
+          {
+            "name": "Maha Zainab",
+            "role": "GenAI",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Sialkot/Punjab",
+            "skills": [
+              "Generative AI"
+            ],
+            "detail_link": "/talent/maha-zainab-18",
+            "contact": "mznb03@gmail.com"
+          },
+          {
+            "name": "Abdul Mustafa",
+            "role": "Bookkeeper | Accountant",
+            "category": "Business",
+            "price": "$300",
+            "experience": "$5",
+            "location": "Karachi",
+            "skills": [
+              "Financial Statements",
+              "Remote Bookkeeping",
+              "Financial Analysis",
+              "Business Process Optimization"
+            ],
+            "detail_link": "/talent/abdul-mustafa-186",
+            "contact": "abdulmustafawork@gmail.com"
+          },
+          {
+            "name": "M Zain Hassan",
+            "role": "LLMs | RAGS | Python",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Daultala",
+            "skills": [
+              "Generative AI",
+              "NLP",
+              "C++"
+            ],
+            "detail_link": "/talent/m-zain-hassan-191",
+            "contact": "2023f-uocbsc-mte-015@students.uoc.edu.pk"
+          },
+          {
+            "name": "Ahmed",
+            "role": "Machine Learning, Python",
+            "category": "AI & data",
+            "price": "$100",
+            "experience": "$2",
+            "location": "Karachi",
+            "skills": [
+              "python",
+              "Machine Learning",
+              "SQL and Power Bi",
+              "Deep Learning"
+            ],
+            "detail_link": "/talent/ahmed-190",
+            "contact": "ghuffran2000@gmail.com"
+          },
+          {
+            "name": "Vishal",
+            "role": "Design, Copywriting",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$5",
+            "location": "Bengaluru",
+            "skills": [
+              "Virtual Assistant",
+              "Social Media Marketing",
+              "Social Media Strategy",
+              "Social Media Management",
+              "Social Media Posts",
+              "Social Media Content",
+              "Social Media Manager",
+              "Advertising Designer",
+              "Adobe Photoshop",
+              "Copywriting"
+            ],
+            "detail_link": "/talent/vishal-199",
+            "contact": "vishalchowdary98@gmail.com"
+          },
+          {
+            "name": "Abdul Malik Aransi",
+            "role": "Graphics Design",
+            "category": "Design",
+            "price": "$100",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "Graphic Design",
+              "Photo Album Design",
+              "Pre Press Layout"
+            ],
+            "detail_link": "/talent/abdul-malik-aransi-197",
+            "contact": "malikaransi335@gmail.com"
+          },
+          {
+            "name": "Ahmed Shobky",
+            "role": "Full Stack Developer",
+            "category": "Development",
+            "price": "$800",
+            "experience": "$3",
+            "location": "Port Said",
+            "skills": [
+              "Full Stack Developer"
+            ],
+            "detail_link": "/talent/ahmed-shobky-20",
+            "contact": "zashobky4@gmail.com"
+          },
+          {
+            "name": "Abdulahad Shah",
+            "role": "FullStack App/Mobile dev",
+            "category": "Design",
+            "price": "$700",
+            "experience": "$6",
+            "location": "Karachi",
+            "skills": [
+              "MERN/JAM Stack Development",
+              "Python & Data Scraping",
+              "API Design & Integration",
+              "Mobile Application Development",
+              "Team Leadership & Collaboration",
+              "Agile Project Management",
+              "Exceptional Communication",
+              "UI/UX Design Principles",
+              "Cross-platform Compatibility",
+              "Git & Version Control",
+              "Cloud"
+            ],
+            "detail_link": "/talent/abdulahad-shah-174",
+            "contact": "sabdulahad950@gmail.com"
+          },
+          {
+            "name": "Junaid Murad",
+            "role": "Graphic & UI/UX Designer",
+            "category": "Design",
+            "price": "$1000",
+            "experience": "$4",
+            "location": "Islamabad",
+            "skills": [
+              "Social Media Posts",
+              "Graphic Design",
+              "Adobe Creative Suite",
+              "Figma Pro",
+              "Video Editor",
+              "2d animation",
+              "UI/UX Design Principles",
+              "print media design"
+            ],
+            "detail_link": "/talent/junaid-murad-183",
+            "contact": "Junaidmurad54@gmail.com"
+          },
+          {
+            "name": "Azeem Arshad",
+            "role": "IT Support Specialist",
+            "category": "Business",
+            "price": "$300",
+            "experience": "$10",
+            "location": "Lahore",
+            "skills": [
+              "IT Support",
+              "Microsoft Windows Server",
+              "Microsoft 365",
+              "Google Workspace",
+              "System Administrator",
+              "Network Administrator",
+              "Cloud Computing",
+              "IT Support Specialist"
+            ],
+            "detail_link": "/talent/azeem-arshad-189",
+            "contact": "azeem.ali94@gmail.com"
+          },
+          {
+            "name": "Abdullah Khan",
+            "role": "React Native",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "React Native",
+              "Firebase",
+              "Redux",
+              "SQL Databases",
+              "MongoDb",
+              "App Development"
+            ],
+            "detail_link": "/talent/abdullah-khan-184",
+            "contact": "abdul148.eagle@gmail.com"
+          },
+          {
+            "name": "Muhammad Zain Hassan",
+            "role": "CAD/CAM",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "SOLIDWORKS",
+              "Expert in MS word",
+              "excel",
+              "Artist",
+              "Calligrapher"
+            ],
+            "detail_link": "/talent/muhammad-zain-hassan-192",
+            "contact": "zh56281@gmail.com"
+          },
+          {
+            "name": "Asad Ahmed",
+            "role": "C++, Python",
+            "category": "AI & data",
+            "price": "$4000",
+            "experience": "$7",
+            "location": "Karachi",
+            "skills": [
+              "C++",
+              "Python",
+              "Data Engineering",
+              "Computer Vision",
+              "Image Processing"
+            ],
+            "detail_link": "/talent/asad-ahmed-193",
+            "contact": "asad.ahmed.de@gmail.com"
+          },
+          {
+            "name": "Jawad Mughal",
+            "role": "Programming",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "Programming"
+            ],
+            "detail_link": "/talent/jawad-mughal-195",
+            "contact": "jawwadmughalb010@gmail.com"
+          },
+          {
+            "name": "Rouel Albao",
+            "role": "Data Entry",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$5",
+            "location": "General Trias",
+            "skills": [
+              "Data Entry",
+              "Data Management",
+              "Data collection and research",
+              "Spreadsheets (Google or Microsoft)",
+              "Microsoft Office: Word",
+              "Excel",
+              "Powerpoint",
+              "etc.",
+              "Repetitive Tasks",
+              "Email Managemen"
+            ],
+            "detail_link": "/talent/rouel-albao-202",
+            "contact": "rouelworks@gmail.com"
+          },
+          {
+            "name": "Ali Usman",
+            "role": "Business & Finance Expert",
+            "category": "Business",
+            "price": "$500",
+            "experience": "$10",
+            "location": "Lahore",
+            "skills": [
+              "Startups",
+              "Business Process Optimization",
+              "Business Growth",
+              "Financial Analysis",
+              "Fundraising readiness"
+            ],
+            "detail_link": "/talent/ali-usman-200",
+            "contact": "aliusman.1@outlook.com"
+          },
+          {
+            "name": "M.Daniyal Tariq",
+            "role": "ReactJS /NextJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Sialkot",
+            "skills": [
+              "MongoDB",
+              "Expressjs",
+              "ReactJs",
+              "NodeJs",
+              "NextJS",
+              "Tailwind CSS",
+              "Python",
+              "TypeScript"
+            ],
+            "detail_link": "/talent/m-daniyal-tariq-196",
+            "contact": "m.daniyaltariq9063@gmail.com"
+          },
+          {
+            "name": "Saqib Iqbal",
+            "role": "AI Engineer, Blockchain",
+            "category": "AI & data",
+            "price": "$900",
+            "experience": "$5",
+            "location": "NYC, USA",
+            "skills": [
+              "AI Engineer",
+              "AI/ML",
+              "AI ChatBot",
+              "Data Analysis",
+              "Blockchain",
+              "Memecoins",
+              "Blockchain Consultant",
+              "Smart contract developer",
+              "Backend Developer",
+              "MERN Stack",
+              "Gen- AI",
+              "Tutor"
+            ],
+            "detail_link": "/talent/saqib-iqbal-194",
+            "contact": "saqibiqbal7772@gmail.com"
+          },
+          {
+            "name": "Gloria Solomon",
+            "role": "NodeJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Port Harcourt",
+            "skills": [
+              "NodeJS"
+            ],
+            "detail_link": "/talent/gloria-solomon-2",
+            "contact": "RwandaGloria@gmail.com"
+          },
+          {
+            "name": "Haider Khan",
+            "role": "Ruby on Rails, Javascript",
+            "category": "Development",
+            "price": "$7200",
+            "experience": "$10",
+            "location": "Al Madinah",
+            "skills": [
+              "Ruby on rails",
+              "JavaScript",
+              "PostgressSQL",
+              "API Development",
+              "Full Stack Developer",
+              "Web Development",
+              "Database architecture",
+              "Redis",
+              "Backend Developer"
+            ],
+            "detail_link": "/talent/haider-khan-203",
+            "contact": "haidrkhan@gmail.com"
+          },
+          {
+            "name": "Usama Pervez",
+            "role": "Web Application Testing",
+            "category": "Development",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Rawalpindi",
+            "skills": [
+              "Python",
+              "Javascript",
+              "Selenium",
+              "Postman",
+              "Typescript",
+              "Cucumber",
+              "Mocha/Jest"
+            ],
+            "detail_link": "/talent/usama-pervez-204",
+            "contact": "usamapervaiz07@gmail.com"
+          },
+          {
+            "name": "Hamza Sadiq",
+            "role": "SQA, Automation",
+            "category": "Development",
+            "price": "$1500",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "SQA",
+              "Software Testing",
+              "Automation",
+              "Automation Testing",
+              "Playwright"
+            ],
+            "detail_link": "/talent/hamza-sadiq-212",
+            "contact": "khawajahamzasadiq@gmail.com"
+          },
+          {
+            "name": "Nasir Bin Tahir",
+            "role": "iOS App Developer",
+            "category": "Development",
+            "price": "$1500",
+            "experience": "$5",
+            "location": "Lahore",
+            "skills": [
+              "iOS App Developer"
+            ],
+            "detail_link": "/talent/nasir-bin-tahir-214",
+            "contact": "nasirmadev@gmail.com"
+          },
+          {
+            "name": "Muhammad Saeed",
+            "role": "Data analytics on all app",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Data Analyst",
+              "Python",
+              "Data Collection and Research",
+              "Data Analysis",
+              "Google Sheets Data Handling"
+            ],
+            "detail_link": "/talent/muhammad-saeed-205",
+            "contact": "tomrmsa@gmail.com"
+          },
+          {
+            "name": "Sabir Nawaz",
+            "role": "NextJS",
+            "category": "AI & data",
+            "price": "$1500",
+            "experience": "$4",
+            "location": "Islamabad",
+            "skills": [
+              "HTML",
+              "CSS",
+              "Scss",
+              "Tailwind CSS",
+              "Javascript",
+              "ReactJs",
+              "NextJS",
+              "ShadCN",
+              "Convex"
+            ],
+            "detail_link": "/talent/sabir-nawaz-206",
+            "contact": "sabirnawaz59@gmail.com"
+          },
+          {
+            "name": "Abdul Wahab",
+            "role": "IOS Developer",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Swift",
+              "Objective C",
+              "UiKit",
+              "React Native"
+            ],
+            "detail_link": "/talent/abdul-wahab-211",
+            "contact": "abdulwahab9120@gmail.com"
+          },
+          {
+            "name": "Hamad Badar",
+            "role": "Python, Django",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Python",
+              "Django",
+              "HTML",
+              "CSS",
+              "Javascript",
+              "Selenium",
+              "AI ChatBot"
+            ],
+            "detail_link": "/talent/hamad-badar-213",
+            "contact": "hamadbadar5626@hotmail.com"
+          },
+          {
+            "name": "Aamir Sohail",
+            "role": "ReactJs, NodeJs, NextJs",
+            "category": "AI & data",
+            "price": "$600",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "HTML",
+              "CSS",
+              "Scss",
+              "Tailwind CSS",
+              "Bootstrap",
+              "Javascript",
+              "ReactJs",
+              "Next Auth",
+              "Nextjs",
+              "NodeJs",
+              "Expressjs",
+              "Prisma",
+              "MongoDB",
+              "ShadeCN",
+              "Convex"
+            ],
+            "detail_link": "/talent/aamir-sohail-217",
+            "contact": "amir.sohail.dev@gmail.com"
+          },
+          {
+            "name": "Muhammad Suleman",
+            "role": "Video Editor",
+            "category": "Design",
+            "price": "$200",
+            "experience": "$7",
+            "location": "Lahore",
+            "skills": [
+              "Video Editing",
+              "Instagram Reels",
+              "Social Media Ads",
+              "Facebook Ads",
+              "Premeir Pro",
+              "Vegas Pro",
+              "Davinci",
+              "Youtube Shorts",
+              "Thumnails",
+              "WordPress",
+              "Wix",
+              "Full-Stack Developer",
+              "Digital Marketing Strategist",
+              "MERN Stack",
+              "Web3 & ERP Specialist"
+            ],
+            "detail_link": "/talent/muhammad-suleman-230",
+            "contact": "sulemanbhi47@gmail.com"
+          },
+          {
+            "name": "Momin Bukhari",
+            "role": "Data Entry",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Multan",
+            "skills": [
+              "Content Writing",
+              "Content Creator"
+            ],
+            "detail_link": "/talent/momin-bukhari-238",
+            "contact": "mominbukhari11@gmail.com"
+          },
+          {
+            "name": "Umair Gul",
+            "role": "Data Entry",
+            "category": "Development",
+            "price": "$100",
+            "experience": "$10",
+            "location": "Multan",
+            "skills": [
+              "Microsoft SQL Server 2008 & Upwards",
+              "MS Word",
+              "MS Exel",
+              "MS Power Point",
+              "desktop and web applications"
+            ],
+            "detail_link": "/talent/umair-gul-237",
+            "contact": "umairgulshah@hotmail.com"
+          },
+          {
+            "name": "Maurice",
+            "role": "Data Entry, Translation,",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Portharcourt",
+            "skills": [
+              "Data Entry",
+              "Linguistic Translator",
+              "Technical Writing",
+              "Content Writing",
+              "Communication",
+              "Microsoft Office: Word",
+              "MS Excel"
+            ],
+            "detail_link": "/talent/maurice-257",
+            "contact": "gpyambit@gmail.com"
+          },
+          {
+            "name": "Kingsley Nwachukwu",
+            "role": "Content Manager",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$6",
+            "location": "Abuja",
+            "skills": [
+              "Graphic Design",
+              "Content Management System",
+              "Content Writing",
+              "Project Management"
+            ],
+            "detail_link": "/talent/kingsley-nwachukwu-207",
+            "contact": "nwachukwu.e.kingsley@gmail.com"
+          },
+          {
+            "name": "Sabeen",
+            "role": "Content Writer",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "Expert in MS word",
+              "Powerpoint",
+              "MS Excel"
+            ],
+            "detail_link": "/talent/sabeen-209",
+            "contact": "sabeentaufiq193@gmail.com"
+          },
+          {
+            "name": "Himanshu Tiwari",
+            "role": "Django, Python, AWS",
+            "category": "Development",
+            "price": "$2400",
+            "experience": "$1",
+            "location": "Bangalore",
+            "skills": [
+              "Django",
+              "Python",
+              "AWS"
+            ],
+            "detail_link": "/talent/himanshu-tiwari-21",
+            "contact": "himansh7004@gmail.com"
+          },
+          {
+            "name": "Muhammad Shahnawaz",
+            "role": "Strapi Cms",
+            "category": "Development",
+            "price": "$1000",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "Strapi Headless CMS",
+              "Laravel"
+            ],
+            "detail_link": "/talent/muhammad-shahnawaz-218",
+            "contact": "shanileo7672@gmail.com"
+          },
+          {
+            "name": "Medina Mohamed",
+            "role": "Webflow, Web Design",
+            "category": "Design",
+            "price": "$500",
+            "experience": "$4",
+            "location": "Montreal",
+            "skills": [
+              "React",
+              "Headless CMS",
+              "Angular",
+              "Javascript",
+              "CSS & Tailwind",
+              "Python",
+              "Databases (SQL)",
+              "PHP"
+            ],
+            "detail_link": "/talent/medina-mohamed-219",
+            "contact": "contact@medinamohamed.com"
+          },
+          {
+            "name": "Ibrahim Laeeq",
+            "role": "ML/DL, Vector Database",
+            "category": "AI & data",
+            "price": "$1000",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "Languages: Java",
+              "Python",
+              "C/C++",
+              "Frameworks: Langchain",
+              "Keras",
+              "Libraries: Pandas",
+              "NumPy",
+              "Matplotlib",
+              "scikit-learn",
+              "TensorFlow",
+              "Pytorch",
+              "Web-skills: HTML/CSS",
+              "Version-Control: Git",
+              "GitHub",
+              "LLMS: GPT 3.5",
+              "GPT 4",
+              "GPT 4 Vision",
+              "Llama",
+              "Yi model",
+              "AI tools: Elevenlabs",
+              "SuperAGI",
+              "ClarifAI",
+              "Weaviate Database",
+              "HuggingFace",
+              "Database: Weaviate",
+              "SQL"
+            ],
+            "detail_link": "/talent/ibrahim-laeeq-220",
+            "contact": "ibrahim.laeeq142@gmail.com"
+          },
+          {
+            "name": "Basit Ali",
+            "role": "Graphic Designer",
+            "category": "Design",
+            "price": "$500",
+            "experience": "$4",
+            "location": "Rawalpindi",
+            "skills": [
+              "Calligrapher"
+            ],
+            "detail_link": "/talent/basit-ali-225",
+            "contact": "sheikhbasitali10@gmail.com"
+          },
+          {
+            "name": "Md. Masjidul Islam",
+            "role": "UI UX Designer",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Dhaka",
+            "skills": [
+              "Figma Pro"
+            ],
+            "detail_link": "/talent/md-masjidul-islam-234",
+            "contact": "masjidulislam678@gmail.com"
+          },
+          {
+            "name": "Vincent Destiny",
+            "role": "Social media manager",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Port Harcourt",
+            "skills": [
+              "Social Media Management",
+              "Video Editing",
+              "Media buying",
+              "Graphic Design",
+              "YouTube"
+            ],
+            "detail_link": "/talent/vincent-destiny-259",
+            "contact": "destinyosaze7@gmail.com"
+          },
+          {
+            "name": "Ali Adnan Arif",
+            "role": "Fullstack Engineer",
+            "category": "Development",
+            "price": "$1000",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "NextJS",
+              "React",
+              "Nuxt",
+              "VueJS",
+              "NodeJs",
+              "Golang",
+              "Python",
+              "Flask"
+            ],
+            "detail_link": "/talent/ali-adnan-arif-215",
+            "contact": "aliadnanarif25@gmail.com"
+          },
+          {
+            "name": "Faizan Mughal",
+            "role": "Communication",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "Client Communication"
+            ],
+            "detail_link": "/talent/faizan-mughal-224",
+            "contact": "mughalfaizan025@gmail.com"
+          },
+          {
+            "name": "Manahil Asif",
+            "role": "HTML,CSS",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "HTML",
+              "CSS",
+              "Javascript",
+              "UI/UX"
+            ],
+            "detail_link": "/talent/manahil-asif-222",
+            "contact": "awais.baig1278@gmail.com"
+          },
+          {
+            "name": "Muhammad Ali",
+            "role": "ReactJs, NodeJS",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "ReactJs",
+              "Redux",
+              "Hooks",
+              "HTML",
+              "CSS",
+              "JavaScript (ES6)",
+              "Responsive Web Development",
+              "Bootstrap",
+              "Tailwind CSS",
+              "Express.js",
+              "Node.js",
+              "MongoDB",
+              "Git",
+              "GitHub",
+              "NPM",
+              "REST APIs",
+              "Python"
+            ],
+            "detail_link": "/talent/muhammad-ali-221",
+            "contact": "m.alibabar2004@gmail.com"
+          },
+          {
+            "name": "Rakibul Hassan",
+            "role": "Python",
+            "category": "Development",
+            "price": "$600",
+            "experience": "$2",
+            "location": "Uttara, Dhaka",
+            "skills": [
+              "Python"
+            ],
+            "detail_link": "/talent/rakibul-hassan-22",
+            "contact": "officepc0709@gmail.com"
+          },
+          {
+            "name": "Amaan Saeed",
+            "role": "JavaScript",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Rawalpindi",
+            "skills": [
+              "Laravel"
+            ],
+            "detail_link": "/talent/amaan-saeed-226",
+            "contact": "amaansaeed0854@gmail.com"
+          },
+          {
+            "name": "Amr Kamal",
+            "role": "Cloud DevOps/SRE Engineer",
+            "category": "AI & data",
+            "price": "$2500",
+            "experience": "$4",
+            "location": "Alexandria",
+            "skills": [
+              "Linux",
+              "Bash",
+              "Networking",
+              "Security",
+              "AWS",
+              "Azure Cloud",
+              "OCI",
+              "Docker",
+              "Kubernetes",
+              "CI/CD",
+              "Jenkins",
+              "GitHub Actions",
+              "Git",
+              "Terraform",
+              "Ansible",
+              "Prometheus",
+              "ArgoCD",
+              "Grafana",
+              "Loki",
+              "VMware",
+              "Vagrant",
+              "HTML",
+              "CSS",
+              "SCSS",
+              "jQuery",
+              "Bootstrap",
+              "OOP",
+              "JavaScript",
+              "Java",
+              "Node.js",
+              "Python",
+              "React",
+              "React Native",
+              "Unit Testing",
+              "MongoDB",
+              "MySQL",
+              "REST",
+              "Agile Methodologies",
+              "Design Patterns"
+            ],
+            "detail_link": "/talent/amr-kamal-227",
+            "contact": "amr.kamal3570@gmail.com"
+          },
+          {
+            "name": "Ifeanyi Emmanuel",
+            "role": "JavaScript, Nodejs, React",
+            "category": "Development",
+            "price": "$1500",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "JavaScript",
+              "Typescript",
+              "Node.js",
+              "React",
+              "MongoDB",
+              "PostgressSQL",
+              "Version-Control: Git",
+              "AWS"
+            ],
+            "detail_link": "/talent/ifeanyi-emmanuel-228",
+            "contact": "ifeanyiemmanueljoseph@gmail.com"
+          },
+          {
+            "name": "Raahim Irfan",
+            "role": "Django, Flask, FastAPI",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Django",
+              "Flask",
+              "FastAPI"
+            ],
+            "detail_link": "/talent/raahim-irfan-23",
+            "contact": "raahimirfan.careers@gmail.com"
+          },
+          {
+            "name": "Rafay",
+            "role": "Game Designer & Developer",
+            "category": "AI & data",
+            "price": "$800",
+            "experience": "$5",
+            "location": "Islamabad",
+            "skills": [
+              "Unreal Engine",
+              "Unity Engine",
+              "Python",
+              "C/C++/C#",
+              "HTTP/API Endpoints",
+              "HTML/CSS",
+              "Javascript",
+              "Game Maths & Algorithms",
+              "Multiplayer",
+              "Augmented Reality",
+              "SQL Databases",
+              "Vector Databases",
+              "UI Designing & Dev",
+              "3D Modeling & Texturing",
+              "3D Animations"
+            ],
+            "detail_link": "/talent/rafay-233",
+            "contact": "razz2k01@gmail.com"
+          },
+          {
+            "name": "Gustavo Arias Encias",
+            "role": "Sales, SaaS Sales",
+            "category": "Marketing",
+            "price": "$4000",
+            "experience": "$8",
+            "location": "Mexicali",
+            "skills": [
+              "SaaS Sales",
+              "Outbound Sales",
+              "Account development",
+              "Lead Generation"
+            ],
+            "detail_link": "/talent/gustavo-arias-encias-231",
+            "contact": "gusarias1344@gmail.com"
+          },
+          {
+            "name": "Ikram Ullah",
+            "role": "Research,GenAI, Analytics",
+            "category": "AI & data",
+            "price": "$600",
+            "experience": "$3",
+            "location": "Peshawar",
+            "skills": [
+              "Research",
+              "Generative AI",
+              "Data Analytics",
+              "Data Visualization",
+              "Machine Learning"
+            ],
+            "detail_link": "/talent/ikram-ullah-232",
+            "contact": "ikram.comsats.cs@gmail.com"
+          },
+          {
+            "name": "Manzar Abbas",
+            "role": "Wordpress, PHP, Laravel",
+            "category": "AI & data",
+            "price": "$1000",
+            "experience": "$3",
+            "location": "Multan",
+            "skills": [
+              "Wordpress",
+              "PHP",
+              "Laravel",
+              "Web-skills: HTML/CSS",
+              "Javascript"
+            ],
+            "detail_link": "/talent/manzar-abbas-241",
+            "contact": "manzarabbasshah1@gmail.com"
+          },
+          {
+            "name": "Muhammad Waleed",
+            "role": "HTML, CSS, Javascript",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$5",
+            "location": "Karachi",
+            "skills": [
+              "Html",
+              "Css",
+              "Javascript",
+              "Jquey",
+              "bootstrap",
+              "figma to html css react.js"
+            ],
+            "detail_link": "/talent/muhammad-waleed-243",
+            "contact": "waleedamir063@gmail.com"
+          },
+          {
+            "name": "Muhammad Nisar",
+            "role": "Logistics & Data Analyst",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Logistics",
+              "E-Commerce",
+              "Data Analytics"
+            ],
+            "detail_link": "/talent/muhammad-nisar-245",
+            "contact": "muhammad.nisar1915@gmail.com"
+          },
+          {
+            "name": "Abu Hurara",
+            "role": "Full Stack Developer",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Full Stack Developer"
+            ],
+            "detail_link": "/talent/abu-hurara-25",
+            "contact": "hurrerahchamp57@gmail.com"
+          },
+          {
+            "name": "Rida Zehra",
+            "role": "Ads, SMM, Marketing",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$4",
+            "location": "Karachi",
+            "skills": [
+              "Content Creation",
+              "Content Strategy",
+              "Communication",
+              "Management"
+            ],
+            "detail_link": "/talent/rida-zehra-248",
+            "contact": "ridanaqvi39@gmail.com"
+          },
+          {
+            "name": "Yousuf Cfo",
+            "role": "Chartered Accountant",
+            "category": "Business",
+            "price": "$2500",
+            "experience": "$10",
+            "location": "Lahore",
+            "skills": [
+              "Accounting Software",
+              "Oracle",
+              "ERP",
+              "SAP",
+              "QuickBooks",
+              "Tally",
+              "MS-Office"
+            ],
+            "detail_link": "/talent/yousuf-cfo-252",
+            "contact": "siryousuf99@yahoo.co.uk"
+          },
+          {
+            "name": "Faz",
+            "role": "Digital Artist",
+            "category": "Design",
+            "price": "$1500",
+            "experience": "$10",
+            "location": "Dubai",
+            "skills": [
+              "Adobe Photoshop",
+              "Adobe Illustrator",
+              "Adobe InDesign",
+              "Adobe XD",
+              "Figma",
+              "Sketch",
+              "CorelDRAW",
+              "Canva",
+              "Procreate",
+              "Blender",
+              "3D Modeling",
+              "Branding & Identity",
+              "Color Theory",
+              "Typography",
+              "Layout Design",
+              "Digital Painting",
+              "Vector Illustration",
+              "Print Design",
+              "Motion Graphics",
+              "After Effects",
+              "Premiere Pro",
+              "Animation",
+              "Photography",
+              "Video Editing"
+            ],
+            "detail_link": "/talent/faz-239",
+            "contact": "jasmine.art.design94@gmail.com"
+          },
+          {
+            "name": "Nida Saif",
+            "role": "Social Media Strategy",
+            "category": "Marketing",
+            "price": "$1000",
+            "experience": "$7",
+            "location": "Karachi",
+            "skills": [
+              "appointment setting",
+              "high ticket appointment setting",
+              "Content Creator",
+              "Instagram Marketing",
+              "Digital Marketing Strategist",
+              "Social Media Marketing"
+            ],
+            "detail_link": "/talent/nida-saif-244",
+            "contact": "nidasfahad@icloud.com"
+          },
+          {
+            "name": "Hamid",
+            "role": "Networks and Security",
+            "category": "Design",
+            "price": "$1000",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Splunk Design",
+              "Splunk Deployment",
+              "Routing & Switching",
+              "FTD Firewall",
+              "Cisco FMC",
+              "Cisco ISE",
+              "Cybersecurity",
+              "Zero Trust Architecture",
+              "Cyber Resilience",
+              "PAM"
+            ],
+            "detail_link": "/talent/hamid-250",
+            "contact": "hussain_hamid@hotmail.com"
+          },
+          {
+            "name": "M Irfan Shahid",
+            "role": "Photo Editor, Photoshop",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$10",
+            "location": "Jhelum",
+            "skills": [
+              "Adobe Photoshop",
+              "Photo Album Design",
+              "Photoshop",
+              "Photographer",
+              "Image editor",
+              "Photo editor"
+            ],
+            "detail_link": "/talent/m-irfan-shahid-251",
+            "contact": "gameofluck18@gmail.com"
+          },
+          {
+            "name": "Shanzae Aurangzaib",
+            "role": "React native",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Oracle",
+              "MySQL",
+              "PostgressSQL",
+              "Postman",
+              "FastAPI"
+            ],
+            "detail_link": "/talent/shanzae-aurangzaib-264",
+            "contact": "Shanzaeorangzaib08@gmail.com"
+          },
+          {
+            "name": "Hubbab Sabir",
+            "role": "Social Media Marketing",
+            "category": "Marketing",
+            "price": "$400",
+            "experience": "$5",
+            "location": "Karachi",
+            "skills": [
+              "Advanced Canva",
+              "SMM Strategy",
+              "SMM Management",
+              "Profile Optimization"
+            ],
+            "detail_link": "/talent/hubbab-sabir-261",
+            "contact": "hubbabsabir786@gmail.com"
+          },
+          {
+            "name": "Mansoor Khan",
+            "role": "Game Development | VR",
+            "category": "Design",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Rawalpindi",
+            "skills": [
+              "3D Modeling",
+              "3D Animation",
+              "Game Maths & Algorithms",
+              "Game Development",
+              "VR/AR Development"
+            ],
+            "detail_link": "/talent/mansoor-khan-269",
+            "contact": "mansoorak.1010@gmail.com"
+          },
+          {
+            "name": "Abdullah",
+            "role": "Graphic design",
+            "category": "Design",
+            "price": "$100",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Graphic Design"
+            ],
+            "detail_link": "/talent/abdullah-266",
+            "contact": "abdullahdesignr1.1@gmail.com"
+          },
+          {
+            "name": "Muhammad Ahmad",
+            "role": "Social Media Marketing",
+            "category": "Marketing",
+            "price": "$1000",
+            "experience": "$5",
+            "location": "Lahore",
+            "skills": [
+              "Social Media Ads",
+              "Social Media Marketing",
+              "Social Media Management",
+              "Social Media Manager",
+              "Shopify",
+              "E-Commerce",
+              "Local E-Commerce"
+            ],
+            "detail_link": "/talent/muhammad-ahmad-246",
+            "contact": "ahmadhashmi716@gmail.com"
+          },
+          {
+            "name": "Amarachukwu Nnaeto",
+            "role": "Virtual Assistant",
+            "category": "Business",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Lagos",
+            "skills": [
+              "Data Entry",
+              "Data Collection and Research",
+              "Customer Support"
+            ],
+            "detail_link": "/talent/amarachukwu-nnaeto-247",
+            "contact": "nnaetoamarachi@gmail.com"
+          },
+          {
+            "name": "Samrat Dhar",
+            "role": "Strategy",
+            "category": "Development",
+            "price": "$5000",
+            "experience": "$7",
+            "location": "Bengaluru",
+            "skills": [
+              "Strategy"
+            ],
+            "detail_link": "/talent/samrat-dhar-249",
+            "contact": "ratsam93@gmail.com"
+          },
+          {
+            "name": "Yamman Tariq",
+            "role": "Website Developer",
+            "category": "Marketing",
+            "price": "$1000",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "WordPress Developer",
+              "Shopify",
+              "Brand Management",
+              "Social Media Management"
+            ],
+            "detail_link": "/talent/yamman-tariq-253",
+            "contact": "yamman.tariq124@gmail.com"
+          },
+          {
+            "name": "Maaz Nazir",
+            "role": "Accounts",
+            "category": "Business",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Accounting"
+            ],
+            "detail_link": "/talent/maaz-nazir-256",
+            "contact": "maaz.nazir.awan.313@gmail.com"
+          },
+          {
+            "name": "Aiman Hussain",
+            "role": "Recruitment HR",
+            "category": "Business",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "Recruitment",
+              "Talent acquisition"
+            ],
+            "detail_link": "/talent/aiman-hussain-260",
+            "contact": "aimanhussaincs@gmail.com"
+          },
+          {
+            "name": "Affan M. Chohan",
+            "role": "ReactJS, NodeJS",
+            "category": "Development",
+            "price": "$1500",
+            "experience": "$5",
+            "location": "Lahore",
+            "skills": [
+              "ReactJS",
+              "NextJS",
+              "NodeJS",
+              "NestJS",
+              "ExpressJS",
+              "SQL",
+              "Postgres",
+              "MongoDB",
+              "Prisma",
+              "AWS S3 EC2 PM2",
+              "REST",
+              "GraphQL"
+            ],
+            "detail_link": "/talent/affan-m-chohan-26",
+            "contact": "affanmustafa2297@gmail.com"
+          },
+          {
+            "name": "Muhammad Ahbab Khan",
+            "role": "Reactjs",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Html",
+              "Css",
+              "JavaScript (ES6)",
+              "Reactjs",
+              "Nextjs"
+            ],
+            "detail_link": "/talent/muhammad-ahbab-khan-262",
+            "contact": "ahbabaziz5@gmail.com"
+          },
+          {
+            "name": "Zahid Mahmood",
+            "role": "Chartered Accountant-FCA",
+            "category": "Business",
+            "price": "$10000",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "New business development",
+              "Business reingeneering",
+              "Amazon PL business development"
+            ],
+            "detail_link": "/talent/zahid-mahmood-255",
+            "contact": "zahid.461@gmail.com"
+          },
+          {
+            "name": "Murtaza Abdul Razzaq",
+            "role": "SAP, GRC IT Audit",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "SAP GRC",
+              "IT Audit",
+              "SOD",
+              "GRC"
+            ],
+            "detail_link": "/talent/murtaza-abdul-razzaq-254",
+            "contact": "Murtaza.a.razzaq110@gmail.com"
+          },
+          {
+            "name": "Bareeqa Aamer",
+            "role": "Academic Writer",
+            "category": "Development",
+            "price": "$900",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "Academic Writer",
+              "Research",
+              "Psychologist"
+            ],
+            "detail_link": "/talent/bareeqa-aamer-258",
+            "contact": "Bareeqaaamer@gmail.com"
+          },
+          {
+            "name": "Hafiz Ali Raza",
+            "role": "Digital marketing & E-com",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Digital Marketing Strategist",
+              "Amazon PL business development",
+              "Shopify",
+              "Expert in MS word"
+            ],
+            "detail_link": "/talent/hafiz-ali-raza-263",
+            "contact": "aliraza353574@gmail.com"
+          },
+          {
+            "name": "Hussain Siddiqui",
+            "role": "Digital Marketing & WP",
+            "category": "Marketing",
+            "price": "$500",
+            "experience": "$4",
+            "location": "Karachi",
+            "skills": [
+              "WordPress Developer",
+              "Shopify",
+              "Social Media Management",
+              "Social Media Marketing",
+              "Social Media Strategy",
+              "Project Management"
+            ],
+            "detail_link": "/talent/hussain-siddiqui-265",
+            "contact": "hussainsiddique353@gmail.com"
+          },
+          {
+            "name": "John Prosper",
+            "role": "Data Entry, Graphics Desn",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lagos",
+            "skills": [
+              "Experienced Graphics Designer/Photo editing",
+              "Customer Support",
+              "Experienced Data Entry Professional/Web Research",
+              "Data Scrapping"
+            ],
+            "detail_link": "/talent/john-prosper-270",
+            "contact": "johnprosperchinaemerem@gmail.com"
+          },
+          {
+            "name": "Maryam Nasir",
+            "role": "SEO Marketing",
+            "category": "Marketing",
+            "price": "$500",
+            "experience": "$3",
+            "location": "Bahawalpur",
+            "skills": [
+              "SEO and Marketing"
+            ],
+            "detail_link": "/talent/maryam-nasir-27",
+            "contact": "mariumnasiir@gmail.com"
+          },
+          {
+            "name": "Muneer Iqbal",
+            "role": "Python, ML, DL,GeneAI-Bot",
+            "category": "AI & data",
+            "price": "$600",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Ai Enthusiast",
+              "Python",
+              "Machine Learning",
+              "DL",
+              "Generative AI",
+              "Ai Bots",
+              "RAG based bots"
+            ],
+            "detail_link": "/talent/muneer-iqbal-40",
+            "contact": "muneeriqbal729@gmail.com"
+          },
+          {
+            "name": "Afsheen",
+            "role": "Laravel, Python, ReactJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$4",
+            "location": "Gujranwala",
+            "skills": [
+              "Laravel",
+              "Python",
+              "ReactJS"
+            ],
+            "detail_link": "/talent/afsheen-42",
+            "contact": "afsheenghuman968@gmail.com"
+          },
+          {
+            "name": "Zainab Imran",
+            "role": "ReactJs, Python, SQL",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Lahore",
+            "skills": [
+              "Reactjs",
+              "Nextjs",
+              "Next Auth",
+              "VueJS",
+              "Nuxt",
+              "C#",
+              "Python",
+              "FastAPI",
+              "Typescript",
+              "Tailwind CSS",
+              "PostgressSQL",
+              "Serverless Computing",
+              "API Design & Integration",
+              "Ai integration"
+            ],
+            "detail_link": "/talent/zainab-imran-267",
+            "contact": "zainab.abid1994@gmail.com"
+          },
+          {
+            "name": "Nnanweobi Ikechukwu",
+            "role": "Web & Mobile Development",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Awka",
+            "skills": [
+              "Reactjs",
+              "React Native",
+              "Nextjs",
+              "Tailwind CSS",
+              "Node.js",
+              "Docker",
+              "Cloud Integration",
+              "Aws",
+              "MaterialUI",
+              "Relational Databases",
+              "Non-Relational Databases",
+              "Team Leadership & Collaboration",
+              "Problem Solve",
+              "Agile Methodologies",
+              "Zustand",
+              "Redux",
+              "Redux Toolkit",
+              "Jest",
+              "HTML/CSS",
+              "Typescript",
+              "JavaScript (ES6)"
+            ],
+            "detail_link": "/talent/nnanweobi-ikechukwu-275",
+            "contact": "nnanweobiikechukwu@gmail.com"
+          },
+          {
+            "name": "Beriso Beker Hadji",
+            "role": "Reactjs,nodejs,Nextjs,",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Addis Ababa",
+            "skills": [
+              "Angular",
+              "NestJS",
+              "C#"
+            ],
+            "detail_link": "/talent/beriso-beker-hadji-276",
+            "contact": "bekerberiso@gmail.com"
+          },
+          {
+            "name": "Alisha Designs",
+            "role": "UI UX Designer",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Sargodha",
+            "skills": [
+              "UI/UX",
+              "UI/UX Design Principles",
+              "UI Design"
+            ],
+            "detail_link": "/talent/alisha-designs-279",
+            "contact": "alishasana383@gmail.com"
+          },
+          {
+            "name": "Ahmedzayan",
+            "role": "Graphic designer",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$8",
+            "location": "Alexandria",
+            "skills": [
+              "Adobe Photoshop",
+              "Adobe Illustrator"
+            ],
+            "detail_link": "/talent/ahmedzayan-285",
+            "contact": "ahmedzayann000@gmail.com"
+          },
+          {
+            "name": "Rahama Abdulkadir",
+            "role": "Founder Support",
+            "category": "Design",
+            "price": "$800",
+            "experience": "$5",
+            "location": "Abuja",
+            "skills": [
+              "Virtual Assistant",
+              "Business Process Optimization",
+              "Project Management",
+              "Sales Assistance",
+              "Marketing Operations",
+              "Copywriting",
+              "Graphic Design",
+              "Customer Relationship Management (CRM)",
+              "Customer Support"
+            ],
+            "detail_link": "/talent/rahama-abdulkadir-283",
+            "contact": "rahama.work@gmail.com"
+          },
+          {
+            "name": "Uzair Farid Khan",
+            "role": "Machine Learning, Python",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "Machine Learning",
+              "Python",
+              "Software Quality Assurance"
+            ],
+            "detail_link": "/talent/uzair-farid-khan-50",
+            "contact": "uzairfkhan50@gmail.com"
+          },
+          {
+            "name": "Abdul Kareem",
+            "role": "iOS App Developer",
+            "category": "Development",
+            "price": "$900",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Swift",
+              "iOS App Developer",
+              "App Developer"
+            ],
+            "detail_link": "/talent/abdul-kareem-5",
+            "contact": "a.kareem.tn@gmail.com"
+          },
+          {
+            "name": "Ayyaz Boota",
+            "role": "Nodejs",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Daska",
+            "skills": [
+              "Nodejs",
+              "Expressjs",
+              "NestJS",
+              "MongoDB",
+              "AWS",
+              "AWS S3 EC2 PM2",
+              "Git",
+              "Web Development"
+            ],
+            "detail_link": "/talent/ayyaz-boota-271",
+            "contact": "muhammadayyaz984@gmail.com"
+          },
+          {
+            "name": "Allwell Onen",
+            "role": "Web Development",
+            "category": "Development",
+            "price": "$700",
+            "experience": "$5",
+            "location": "Lagos",
+            "skills": [
+              "ReactJS",
+              "NextJS",
+              "Typescript",
+              "Tailwind CSS"
+            ],
+            "detail_link": "/talent/allwell-onen-274",
+            "contact": "aleenfestus@gmail.com"
+          },
+          {
+            "name": "Usama Rahman",
+            "role": "ReactJs",
+            "category": "Development",
+            "price": "$1500",
+            "experience": "$5",
+            "location": "Islamabad",
+            "skills": [
+              "ReactJs",
+              "Laravel",
+              "Python",
+              "PHP"
+            ],
+            "detail_link": "/talent/usama-rahman-281",
+            "contact": "usamak23@gmail.com"
+          },
+          {
+            "name": "Olamide Emmanuel",
+            "role": "Graphic Design",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$8",
+            "location": "Lagos",
+            "skills": [
+              "Graphic Design",
+              "UI/UX",
+              "Figma",
+              "Adobe Photoshop",
+              "Adobe XD",
+              "CorelDRAW"
+            ],
+            "detail_link": "/talent/olamide-emmanuel-278",
+            "contact": "horlymedia@gmail.com"
+          },
+          {
+            "name": "Ojogwu Chelsea",
+            "role": "Data Entry Specialist",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "Data Entry Software Proficiency",
+              "Attention to Detail",
+              "Organization and Time Management",
+              "Problem-Solving",
+              "Customer Relationship Management (CRM)",
+              "Customer Issue Resolution",
+              "Communication (Verbal & Written)",
+              "Active Listening",
+              "Order Management",
+              "Inventory Management",
+              "Sales Assistance"
+            ],
+            "detail_link": "/talent/ojogwu-chelsea-282",
+            "contact": "ojogwunkechi22@gmail.com"
+          },
+          {
+            "name": "Ahtisham Safdar",
+            "role": "Google Apps Script",
+            "category": "Development",
+            "price": "$1000",
+            "experience": "$5",
+            "location": "Islamabad",
+            "skills": [
+              "VBA",
+              "Excel",
+              "Google Apps Script",
+              "Visual Bais.net",
+              "Matlab"
+            ],
+            "detail_link": "/talent/ahtisham-safdar-287",
+            "contact": "ehtisham.safdar@gmail.com"
+          },
+          {
+            "name": "Khadija Iqbal",
+            "role": "Unity Developer",
+            "category": "Development",
+            "price": "$900",
+            "experience": "$1",
+            "location": "Vehari",
+            "skills": [
+              "Unity Developer"
+            ],
+            "detail_link": "/talent/khadija-iqbal-48",
+            "contact": "khadijaiqbaldj@gmail.com"
+          },
+          {
+            "name": "Muhammad Farooq",
+            "role": "Python, C#",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Python",
+              "C#"
+            ],
+            "detail_link": "/talent/muhammad-farooq-52",
+            "contact": "mohammed_farooq_91@hotmail.com"
+          },
+          {
+            "name": "Maryam Akmal",
+            "role": "Digital marketing",
+            "category": "Marketing",
+            "price": "$2000",
+            "experience": "$8",
+            "location": "Lahore",
+            "skills": [
+              "B2B Copywriting",
+              "Content Writing",
+              "Article writing",
+              "Social Media Posts",
+              "Social Media Marketing",
+              "Digital Marketing Strategist"
+            ],
+            "detail_link": "/talent/maryam-akmal-277",
+            "contact": "maryam_akmal@ymail.com"
+          },
+          {
+            "name": "Rizwan Akbar",
+            "role": "HTML, CSS, JS, Bootstrap",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$1",
+            "location": "Sargodha",
+            "skills": [
+              "HTML",
+              "CSS",
+              "JS",
+              "Bootstrap"
+            ],
+            "detail_link": "/talent/rizwan-akbar-28",
+            "contact": "rizwanakbar472@gmail.com"
+          },
+          {
+            "name": "Graphic Design",
+            "role": "Adobe illustrator blender",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Islamabad",
+            "skills": [
+              "Adobe Photoshop",
+              "Adobe Illustrator",
+              "CorelDRAW",
+              "Blender"
+            ],
+            "detail_link": "/talent/graphic-design-280",
+            "contact": "multan6542772@gmail.com"
+          },
+          {
+            "name": "Abdulahad",
+            "role": "Graphic designer",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Chichawatni",
+            "skills": [
+              "Advanced Canva",
+              "Canva",
+              "Adobe Photoshop",
+              "Adobe Illustrator"
+            ],
+            "detail_link": "/talent/abdulahad-284",
+            "contact": "abdulahadasif77443@gmail.com"
+          },
+          {
+            "name": "Mubasher Khan",
+            "role": "Ruby on Rails, Cloud Comp",
+            "category": "Development",
+            "price": "$700",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "Ruby on Rails",
+              "Cloud Computing",
+              "S3",
+              "RDS",
+              "ECS",
+              "EC2",
+              "Git",
+              "Linux",
+              "Python",
+              "JavaScript"
+            ],
+            "detail_link": "/talent/mubasher-khan-286",
+            "contact": "mubasherkhan32@outlook.com"
+          },
+          {
+            "name": "Immanuel Ajimah",
+            "role": "ReactJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Abuja",
+            "skills": [
+              "ReactJS"
+            ],
+            "detail_link": "/talent/immanuel-ajimah-29",
+            "contact": "immanuelajimah@gmail.com"
+          },
+          {
+            "name": "Segun Olusanu",
+            "role": "Graphic design",
+            "category": "Design",
+            "price": "$700",
+            "experience": "$9",
+            "location": "Lagos",
+            "skills": [
+              "Graphic Design",
+              "Adobe Photoshop",
+              "CorelDRAW"
+            ],
+            "detail_link": "/talent/segun-olusanu-291",
+            "contact": "olusanu67@gmail.com"
+          },
+          {
+            "name": "Alina",
+            "role": "Figma, Adobe Photoshop",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Kamianske",
+            "skills": [
+              "Figma",
+              "FigJam",
+              "Photoshop"
+            ],
+            "detail_link": "/talent/alina-292",
+            "contact": "alina.vinichenko20@gmail.com"
+          },
+          {
+            "name": "Muhammad Ashar",
+            "role": "GenAI, Python",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Lodhran",
+            "skills": [
+              "Generative AI",
+              "Python"
+            ],
+            "detail_link": "/talent/muhammad-ashar-51",
+            "contact": "muhammadasharishfaq@gmail.com"
+          },
+          {
+            "name": "Arooj Ali",
+            "role": "Shopify , Wordpress",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Walsall",
+            "skills": [
+              "Shopify dropshipping expert",
+              "Shopify store designer",
+              "Shopify developer",
+              "Shopify SEO expert",
+              "Shopify product listing expert",
+              "Html5 expert",
+              "CSS3 expert",
+              "JavaScript ES6 developer",
+              "Shopify description writer",
+              "Dropshipping store expert",
+              "WordPress Developer",
+              "Website Design",
+              "Ecommerce store",
+              "Shopify template expert",
+              "SEO and Marketing",
+              "Responsive Web Development"
+            ],
+            "detail_link": "/talent/arooj-ali-288",
+            "contact": "aroojali448@gmail.com"
+          },
+          {
+            "name": "Aman Ullah",
+            "role": "graphic design",
+            "category": "Design",
+            "price": "$1000",
+            "experience": "$2",
+            "location": "swat",
+            "skills": [
+              "Graphic Design",
+              "Video Editing"
+            ],
+            "detail_link": "/talent/aman-ullah-289",
+            "contact": "amanullahharoon9@gmail.com"
+          },
+          {
+            "name": "Aaliyan Asif",
+            "role": "Reactjs Nextjs Nodejs AWS",
+            "category": "Development",
+            "price": "$600",
+            "experience": "$3",
+            "location": "Gujranwala",
+            "skills": [
+              "ReactJs",
+              "Nextjs",
+              "Typescript",
+              "JavaScript",
+              "Nodejs",
+              "Expressjs",
+              "MongoDB",
+              "React Query",
+              "Redux Toolkit",
+              "AWS S3 EC2 PM2 Amplify Lambda SQS",
+              "Stripe"
+            ],
+            "detail_link": "/talent/aaliyan-asif-294",
+            "contact": "aaliyanasif@outlook.com"
+          },
+          {
+            "name": "Bukunmi Olaniyan",
+            "role": "AI Prompt Engineer",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$2",
+            "location": "New York",
+            "skills": [
+              "Bot creation",
+              "JavaScript",
+              "HTML",
+              "Css",
+              "Ai Bots",
+              "AI Prompt Engineer"
+            ],
+            "detail_link": "/talent/bukunmi-olaniyan-298",
+            "contact": "diahvie@gmail.com"
+          },
+          {
+            "name": "Hamza Saeed",
+            "role": "LLMs | RAGs | Python",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Gujar Khan",
+            "skills": [
+              "Generative AI",
+              "Artificial Neural Networks",
+              "NLP",
+              "Machine Learning",
+              "Deep Learning",
+              "C++"
+            ],
+            "detail_link": "/talent/hamza-saeed-56",
+            "contact": "rjhamza2120@gmail.com"
+          },
+          {
+            "name": "Shah Hassan",
+            "role": "AI Prompt Engineer",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$4",
+            "location": "Dubai",
+            "skills": [
+              "AI Prompt Engineer"
+            ],
+            "detail_link": "/talent/shah-hassan-54",
+            "contact": "ds.shahhassan@gmail.com"
+          },
+          {
+            "name": "Shubham Pal",
+            "role": "Facebook Ads",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Chandigarh",
+            "skills": [
+              "Facebook Ads"
+            ],
+            "detail_link": "/talent/shubham-pal-6",
+            "contact": "0001shubhampal@gmail.com"
+          },
+          {
+            "name": "Asjal Zaka",
+            "role": "HTML, CSS, JS, NodeJS",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$2",
+            "location": "Lahore",
+            "skills": [
+              "HTML",
+              "CSS",
+              "Javascript",
+              "NodeJS"
+            ],
+            "detail_link": "/talent/asjal-zaka-59",
+            "contact": "asjalzaka16@gmail.com"
+          },
+          {
+            "name": "Abdul Sattar",
+            "role": "Javascript, ReactJS, NodeJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Hyderabad",
+            "skills": [
+              "Smart Contracts",
+              "Blockchain",
+              "Solidity",
+              "Hardhat",
+              "Foundry"
+            ],
+            "detail_link": "/talent/abdul-sattar-64",
+            "contact": "mdabdulsattar235@gmail.com"
+          },
+          {
+            "name": "Promise Okechukwu",
+            "role": "Next, React, Redux, Node",
+            "category": "Development",
+            "price": "$700",
+            "experience": "$4",
+            "location": "Lagos",
+            "skills": [
+              "Nextjs",
+              "ReactJs",
+              "Redux",
+              "Redux Toolkit",
+              "Node.js",
+              "Ruby on Rails",
+              "Remix",
+              "MongoDB",
+              "PostgreSQL",
+              "Expressjs"
+            ],
+            "detail_link": "/talent/promise-okechukwu-290",
+            "contact": "okechukwupromise638@gmail.com"
+          },
+          {
+            "name": "Ahsen Niaz",
+            "role": "Data Analyst",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Peshawar",
+            "skills": [
+              "Excel",
+              "Google Sheets",
+              "Power BI",
+              "Data Visualization",
+              "Dashboard Creation",
+              "SQL",
+              "Data Analysis with Python"
+            ],
+            "detail_link": "/talent/ahsen-niaz-295",
+            "contact": "ahsenniaz661@gmail.com"
+          },
+          {
+            "name": "Irum Saeed",
+            "role": "Shopify, Wordpress",
+            "category": "Development",
+            "price": "$2000",
+            "experience": "$3",
+            "location": "Rawalpindi",
+            "skills": [
+              "Shopify",
+              "WordPress"
+            ],
+            "detail_link": "/talent/irum-saeed-293",
+            "contact": "irumsaeed06@gmail.com"
+          },
+          {
+            "name": "Shahmir Siddiqui",
+            "role": "Flask, Django, VAPT",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Gujranwala",
+            "skills": [
+              "Python",
+              "Flask",
+              "Django",
+              "Javascript",
+              "Cybersecurity",
+              "Penetration Testing",
+              "Application Security",
+              "Malware Analysis"
+            ],
+            "detail_link": "/talent/shahmir-siddiqui-297",
+            "contact": "shahmirsiddiqui52@gmail.com"
+          },
+          {
+            "name": "Hassan",
+            "role": "Business Central Dev",
+            "category": "Development",
+            "price": "$1200",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "Microsoft Dynamics Business Central",
+              "Navision 2009 onwards",
+              "Power Platform",
+              "Api integrations",
+              "Reports Rdlc word excel etc"
+            ],
+            "detail_link": "/talent/hassan-302",
+            "contact": "hassansubhani8@hotmail.com"
+          },
+          {
+            "name": "Yugta Bista",
+            "role": "Wordpress, PHP, HTML, CSS",
+            "category": "AI & data",
+            "price": "$600",
+            "experience": "$7",
+            "location": "Guwahati",
+            "skills": [
+              "HTML",
+              "HTML/CSS",
+              "PHP",
+              "Laravel",
+              "WordPress Developer"
+            ],
+            "detail_link": "/talent/yugta-bista-300",
+            "contact": "byugta@gmail.com"
+          },
+          {
+            "name": "Hasnain Zia",
+            "role": "Wordpress, React,Next.js",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Abbottabad",
+            "skills": [
+              "WordPress Developer",
+              "Frontend developer",
+              "Ecommerce store",
+              "Woocommerce",
+              "ReactJs",
+              "Nextjs",
+              "figma to html css react.js",
+              "Figma to wordpress",
+              "Landing pages"
+            ],
+            "detail_link": "/talent/hasnain-zia-307",
+            "contact": "hasnainzia438@gmail.com"
+          },
+          {
+            "name": "Emmanuel Omunizua",
+            "role": "Reactjs, ReactNative,",
+            "category": "Development",
+            "price": "$2000",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "JavaScriot",
+              "CSS & Tailwind",
+              "Typescript",
+              "ReactJs",
+              "React Native",
+              "React Query",
+              "Nextjs",
+              "Node.js",
+              "Express.js",
+              "MongoDB",
+              "Firebase"
+            ],
+            "detail_link": "/talent/emmanuel-omunizua-306",
+            "contact": "emmanuel.omunizua@proton.me"
+          },
+          {
+            "name": "Raham Irfan",
+            "role": "HubSpot, QuickBooks",
+            "category": "Development",
+            "price": "$1200",
+            "experience": "$5",
+            "location": "Sahiwal",
+            "skills": [
+              "HubSpot",
+              "QuickBooks"
+            ],
+            "detail_link": "/talent/raham-irfan-34",
+            "contact": "rahamirfan@gmail.com"
+          },
+          {
+            "name": "M Faizan Sajid",
+            "role": "Python, ML, GenAI",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Peshawar",
+            "skills": [
+              "Python",
+              "Machine Learning",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/m-faizan-sajid-38",
+            "contact": "m.faizansajid102418@gmail.com"
+          },
+          {
+            "name": "Arcxe Aria",
+            "role": "Copywriter",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Mirpur",
+            "skills": [
+              "Copywriting"
+            ],
+            "detail_link": "/talent/arcxe-aria-46",
+            "contact": "baby00000555@gmail.com"
+          },
+          {
+            "name": "Nauman Sohail",
+            "role": "project management",
+            "category": "Development",
+            "price": "$3000",
+            "experience": "$10",
+            "location": "Lahore",
+            "skills": [
+              "Agile Project Management",
+              "Exceptional Communication"
+            ],
+            "detail_link": "/talent/nauman-sohail-296",
+            "contact": "naumansohail@gmail.com"
+          },
+          {
+            "name": "Abdulazeez M",
+            "role": "GHL Funnel Designer",
+            "category": "Design",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Ibadan",
+            "skills": [
+              "GHL Funnel Designer"
+            ],
+            "detail_link": "/talent/abdulazeez-m-3",
+            "contact": "sumclad@gmail.com"
+          },
+          {
+            "name": "Muhammad Hassan",
+            "role": "React.js, Node.js",
+            "category": "Development",
+            "price": "$600",
+            "experience": "$2",
+            "location": "Jhelum",
+            "skills": [
+              "ReactJs",
+              "Nodejs",
+              "PostgreSQL",
+              "Supabase",
+              "MongoDB",
+              "React Native",
+              "Aws",
+              "Docker",
+              "GitHub Actions",
+              "GitHub"
+            ],
+            "detail_link": "/talent/muhammad-hassan-303",
+            "contact": "engineermirzahassan@gmail.com"
+          },
+          {
+            "name": "David Kamau",
+            "role": "Flutter",
+            "category": "Business",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Nairobi",
+            "skills": [
+              "Dart",
+              "Flutter",
+              "Android Java/ Kotlin",
+              "Web Development",
+              "C/C++",
+              "System Administrator",
+              "Network Administrator",
+              "MySQL",
+              "PostgreSQL"
+            ],
+            "detail_link": "/talent/david-kamau-301",
+            "contact": "davidkamau926@gmail.com"
+          },
+          {
+            "name": "Muhammad Waleed Asaf",
+            "role": "DevOps, CI/CD, AWS",
+            "category": "AI & data",
+            "price": "$700",
+            "experience": "$2",
+            "location": "Faisalabad",
+            "skills": [
+              "AWS",
+              "Kubernetes",
+              "Docker",
+              "Terraform",
+              "CloudFormation",
+              "GitHub Actions",
+              "Git",
+              "Linux",
+              "Python",
+              "Bash",
+              "Nginx",
+              "Prometheus",
+              "Grafana",
+              "ELK Stack",
+              "CloudWatch",
+              "Gitleaks",
+              "Dependabot",
+              "MongoDB",
+              "PostgreSQL",
+              "Sub-Skills",
+              "EC2",
+              "S3",
+              "VPC",
+              "IAM",
+              "Amazon ECS",
+              "Amazon EKS",
+              "AWS Lambda",
+              "Security Groups",
+              "TCP/IP",
+              "GitOps",
+              "CI/CD",
+              "Microservices Architecture",
+              "Branch Protection",
+              "CODEOWNERS",
+              "OWASP Threat Dragon",
+              "Incident Response & Troubleshooting",
+              "SRE Practices",
+              "Cloud Cost Optimization",
+              "RDS"
+            ],
+            "detail_link": "/talent/muhammad-waleed-asaf-308",
+            "contact": "iwaleedasaf@gmail.com"
+          },
+          {
+            "name": "Mehdi Abbas Nathani",
+            "role": "Flutter",
+            "category": "Development",
+            "price": "$200",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Flutter",
+              "Dart",
+              "TypeScript",
+              "VBA",
+              "Google Apps Script"
+            ],
+            "detail_link": "/talent/mehdi-abbas-nathani-33",
+            "contact": "mehdinathani@gmail.com"
+          },
+          {
+            "name": "Raz Muhammad",
+            "role": "ML, DL, GenAI",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$1",
+            "location": "Peshawar",
+            "skills": [
+              "Machine Learning",
+              "DL",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/raz-muhammad-36",
+            "contact": "raz9128256@gmail.com"
+          },
+          {
+            "name": "Saqib Ahmed",
+            "role": "Java, Javascript, GenAI",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Hyderabad, Sindh",
+            "skills": [
+              "Java",
+              "Javascript",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/saqib-ahmed-41",
+            "contact": "behlumsaqibali@gmail.com"
+          },
+          {
+            "name": "Ahmad Raza",
+            "role": "Python, GenAI, ReactJS",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Sialkot",
+            "skills": [
+              "Python",
+              "Generative AI",
+              "ReactJS"
+            ],
+            "detail_link": "/talent/ahmad-raza-53",
+            "contact": "sktfscm21557034@gmail.com"
+          },
+          {
+            "name": "Ali Shair",
+            "role": "Senior QA Engineer",
+            "category": "Design",
+            "price": "$1000",
+            "experience": "$5",
+            "location": "Bahawalpur",
+            "skills": [
+              "Manual Testing",
+              "Automation Testing",
+              "Playwright",
+              "Selenium",
+              "Cypress",
+              "Functional Testing",
+              "Regression Testing",
+              "User Acceptance Testing",
+              "Mobile Testing",
+              "UI/UX Testing"
+            ],
+            "detail_link": "/talent/ali-shair-30",
+            "contact": "alishair477@gmail.com"
+          },
+          {
+            "name": "Digimarkom",
+            "role": "Visual Assistance",
+            "category": "Marketing",
+            "price": "$300",
+            "experience": "$10",
+            "location": "Karachi",
+            "skills": [
+              "Visual Assistance for Daily Operations",
+              "Data Entry & Database Management",
+              "Digital Marketing Support & Social Media Moderation & Management",
+              "E-commerce Store Management",
+              "Product Research & Sourcing"
+            ],
+            "detail_link": "/talent/digimarkom-305",
+            "contact": "farheenrizvi59@gmail.com"
+          },
+          {
+            "name": "Burhan Aftab",
+            "role": "Linkedin Expert",
+            "category": "Marketing",
+            "price": "$2000",
+            "experience": "$5",
+            "location": "Karachi",
+            "skills": [
+              "Linkedin Expert"
+            ],
+            "detail_link": "/talent/burhan-aftab-32",
+            "contact": "burhanaftab02@gmail.com"
+          },
+          {
+            "name": "Ilyn Bulatao",
+            "role": "Sales Development",
+            "category": "Marketing",
+            "price": "$1500",
+            "experience": "$8",
+            "location": "Concepcion Tarlac",
+            "skills": [
+              "Sales Development"
+            ],
+            "detail_link": "/talent/ilyn-bulatao-31",
+            "contact": "cutecassidy.chloe@gmail.com"
+          },
+          {
+            "name": "Hamza A. Sheikh",
+            "role": "Full Stack Developer",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Karachi",
+            "skills": [
+              "Full Stack Developer"
+            ],
+            "detail_link": "/talent/hamza-a-sheikh-37",
+            "contact": "hamzaahmedsheikh313@gmail.com"
+          },
+          {
+            "name": "Shahan Nafees",
+            "role": "NodeJS, Python, GenAI",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "NodeJS",
+              "Python",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/shahan-nafees-35",
+            "contact": "meshahan@gmail.com"
+          },
+          {
+            "name": "Muhammad Ahmad",
+            "role": "NextJS, ReactJS",
+            "category": "Development",
+            "price": "$700",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "NextJS",
+              "ReactJS"
+            ],
+            "detail_link": "/talent/muhammad-ahmad-39",
+            "contact": "ahmadpr4410@gmail.com"
+          },
+          {
+            "name": "Jahed Miah",
+            "role": "WordPress Developer",
+            "category": "Development",
+            "price": "$900",
+            "experience": "$8",
+            "location": "Manchester",
+            "skills": [
+              "WordPress Developer"
+            ],
+            "detail_link": "/talent/jahed-miah-4",
+            "contact": "jahed@adsation.co.uk"
+          },
+          {
+            "name": "Dr Saima Hassan",
+            "role": "GenAI, ML, Python, Latex",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Peshawar",
+            "skills": [
+              "Generative AI",
+              "Machine Learning",
+              "Python",
+              "Latex"
+            ],
+            "detail_link": "/talent/dr-saima-hassan-44",
+            "contact": "saimatjan@yahoo.com"
+          },
+          {
+            "name": "Talha Sattar",
+            "role": "Illus & Graphic Design",
+            "category": "Design",
+            "price": "$500",
+            "experience": "$5",
+            "location": "Islamabad",
+            "skills": [
+              "Illustration",
+              "Graphic Design"
+            ],
+            "detail_link": "/talent/talha-sattar-45",
+            "contact": "howlesh.3347@gmail.com"
+          },
+          {
+            "name": "Muhammad Usman",
+            "role": "Full Stack Dev, PHP, JS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Multan",
+            "skills": [
+              "Full Stack Developer",
+              "PHP",
+              "Javascript"
+            ],
+            "detail_link": "/talent/muhammad-usman-47",
+            "contact": "usmansaleem4446996@gmail.com"
+          },
+          {
+            "name": "Iftikhar Ahmad",
+            "role": "Python, ML, LLM, GenAI",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$4",
+            "location": "Saidu Sharif",
+            "skills": [
+              "Python",
+              "Machine Learning",
+              "LLM",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/iftikhar-ahmad-57",
+            "contact": "iffxahmad@gmail.com"
+          },
+          {
+            "name": "Muhammad Usman",
+            "role": "GenAI, App Developer",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$2",
+            "location": "Haripur",
+            "skills": [
+              "Gen AI App developer",
+              "Machine learning engineer",
+              "Data Analyst with skills set of python",
+              "SQL and Power Bi"
+            ],
+            "detail_link": "/talent/muhammad-usman-55",
+            "contact": "mianusman2209@gmail.com"
+          },
+          {
+            "name": "Mehroz Sheikh",
+            "role": "Flutter, Firebase, NodeJS",
+            "category": "AI & data",
+            "price": "$800",
+            "experience": "$4",
+            "location": "Gujranwala",
+            "skills": [
+              "Flutter",
+              "Generative AI",
+              "Firebase",
+              "NodeJS"
+            ],
+            "detail_link": "/talent/mehroz-sheikh-60",
+            "contact": "mehroz.dev@gmail.com"
+          },
+          {
+            "name": "Abdul Hanan Baig",
+            "role": "QuickBooks, MS Excel",
+            "category": "Business",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Islamabad",
+            "skills": [
+              "QuickBooks",
+              "MS Excel",
+              "Data Analysis",
+              "Financial Statements",
+              "Accounting"
+            ],
+            "detail_link": "/talent/abdul-hanan-baig-67",
+            "contact": "hananbaig22@gmail.com"
+          },
+          {
+            "name": "Ali Muhammad",
+            "role": "Android Dev (Java/Kotlin)",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$2",
+            "location": "Karachi",
+            "skills": [
+              "Android Java/ Kotlin",
+              "ReactJS",
+              "React Native"
+            ],
+            "detail_link": "/talent/ali-muhammad-69",
+            "contact": "alianwar1999@gmail.com"
+          },
+          {
+            "name": "Muhammad Saqib",
+            "role": "GenAI, Flutter",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Flutter",
+              "Generative AI"
+            ],
+            "detail_link": "/talent/muhammad-saqib-58",
+            "contact": "msaqibsharif430@gmail.com"
+          },
+          {
+            "name": "Hassam Ashraf",
+            "role": "Android, Java, Kotlin",
+            "category": "Development",
+            "price": "$1000",
+            "experience": "$7",
+            "location": "Lahore",
+            "skills": [
+              "Android",
+              "Java",
+              "Kotlin",
+              "React Native"
+            ],
+            "detail_link": "/talent/hassam-ashraf-61",
+            "contact": "hassam.ashraf450@gmail.com"
+          },
+          {
+            "name": "Arshad Jamil",
+            "role": "Full Stack, MERN",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "ReactJS",
+              "MongoDB",
+              "ExpressJS",
+              "NodeJS"
+            ],
+            "detail_link": "/talent/arshad-jamil-62",
+            "contact": "arshadjamilmalik@gmail.com"
+          },
+          {
+            "name": "Ruturaj Gole",
+            "role": "ReactJS, Typescript, NodeJS",
+            "category": "AI & data",
+            "price": "$600",
+            "experience": "$4",
+            "location": "Pune",
+            "skills": [
+              "ReactJS",
+              "TypeScript",
+              "NodeJS",
+              "React Native",
+              "Net",
+              "C#",
+              "Flutter",
+              "VueJS",
+              "Python",
+              "Java",
+              "AI",
+              "Machine Learning",
+              "GraphQL",
+              "JQuery",
+              "SQL",
+              "Firebase",
+              "CSS",
+              "HTML"
+            ],
+            "detail_link": "/talent/ruturaj-gole-65",
+            "contact": "ruturaj.gole813@gmail.com"
+          },
+          {
+            "name": "Muhammad Rafay",
+            "role": "Business Intelligence Dev",
+            "category": "AI & data",
+            "price": "$700",
+            "experience": "$4",
+            "location": "Karachi",
+            "skills": [
+              "Business Intelligence Dev"
+            ],
+            "detail_link": "/talent/muhammad-rafay-7",
+            "contact": "muhammad.rafay.kh@gmail.com"
+          },
+          {
+            "name": "Oladosu James",
+            "role": "Social Media Manager",
+            "category": "Design",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "Graphic Design",
+              "Social Media Manager",
+              "Community Moderator"
+            ],
+            "detail_link": "/talent/oladosu-james-78",
+            "contact": "oladosujamesa@gmail.com"
+          },
+          {
+            "name": "Faraz Maqsood",
+            "role": "MERN Stack Web Developer",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$2",
+            "location": "Faisalabad",
+            "skills": [
+              "ReactJS",
+              "NextJS",
+              "NodeJS",
+              "ExpressJS",
+              "Tailwind CSS",
+              "TypeScript",
+              "MongoDB",
+              "Vercel",
+              "MERN Stack"
+            ],
+            "detail_link": "/talent/faraz-maqsood-87",
+            "contact": "farazmaqsood97@gmail.com"
+          },
+          {
+            "name": "Daniele Manca",
+            "role": "HTML, CSS, JS, WordPress",
+            "category": "AI & data",
+            "price": "$1000",
+            "experience": "$10",
+            "location": "London",
+            "skills": [
+              "HTML",
+              "CSS",
+              "Javascript",
+              "WordPress Developer",
+              "ReactJS",
+              "PHP",
+              "GIT",
+              "Bootstrap",
+              "Tailwind CSS"
+            ],
+            "detail_link": "/talent/daniele-manca-63",
+            "contact": "danmanc83@yahoo.co.uk"
+          },
+          {
+            "name": "Hamza Mahmood",
+            "role": "Design Verification",
+            "category": "Design",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Verilog",
+              "System Verilog",
+              "SVA"
+            ],
+            "detail_link": "/talent/hamza-mahmood-66",
+            "contact": "hamzamahmood96@hotmail.com"
+          },
+          {
+            "name": "Subhan Imran",
+            "role": "Front-End, Back-End (Basic)",
+            "category": "Development",
+            "price": "$700",
+            "experience": "$2",
+            "location": "Rawalpindi",
+            "skills": [
+              "ReactJS",
+              "Laravel",
+              "NodeJS",
+              "VueJS",
+              "GIT",
+              "Python",
+              "Frontend Developer",
+              "Backend Developer"
+            ],
+            "detail_link": "/talent/subhan-imran-71",
+            "contact": "subhanimran4@gmail.com"
+          },
+          {
+            "name": "Deyan Haider",
+            "role": "Social Media Expert",
+            "category": "Design",
+            "price": "$200",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "Social Media Post Designing",
+              "Social Media Banner",
+              "Graphics Designing",
+              "Video Editing",
+              "Motion Graphics",
+              "3D Modelling",
+              "Retouching",
+              "Composition",
+              "Web Development",
+              "Web Design",
+              "UI/UX",
+              "Figma"
+            ],
+            "detail_link": "/talent/deyan-haider-68",
+            "contact": "deyanhdr@gmail.com"
+          },
+          {
+            "name": "Akash Mishra",
+            "role": "Full Stack Developer",
+            "category": "AI & data",
+            "price": "$400",
+            "experience": "$2",
+            "location": "Bathinda",
+            "skills": [
+              "PHP",
+              "Laravel",
+              "ReactJS",
+              "HTML",
+              "CSS",
+              "Javascript",
+              "CMS"
+            ],
+            "detail_link": "/talent/akash-mishra-72",
+            "contact": "akashinsa030@gmail.com"
+          },
+          {
+            "name": "Harris Sameer",
+            "role": "Unity Developer",
+            "category": "Development",
+            "price": "$800",
+            "experience": "$3",
+            "location": "Lahore",
+            "skills": [
+              "Unity Developer"
+            ],
+            "detail_link": "/talent/harris-sameer-8",
+            "contact": "harrissameer77@gmail.com"
+          },
+          {
+            "name": "Kumar Utsav",
+            "role": "ReactJS",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$1",
+            "location": "Bhubaneswar",
+            "skills": [
+              "ReactJS",
+              "NodeJS",
+              "MongoDB",
+              "PostgressSQL",
+              "Tailwind CSS",
+              "Bootstrap"
+            ],
+            "detail_link": "/talent/kumar-utsav-82",
+            "contact": "utsav.will.work@gmail.com"
+          },
+          {
+            "name": "Arbaz Mubasher Butt",
+            "role": "Python",
+            "category": "AI & data",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Islamabad",
+            "skills": [
+              "Web Scraping",
+              "API Management",
+              "FLASK",
+              "Streamlit",
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Java",
+              "AI"
+            ],
+            "detail_link": "/talent/arbaz-mubasher-butt-93",
+            "contact": "arbazmubasher@gmail.com"
+          },
+          {
+            "name": "Muhammed Usman",
+            "role": "Laravel, Vue, Flask",
+            "category": "AI & data",
+            "price": "$300",
+            "experience": "$3",
+            "location": "Lagos",
+            "skills": [
+              "Flutter",
+              "Laravel",
+              "Flask",
+              "JavaScript",
+              "CSS",
+              "HTML",
+              "Bootstrap",
+              "Tailwind CSS"
+            ],
+            "detail_link": "/talent/muhammed-usman-76",
+            "contact": "678usmanmuhammed@gmail.com"
+          },
+          {
+            "name": "Abdul Sami",
+            "role": "Python, Automation",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$3",
+            "location": "Karachi",
+            "skills": [
+              "Python",
+              "Automation",
+              "Scraping"
+            ],
+            "detail_link": "/talent/abdul-sami-75",
+            "contact": "abdulsamikhan20022.as@gmail.com"
+          },
+          {
+            "name": "Khawar Sultan",
+            "role": "Next.js, ReactJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Islamabad",
+            "skills": [
+              "NextJS",
+              "ReactJS",
+              "Javascript",
+              "Typescript",
+              "Tailwind CSS",
+              "GraphQL",
+              "Redux Toolkit",
+              "SWR",
+              "ShadCN",
+              "Drizzle ORM",
+              "MongoDB",
+              "NeonDB",
+              "Next Auth",
+              "REST API",
+              "Strapi Headless CMS",
+              "Github",
+              "Vercel"
+            ],
+            "detail_link": "/talent/khawar-sultan-96",
+            "contact": "Khawarsultan.developer@gmail.com"
+          },
+          {
+            "name": "Hassan Adesokan",
+            "role": "Staff Writer",
+            "category": "Marketing",
+            "price": "$1000",
+            "experience": "$1",
+            "location": "Ibadan",
+            "skills": [
+              "Lead Magnet Writing",
+              "Ghostwriting",
+              "Content Writing",
+              "Copywriting",
+              "Non-fiction Book Writing",
+              "Social Media Posts"
+            ],
+            "detail_link": "/talent/hassan-adesokan-74",
+            "contact": "adesokanhassan14@gmail.com"
+          },
+          {
+            "name": "Asad Mehmood",
+            "role": "QuickBooks",
+            "category": "Development",
+            "price": "$400",
+            "experience": "$4",
+            "location": "Lahore",
+            "skills": [
+              "Zoho",
+              "Xero",
+              "Sage",
+              "QuickBooks"
+            ],
+            "detail_link": "/talent/asad-mehmood-80",
+            "contact": "bookkeeperstask@gmail.com"
+          },
+          {
+            "name": "Mubashir Ejaz",
+            "role": "ReactJs | Nextjs",
+            "category": "Development",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Karachi",
+            "skills": [
+              "ReactJS",
+              "React Native",
+              "NextJS",
+              "Redux",
+              "TypeScript",
+              "React Query"
+            ],
+            "detail_link": "/talent/mubashir-ejaz-84",
+            "contact": "m.mubashieejaz@gmail.com"
+          },
+          {
+            "name": "Shantanu Bombatkar",
+            "role": "Reactjs, Nodejs, Python",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$5",
+            "location": "Pune",
+            "skills": [
+              "API Development",
+              "REST API",
+              "GraphQL",
+              "MERN stack",
+              "MEAN stack",
+              "MEVN stack",
+              "Electron",
+              "React Native",
+              "Chrome Extension development",
+              "MongoDB",
+              "SQL Databases",
+              "Docker",
+              "Kubernetes",
+              "AWS",
+              "Jest",
+              "Enzyme",
+              "Cypress",
+              "TypeScript",
+              "WebSockets",
+              "Progressive Web Apps (PWAs)",
+              "Serverless Computing"
+            ],
+            "detail_link": "/talent/shantanu-bombatkar-91",
+            "contact": "shantanubombatkar2@gmail.com"
+          },
+          {
+            "name": "Safwan Ahmad Saffi",
+            "role": "Data Analyst, AI Engineer",
+            "category": "AI & data",
+            "price": "$200",
+            "experience": "$1",
+            "location": "Faisalabad",
+            "skills": [
+              "Python",
+              "Data Analyst",
+              "AI Engineer",
+              "Power BI",
+              "SEO",
+              "WordPress"
+            ],
+            "detail_link": "/talent/safwan-ahmad-saffi-98",
+            "contact": "sahmedsaffi@gmail.com"
+          },
+          {
+            "name": "Talha Khan",
+            "role": "Laravel",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Laravel",
+              "PHP",
+              "Bootstrap",
+              "jQuery",
+              "Ajax",
+              "Restful API"
+            ],
+            "detail_link": "/talent/talha-khan-95",
+            "contact": "talhashinwari7474@gmail.com"
+          },
+          {
+            "name": "Michael Bashit",
+            "role": "Virtual Assistant",
+            "category": "Marketing",
+            "price": "$500",
+            "experience": "$2",
+            "location": "Voronezh",
+            "skills": [
+              "Jarvee",
+              "Cold Emails Outreach",
+              "SEO",
+              "Howitzer",
+              "Integromat",
+              "Make.com",
+              "Cold Phone Calls"
+            ],
+            "detail_link": "/talent/michael-bashit-86",
+            "contact": "michaelbashitapwa52@gmail.com"
+          },
+          {
+            "name": "Zohaib Khalid",
+            "role": "ReactJS, NextJS, MERN",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Lahore",
+            "skills": [
+              "Python",
+              "JavaScript",
+              "TypeScript",
+              "MERN Stack",
+              "NextJS",
+              "Firebase",
+              "Supabase",
+              "Tailwind CSS",
+              "Framer Motion",
+              "Git",
+              "Redux",
+              "AWS",
+              "ReactJS"
+            ],
+            "detail_link": "/talent/zohaib-khalid-92",
+            "contact": "wasaamzohaib@gmail.com"
+          },
+          {
+            "name": "Konstantin",
+            "role": "MERN Stack Dev",
+            "category": "Development",
+            "price": "$800",
+            "experience": "$2",
+            "location": "Turin",
+            "skills": [
+              "JavaScript",
+              "NodeJS",
+              "TypeScript",
+              "MongoDB",
+              "MERN Stack"
+            ],
+            "detail_link": "/talent/konstantin-89",
+            "contact": "0864380@gmail.com"
+          },
+          {
+            "name": "Malik Faraz",
+            "role": "Laravel, NestJS",
+            "category": "Development",
+            "price": "$300",
+            "experience": "$1",
+            "location": "Karachi",
+            "skills": [
+              "Laravel",
+              "NestJS",
+              "ReactJS",
+              "Python",
+              "NodeJS"
+            ],
+            "detail_link": "/talent/malik-faraz-97",
+            "contact": "malikfarazdev@gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 4,
+    "failures": []
+  }
+}

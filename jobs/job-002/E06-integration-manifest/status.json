@@ -1,0 +1,763 @@
+{
+  "build_id": "E06-integration-manifest",
+  "job_id": "job-002",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T03:18:53.657Z",
+  "result": {
+    "endpoints": [
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Henrique Leite on WhatsApp",
+        "original_url": "https://wa.me/5531999779086?text=Hi%20Henrique%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhenrique-leite-77%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhenrique-leite-739422218%2F",
+        "final_url": "https://wa.me/5531999779086?text=Hi%20Henrique%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhenrique-leite-77%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhenrique-leite-739422218%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Henrique Leite on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/henrique-leite-739422218/",
+        "final_url": "https://www.linkedin.com/in/henrique-leite-739422218/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Eduwa Osa on WhatsApp",
+        "original_url": "https://wa.me/2348168375237?text=Hi%20Eduwa%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Feduwa-osa-8f2b6",
+        "final_url": "https://wa.me/2348168375237?text=Hi%20Eduwa%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Feduwa-osa-8f2b6",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Muhammad Jamshed Qamar on WhatsApp",
+        "original_url": "https://wa.me/923070463496?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-jamshed-qamar-722f1%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammad-jamshed-qamar-982227172",
+        "final_url": "https://wa.me/923070463496?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-jamshed-qamar-722f1%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammad-jamshed-qamar-982227172",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Muhammad Jamshed Qamar on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/muhammad-jamshed-qamar-982227172",
+        "final_url": "https://www.linkedin.com/in/muhammad-jamshed-qamar-982227172",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Muhammad Waleed Asaf on WhatsApp",
+        "original_url": "https://wa.me/923255653654?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-waleed-asaf-308%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fwaleed-asaf-devops%2F",
+        "final_url": "https://wa.me/923255653654?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-waleed-asaf-308%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fwaleed-asaf-devops%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Muhammad Waleed Asaf on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/waleed-asaf-devops/",
+        "final_url": "https://www.linkedin.com/in/waleed-asaf-devops/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Hasnain Zia on WhatsApp",
+        "original_url": "https://wa.me/923489883726?text=Hi%20Hasnain%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhasnain-zia-307%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Flinkedin.com%2Fin%2Fhasnain-zia",
+        "final_url": "https://wa.me/923489883726?text=Hi%20Hasnain%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhasnain-zia-307%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Flinkedin.com%2Fin%2Fhasnain-zia",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Hasnain Zia on LinkedIn",
+        "original_url": "https://linkedin.com/in/hasnain-zia",
+        "final_url": "https://linkedin.com/in/hasnain-zia",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Emmanuel Omunizua on WhatsApp",
+        "original_url": "https://wa.me/2348086804544?text=Hi%20Emmanuel%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Femmanuel-omunizua-306%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-omunizua-80b380301",
+        "final_url": "https://wa.me/2348086804544?text=Hi%20Emmanuel%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Femmanuel-omunizua-306%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-omunizua-80b380301",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Emmanuel Omunizua on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/emmanuel-omunizua-80b380301",
+        "final_url": "https://www.linkedin.com/in/emmanuel-omunizua-80b380301",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Digimarkom on WhatsApp",
+        "original_url": "https://wa.me/923323622181?text=Hi%20Digimarkom%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fdigimarkom-305%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faunrizvi23",
+        "final_url": "https://wa.me/923323622181?text=Hi%20Digimarkom%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fdigimarkom-305%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faunrizvi23",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Digimarkom on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/aunrizvi23",
+        "final_url": "https://www.linkedin.com/in/aunrizvi23",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Muhammad Hassan on WhatsApp",
+        "original_url": "https://wa.me/923175429933?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-hassan-303%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammadhassan03%2F",
+        "final_url": "https://wa.me/923175429933?text=Hi%20Muhammad%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmuhammad-hassan-303%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammadhassan03%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Muhammad Hassan on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/muhammadhassan03/",
+        "final_url": "https://www.linkedin.com/in/muhammadhassan03/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Hassan on WhatsApp",
+        "original_url": "https://wa.me/923099538524?text=Hi%20Hassan%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhassan-302%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmhassansubhani%2F",
+        "final_url": "https://wa.me/923099538524?text=Hi%20Hassan%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fhassan-302%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmhassansubhani%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Hassan on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/mhassansubhani/",
+        "final_url": "https://www.linkedin.com/in/mhassansubhani/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with David Kamau on WhatsApp",
+        "original_url": "https://wa.me/254715441689?text=Hi%20David%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fdavid-kamau-301%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdavid-kamau-1a5930308",
+        "final_url": "https://wa.me/254715441689?text=Hi%20David%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fdavid-kamau-301%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdavid-kamau-1a5930308",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View David Kamau on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/david-kamau-1a5930308",
+        "final_url": "https://www.linkedin.com/in/david-kamau-1a5930308",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Yugta Bista on WhatsApp",
+        "original_url": "https://wa.me/919862318167?text=Hi%20Yugta%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fyugta-bista-300%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fyugta-bista%2F",
+        "final_url": "https://wa.me/919862318167?text=Hi%20Yugta%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fyugta-bista-300%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fyugta-bista%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Yugta Bista on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/yugta-bista/",
+        "final_url": "https://www.linkedin.com/in/yugta-bista/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Shahmir Siddiqui on WhatsApp",
+        "original_url": "https://wa.me/923352650558?text=Hi%20Shahmir%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fshahmir-siddiqui-297%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fshahmir-fastnu",
+        "final_url": "https://wa.me/923352650558?text=Hi%20Shahmir%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fshahmir-siddiqui-297%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fshahmir-fastnu",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Shahmir Siddiqui on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/shahmir-fastnu",
+        "final_url": "https://www.linkedin.com/in/shahmir-fastnu",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Nauman Sohail on WhatsApp",
+        "original_url": "https://wa.me/923009561117?text=Hi%20Nauman%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fnauman-sohail-296%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmsohail82%2F",
+        "final_url": "https://wa.me/923009561117?text=Hi%20Nauman%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fnauman-sohail-296%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmsohail82%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Nauman Sohail on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/msohail82/",
+        "final_url": "https://www.linkedin.com/in/msohail82/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Ahsen Niaz on WhatsApp",
+        "original_url": "https://wa.me/923209509396?text=Hi%20Ahsen%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fahsen-niaz-295%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahsen-niaz-073b50215%2F",
+        "final_url": "https://wa.me/923209509396?text=Hi%20Ahsen%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fahsen-niaz-295%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahsen-niaz-073b50215%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Ahsen Niaz on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/ahsen-niaz-073b50215/",
+        "final_url": "https://www.linkedin.com/in/ahsen-niaz-073b50215/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Aaliyan Asif on WhatsApp",
+        "original_url": "https://wa.me/923317610355?text=Hi%20Aaliyan%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Faaliyan-asif-294%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faaliyan-asif-67b090271",
+        "final_url": "https://wa.me/923317610355?text=Hi%20Aaliyan%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Faaliyan-asif-294%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faaliyan-asif-67b090271",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Aaliyan Asif on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/aaliyan-asif-67b090271",
+        "final_url": "https://www.linkedin.com/in/aaliyan-asif-67b090271",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Irum Saeed on WhatsApp",
+        "original_url": "https://wa.me/923333436566?text=Hi%20Irum%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Firum-saeed-293%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Firum-saeed-11a14868",
+        "final_url": "https://wa.me/923333436566?text=Hi%20Irum%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Firum-saeed-293%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Firum-saeed-11a14868",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Irum Saeed on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/irum-saeed-11a14868",
+        "final_url": "https://www.linkedin.com/in/irum-saeed-11a14868",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Alina on WhatsApp",
+        "original_url": "https://wa.me/380509254759?text=Hi%20Alina%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Falina-292%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Falina-vinichenko-487988285",
+        "final_url": "https://wa.me/380509254759?text=Hi%20Alina%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Falina-292%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Falina-vinichenko-487988285",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Alina on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/alina-vinichenko-487988285",
+        "final_url": "https://www.linkedin.com/in/alina-vinichenko-487988285",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Segun Olusanu on WhatsApp",
+        "original_url": "https://wa.me/2348126563160?text=Hi%20Segun%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fsegun-olusanu-291%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-olusanu-47b576265",
+        "final_url": "https://wa.me/2348126563160?text=Hi%20Segun%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fsegun-olusanu-291%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Femmanuel-olusanu-47b576265",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Segun Olusanu on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/emmanuel-olusanu-47b576265",
+        "final_url": "https://www.linkedin.com/in/emmanuel-olusanu-47b576265",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Promise Okechukwu on WhatsApp",
+        "original_url": "https://wa.me/2347012897856?text=Hi%20Promise%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fpromise-okechukwu-290%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpromiseokechukwu%2F",
+        "final_url": "https://wa.me/2347012897856?text=Hi%20Promise%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fpromise-okechukwu-290%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpromiseokechukwu%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Promise Okechukwu on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/promiseokechukwu/",
+        "final_url": "https://www.linkedin.com/in/promiseokechukwu/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Aman Ullah on WhatsApp",
+        "original_url": "https://wa.me/923158351616?text=Hi%20Aman%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Faman-ullah-289%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faman-ullah-haroon-6b57a2182",
+        "final_url": "https://wa.me/923158351616?text=Hi%20Aman%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Faman-ullah-289%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faman-ullah-haroon-6b57a2182",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Aman Ullah on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/aman-ullah-haroon-6b57a2182",
+        "final_url": "https://www.linkedin.com/in/aman-ullah-haroon-6b57a2182",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Arooj Ali on WhatsApp",
+        "original_url": "https://wa.me/447930132746?text=Hi%20Arooj%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Farooj-ali-288%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faroojali%2F",
+        "final_url": "https://wa.me/447930132746?text=Hi%20Arooj%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Farooj-ali-288%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Faroojali%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Arooj Ali on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/aroojali/",
+        "final_url": "https://www.linkedin.com/in/aroojali/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Ahtisham Safdar on WhatsApp",
+        "original_url": "https://wa.me/923225523399?text=Hi%20Ahtisham%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fahtisham-safdar-287%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fehtisham-safdar-tech%2F",
+        "final_url": "https://wa.me/923225523399?text=Hi%20Ahtisham%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fahtisham-safdar-287%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fehtisham-safdar-tech%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Ahtisham Safdar on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/ehtisham-safdar-tech/",
+        "final_url": "https://www.linkedin.com/in/ehtisham-safdar-tech/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Chat with Mubasher Khan on WhatsApp",
+        "original_url": "https://wa.me/923032727037?text=Hi%20Mubasher%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmubasher-khan-286%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmubasherkhan856%2F",
+        "final_url": "https://wa.me/923032727037?text=Hi%20Mubasher%2C%20I%20found%20your%20profile%20on%20Monthly%20Staff%20and%20I&#x27;m%20interested%20in%20your%20work.%20I%20would%20like%20to%20discuss%20working%20together.%0A%0AYour%20Monthly%20Staff%20profile%3A%20https%3A%2F%2Fmonthly-staff.lovable.app%2Ftalent%2Fmubasher-khan-286%0A%0AYour%20LinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmubasherkhan856%2F",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "View Mubasher Khan on LinkedIn",
+        "original_url": "https://www.linkedin.com/in/mubasherkhan856/",
+        "final_url": "https://www.linkedin.com/in/mubasherkhan856/",
+        "redirect_chain": [],
+        "endpoint_type": "linkedin",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/",
+        "anchor_text": "Get help from Monthly Staff on WhatsApp",
+        "original_url": "https://wa.me/447951579147?text=Hi%20Monthly%20Staff%2C%20I%20need%20some%20help.",
+        "final_url": "https://wa.me/447951579147?text=Hi%20Monthly%20Staff%2C%20I%20need%20some%20help.",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/contact-us",
+        "anchor_text": "Open WhatsApp",
+        "original_url": "https://api.whatsapp.com/send?phone=447951579147&amp;text=MonthlyStaff.com%20Web%20Enquiry",
+        "final_url": "https://api.whatsapp.com/send?phone=447951579147&amp;text=MonthlyStaff.com%20Web%20Enquiry",
+        "redirect_chain": [],
+        "endpoint_type": "whatsapp",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/henrique-leite-77",
+        "anchor_text": "PortfolioSee selected work",
+        "original_url": "https://www.youtube.com/@newhorizons3925/videos",
+        "final_url": "https://www.youtube.com/@newhorizons3925/videos",
+        "redirect_chain": [],
+        "endpoint_type": "social",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/henrique-leite-77",
+        "anchor_text": "Email Henrique",
+        "original_url": "mailto:eusoulegal6@gmail.com",
+        "final_url": "mailto:eusoulegal6@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/henrique-leite-77",
+        "anchor_text": "Phone number+55 31 99977 9086",
+        "original_url": "tel:+5531999779086",
+        "final_url": "tel:+5531999779086",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/henrique-leite-77",
+        "anchor_text": "Send Henrique an SMS",
+        "original_url": "sms:+5531999779086",
+        "final_url": "sms:+5531999779086",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/eduwa-osa-8f2b6",
+        "anchor_text": "Email Eduwa",
+        "original_url": "mailto:eduwaosa13@gmail.com",
+        "final_url": "mailto:eduwaosa13@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/eduwa-osa-8f2b6",
+        "anchor_text": "Phone number+234 816 837 5237",
+        "original_url": "tel:+2348168375237",
+        "final_url": "tel:+2348168375237",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/eduwa-osa-8f2b6",
+        "anchor_text": "Send Eduwa an SMS",
+        "original_url": "sms:+2348168375237",
+        "final_url": "sms:+2348168375237",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-jamshed-qamar-722f1",
+        "anchor_text": "Portfolio 1See selected work",
+        "original_url": "https://hotelselection.store/",
+        "final_url": "https://hotelselection.store/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-jamshed-qamar-722f1",
+        "anchor_text": "Portfolio 2See selected work",
+        "original_url": "https://unze.com.pk/",
+        "final_url": "https://unze.com.pk/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-jamshed-qamar-722f1",
+        "anchor_text": "Portfolio 3See selected work",
+        "original_url": "https://zarr.com.pk/",
+        "final_url": "https://zarr.com.pk/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-jamshed-qamar-722f1",
+        "anchor_text": "Email Muhammad",
+        "original_url": "mailto:jamshed.shopifydeveloper@gmail.com",
+        "final_url": "mailto:jamshed.shopifydeveloper@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-jamshed-qamar-722f1",
+        "anchor_text": "Phone number+92 307 0463496",
+        "original_url": "tel:+923070463496",
+        "final_url": "tel:+923070463496",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-jamshed-qamar-722f1",
+        "anchor_text": "Send Muhammad an SMS",
+        "original_url": "sms:+923070463496",
+        "final_url": "sms:+923070463496",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-waleed-asaf-308",
+        "anchor_text": "PortfolioSee selected work",
+        "original_url": "https://waleedasaf.github.io/",
+        "final_url": "https://waleedasaf.github.io/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-waleed-asaf-308",
+        "anchor_text": "Email Muhammad",
+        "original_url": "mailto:iwaleedasaf@gmail.com",
+        "final_url": "mailto:iwaleedasaf@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-waleed-asaf-308",
+        "anchor_text": "Phone number+92 325 5653654",
+        "original_url": "tel:+923255653654",
+        "final_url": "tel:+923255653654",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-waleed-asaf-308",
+        "anchor_text": "Send Muhammad an SMS",
+        "original_url": "sms:+923255653654",
+        "final_url": "sms:+923255653654",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hasnain-zia-307",
+        "anchor_text": "PortfolioSee selected work",
+        "original_url": "https://hasnainzia.com/",
+        "final_url": "https://hasnainzia.com/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hasnain-zia-307",
+        "anchor_text": "Email Hasnain",
+        "original_url": "mailto:hasnainzia438@gmail.com",
+        "final_url": "mailto:hasnainzia438@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hasnain-zia-307",
+        "anchor_text": "Phone number+92 348 9883726",
+        "original_url": "tel:+923489883726",
+        "final_url": "tel:+923489883726",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hasnain-zia-307",
+        "anchor_text": "Send Hasnain an SMS",
+        "original_url": "sms:+923489883726",
+        "final_url": "sms:+923489883726",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/emmanuel-omunizua-306",
+        "anchor_text": "PortfolioSee selected work",
+        "original_url": "https://portfolio-site-2126.vercel.app/",
+        "final_url": "https://portfolio-site-2126.vercel.app/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/emmanuel-omunizua-306",
+        "anchor_text": "Email Emmanuel",
+        "original_url": "mailto:emmanuel.omunizua@proton.me",
+        "final_url": "mailto:emmanuel.omunizua@proton.me",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/emmanuel-omunizua-306",
+        "anchor_text": "Phone number+234 808 680 4544",
+        "original_url": "tel:+2348086804544",
+        "final_url": "tel:+2348086804544",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/emmanuel-omunizua-306",
+        "anchor_text": "Send Emmanuel an SMS",
+        "original_url": "sms:+2348086804544",
+        "final_url": "sms:+2348086804544",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/digimarkom-305",
+        "anchor_text": "PortfolioSee selected work",
+        "original_url": "https://m.facebook.com/Digimarkom",
+        "final_url": "https://m.facebook.com/Digimarkom",
+        "redirect_chain": [],
+        "endpoint_type": "social",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/digimarkom-305",
+        "anchor_text": "Email Digimarkom",
+        "original_url": "mailto:farheenrizvi59@gmail.com",
+        "final_url": "mailto:farheenrizvi59@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/digimarkom-305",
+        "anchor_text": "Phone number+92 332 3622181",
+        "original_url": "tel:+923323622181",
+        "final_url": "tel:+923323622181",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/digimarkom-305",
+        "anchor_text": "Send Digimarkom an SMS",
+        "original_url": "sms:+923323622181",
+        "final_url": "sms:+923323622181",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-hassan-303",
+        "anchor_text": "PortfolioSee selected work",
+        "original_url": "http://devmirzahassan.netlify.app/",
+        "final_url": "http://devmirzahassan.netlify.app/",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-hassan-303",
+        "anchor_text": "Email Muhammad",
+        "original_url": "mailto:engineermirzahassan@gmail.com",
+        "final_url": "mailto:engineermirzahassan@gmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-hassan-303",
+        "anchor_text": "Phone number+92 317 5429933",
+        "original_url": "tel:+923175429933",
+        "final_url": "tel:+923175429933",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/muhammad-hassan-303",
+        "anchor_text": "Send Muhammad an SMS",
+        "original_url": "sms:+923175429933",
+        "final_url": "sms:+923175429933",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hassan-302",
+        "anchor_text": "Email Hassan",
+        "original_url": "mailto:hassansubhani8@hotmail.com",
+        "final_url": "mailto:hassansubhani8@hotmail.com",
+        "redirect_chain": [],
+        "endpoint_type": "mailto",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hassan-302",
+        "anchor_text": "Phone number+92 309 9538524",
+        "original_url": "tel:+923099538524",
+        "final_url": "tel:+923099538524",
+        "redirect_chain": [],
+        "endpoint_type": "tel",
+        "treatment": "record_only"
+      },
+      {
+        "source_page": "/talent/hassan-302",
+        "anchor_text": "Send Hassan an SMS",
+        "original_url": "sms:+923099538524",
+        "final_url": "sms:+923099538524",
+        "redirect_chain": [],
+        "endpoint_type": "other",
+        "treatment": "record_only"
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

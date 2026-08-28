@@ -1,0 +1,24 @@
+{
+  "build_id": "B05-build-routes",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.177Z",
+  "result": {
+    "rendered": [
+      {
+        "path": "/",
+        "file": "index.html"
+      },
+      {
+        "path": "/services",
+        "file": "services/index.html"
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

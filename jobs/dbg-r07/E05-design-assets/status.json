@@ -1,0 +1,42 @@
+{
+  "build_id": "E05-design-assets",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.077Z",
+  "result": {
+    "draft": false,
+    "assets": [
+      {
+        "asset": "design.tokens",
+        "kind": "design_tokens",
+        "colors": [
+          {
+            "name": "color-1",
+            "value": "#111",
+            "usage": "observed"
+          }
+        ],
+        "typography": {
+          "font_families": [],
+          "scale": []
+        },
+        "spacing": [],
+        "radii": [
+          {
+            "value": "8px",
+            "usage": "observed"
+          }
+        ],
+        "shadows": [],
+        "breakpoints": [],
+        "rebrandable": true
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}

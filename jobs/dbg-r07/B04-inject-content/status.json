@@ -1,0 +1,22 @@
+{
+  "build_id": "B04-inject-content",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:18.157Z",
+  "result": {
+    "filled": {
+      "brand.name": "NewCo",
+      "brand.tagline": "Fresh tagline",
+      "brand.footer_note": null
+    },
+    "unresolved": [
+      "brand.footer_note"
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 1,
+    "failures": []
+  }
+}

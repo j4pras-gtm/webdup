@@ -1,0 +1,8 @@
+{
+  "build_id": "B05-build-routes",
+  "job_id": "dbg-r07",
+  "status": "blocked_manual_review",
+  "attempts": 5,
+  "error": "ENOENT: no such file or directory, open 'C:\\Users\\Nithin\\OpenWorker\\b37e34c0-416\\sidekikz-builder\\jobs\\dbg-r07\\artifact\\services\\index.html'",
+  "ts": "2026-08-28T01:12:41.730Z"
+}

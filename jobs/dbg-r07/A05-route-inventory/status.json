@@ -1,0 +1,45 @@
+{
+  "build_id": "A05-route-inventory",
+  "job_id": "dbg-r07",
+  "status": "completed",
+  "attempts": 1,
+  "ts": "2026-08-28T01:13:17.894Z",
+  "result": {
+    "source_url": null,
+    "routes": [
+      {
+        "path": "/",
+        "type": "landing",
+        "purpose": "We do things",
+        "primary_components": [
+          "header",
+          "main",
+          "card-grid",
+          "sections"
+        ],
+        "data_requirements": [
+          "card_items"
+        ],
+        "status": "confirmed",
+        "confidence": 0.8
+      },
+      {
+        "path": "/services",
+        "type": "content",
+        "purpose": "Services",
+        "primary_components": [
+          "header",
+          "main"
+        ],
+        "data_requirements": [],
+        "status": "confirmed",
+        "confidence": 0.8
+      }
+    ]
+  },
+  "qa": {
+    "passed": true,
+    "checks_run": 2,
+    "failures": []
+  }
+}
